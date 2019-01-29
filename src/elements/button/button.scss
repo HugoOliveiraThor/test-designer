@@ -1,0 +1,115 @@
+@import "@/assets/themes/myfarm/tokens/_index.scss";
+.button {
+  @include reset;
+  @include stack-space($space-m);
+  @include inline-space($space-xs);
+  transition: all 0.2s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: Barlow;
+  font-weight: $weight-light;
+  font-size: $size-button;
+  line-height: $line-height-m;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  box-shadow: inset 0 0 0 2px $color-secondary;
+  border-radius: $radius-default;
+  background: transparent;
+  color: $color-secondary;
+  cursor: pointer;
+  &:hover,
+  &.hover {
+    color: $color-white;
+    background: $color-support-info;
+    transform: translateZ(0) scale(1.03);
+  }
+  &:active,
+  &.active {
+    transition: none;
+    background: $color-support-info;
+    box-shadow: none;
+    color: $color-white;
+    transform: translateZ(0) scale(1);
+  }
+
+  &:focus,
+  &.focus {
+    background: $color-support-info;
+    box-shadow: none;
+    color: $color-white;
+    transform: translateZ(0) scale(1);
+    outline: 0;
+  }
+
+  // For icons inside buttons
+  .icon {
+    float: right;
+    background: url(https://image.flaticon.com/icons/svg/281/281769.svg) no-repeat;
+    margin: -#{$space-xs} -#{$space-xs} -#{$space-s} $space-xs/2;
+    color: $color-support-info;
+  }
+
+  // Various button sizes
+  &.large {
+    @include inset-squish-space($space-s);
+    font-size: $size-l;
+  }
+  &.medium {
+    @include inset-squish-space($space-s);
+    font-size: $size-s;
+  }
+  &.small {
+    @include inset-squish-space($space-xs);
+    font-size: $size-s;
+  }
+
+  // Primary button
+  &.primary {
+    background: $color-primary;
+    color: $color-white;
+    box-shadow: none;
+    &:hover,
+    &.hover {
+      background-color: #e56538;
+    }
+    &:active,
+    &.active {
+      background-color: #ff9165;
+    }
+    &.unavailable {
+      pointer-events: none;
+      background-color: #bdc1c9;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+  &.secondary {
+    &:hover,
+    &.hover {
+      background-color: #00938f;
+    }
+    &:active,
+    &.active {
+      background-color: #35a9a5;
+      transition: none;
+    }
+    &:focus {
+      outline: 0;
+    }
+    &.unavailable {
+      color: #bdc1c9;
+      pointer-events: none;
+      box-shadow: inset 0 0 0 2px #bdc1c9;
+    }
+  }
+}

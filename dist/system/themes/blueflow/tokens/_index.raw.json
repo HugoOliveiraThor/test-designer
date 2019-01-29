@@ -1,0 +1,448 @@
+{
+  "aliases": {
+    "primary": {
+      "value": "#ff8261"
+    },
+    "secondary": {
+      "value": "#5b6479"
+    },
+    "support": {
+      "value": "#f73952"
+    },
+    "status": {
+      "value": "#f95c75"
+    },
+    "grey": {
+      "value": "#eeeff1"
+    },
+    "white": {
+      "value": "#fff"
+    }
+  },
+  "props": {
+    "color_grey_10": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(238, 239, 241)",
+      "order": 302,
+      "originalValue": "#eeeff1",
+      "name": "color_grey_10"
+    },
+    "color_primary": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(255, 130, 97)",
+      "order": 0,
+      "originalValue": "#ff8261",
+      "name": "color_primary"
+    },
+    "color_grey_0": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(0, 0, 0)",
+      "order": 301,
+      "originalValue": "hsla({!grey}, 0%, 1)",
+      "name": "color_grey_0"
+    },
+    "color_white": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(255, 255, 255)",
+      "order": 400,
+      "originalValue": "{!white}",
+      "name": "color_white"
+    },
+    "color_status_atraso": {
+      "type": "color",
+      "category": "status",
+      "value": "rgb(249, 92, 117)",
+      "order": 201,
+      "originalValue": "#f95c75",
+      "name": "color_status_atraso"
+    },
+    "color_support_alerta": {
+      "type": "color",
+      "category": "support",
+      "value": "rgb(252, 164, 68)",
+      "order": 102,
+      "originalValue": "#fca444",
+      "name": "color_support_alerta"
+    },
+    "color_status_indiferente": {
+      "type": "color",
+      "category": "status",
+      "value": "rgb(157, 161, 174)",
+      "order": 205,
+      "originalValue": "#9da1ae",
+      "name": "color_status_indiferente"
+    },
+    "color_status_alerta": {
+      "type": "color",
+      "category": "status",
+      "value": "rgb(253, 183, 113)",
+      "order": 202,
+      "originalValue": "#fdb771",
+      "name": "color_status_alerta"
+    },
+    "color_secondary": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(91, 100, 121)",
+      "order": 0,
+      "originalValue": "#5b6479",
+      "name": "color_secondary"
+    },
+    "color_status_concluido": {
+      "type": "color",
+      "category": "status",
+      "value": "rgb(53, 169, 165)",
+      "order": 203,
+      "originalValue": "#35a9a5",
+      "name": "color_status_concluido"
+    },
+    "color_support_info": {
+      "type": "color",
+      "category": "support",
+      "value": "rgb(75, 137, 255)",
+      "order": 104,
+      "originalValue": "#4b89ff",
+      "name": "color_support_info"
+    },
+    "color_grey_dark": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(69, 78, 95)",
+      "order": 306,
+      "originalValue": "#454e5f",
+      "name": "color_grey_dark"
+    },
+    "color_grey": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(189, 193, 201)",
+      "order": 303,
+      "originalValue": "#bdc1c9",
+      "name": "color_grey"
+    },
+    "color_status_em_progresso": {
+      "type": "color",
+      "category": "status",
+      "value": "rgb(112, 157, 252)",
+      "order": 204,
+      "originalValue": "#709dfc",
+      "name": "color_status_em_progresso"
+    },
+    "color_support_error": {
+      "type": "color",
+      "category": "support",
+      "value": "rgb(247, 57, 82)",
+      "order": 101,
+      "originalValue": "#f73952",
+      "name": "color_support_error"
+    },
+    "color_grey_80": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(124, 130, 147)",
+      "order": 305,
+      "originalValue": "#7c8293",
+      "name": "color_grey_80"
+    },
+    "color_grey_60": {
+      "type": "color",
+      "category": "others",
+      "value": "rgb(157, 161, 174)",
+      "order": 304,
+      "originalValue": "#9da1ae",
+      "name": "color_grey_60"
+    },
+    "color_support_sucesso": {
+      "type": "color",
+      "category": "support",
+      "value": "rgb(0, 147, 143)",
+      "order": 103,
+      "originalValue": "#00938f",
+      "name": "color_support_sucesso"
+    },
+    "size_xxxl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "64px",
+      "originalValue": "64px",
+      "name": "size_xxxl"
+    },
+    "size_xxl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "48px",
+      "originalValue": "48px",
+      "name": "size_xxl"
+    },
+    "size_xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "36px",
+      "originalValue": "36px",
+      "name": "size_xl"
+    },
+    "size_l": {
+      "type": "number",
+      "category": "font-size",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "size_l"
+    },
+    "size_m": {
+      "type": "number",
+      "category": "font-size",
+      "value": "16px",
+      "originalValue": "16px",
+      "name": "size_m"
+    },
+    "size_s": {
+      "type": "number",
+      "category": "font-size",
+      "value": "13px",
+      "originalValue": "13px",
+      "name": "size_s"
+    },
+    "size_xs": {
+      "type": "number",
+      "category": "font-size",
+      "value": "11px",
+      "originalValue": "11px",
+      "name": "size_xs"
+    },
+    "font_heading": {
+      "type": "...",
+      "category": "font",
+      "value": "'Fira Sans', Helvetica, Arial, sans-serif",
+      "originalValue": "'Fira Sans', Helvetica, Arial, sans-serif",
+      "name": "font_heading"
+    },
+    "font_text": {
+      "type": "...",
+      "category": "font",
+      "value": "'Fira Sans', Helvetica, Arial, sans-serif",
+      "originalValue": "'Fira Sans', Helvetica, Arial, sans-serif",
+      "name": "font_text"
+    },
+    "weight_bold": {
+      "type": "...",
+      "category": "font",
+      "value": "700",
+      "originalValue": "700",
+      "name": "weight_bold"
+    },
+    "weight_semi_bold": {
+      "type": "...",
+      "category": "font",
+      "value": "600",
+      "originalValue": "600",
+      "name": "weight_semi_bold"
+    },
+    "weight_normal": {
+      "type": "...",
+      "category": "font",
+      "value": "400",
+      "originalValue": "400",
+      "name": "weight_normal"
+    },
+    "weight_light": {
+      "type": "...",
+      "category": "font",
+      "value": "300",
+      "originalValue": "300",
+      "name": "weight_light"
+    },
+    "opacity_disabled": {
+      "type": "number",
+      "category": "opacity",
+      "value": "0.5",
+      "originalValue": "0.5",
+      "name": "opacity_disabled"
+    },
+    "height_footer": {
+      "type": "number",
+      "category": "size",
+      "value": "64px",
+      "originalValue": "64px",
+      "name": "height_footer"
+    },
+    "tappable_square": {
+      "type": "number",
+      "category": "size",
+      "value": "44px",
+      "originalValue": "44px",
+      "name": "tappable_square"
+    },
+    "duration_quickly": {
+      "type": "number",
+      "category": "time",
+      "value": "0.08s",
+      "originalValue": "0.08s",
+      "name": "duration_quickly"
+    },
+    "duration_slowly": {
+      "type": "number",
+      "category": "time",
+      "value": "0.5s",
+      "originalValue": "0.5s",
+      "name": "duration_slowly"
+    },
+    "z_index_modal": {
+      "type": "number",
+      "category": "z-index",
+      "value": "9999",
+      "originalValue": "9999",
+      "name": "z_index_modal"
+    },
+    "z_index_sticky": {
+      "type": "number",
+      "category": "z-index",
+      "value": "100",
+      "originalValue": "100",
+      "name": "z_index_sticky"
+    },
+    "media_query_m": {
+      "type": "...",
+      "category": "media-query",
+      "value": "(min-width: 768px)",
+      "originalValue": "(min-width: 768px)",
+      "name": "media_query_m"
+    },
+    "media_query_l": {
+      "type": "...",
+      "category": "media-query",
+      "value": "(min-width: 1024px)",
+      "originalValue": "(min-width: 1024px)",
+      "name": "media_query_l"
+    },
+    "shadow_s": {
+      "type": "...",
+      "category": "box-shadow",
+      "value": "0 0 0 1px rgba(92,106,196,.1)",
+      "originalValue": "0 0 0 1px rgba(92,106,196,.1)",
+      "name": "shadow_s"
+    },
+    "spacing_xl": {
+      "type": "number",
+      "category": "letter-spacing",
+      "value": "2px",
+      "originalValue": "2px",
+      "name": "spacing_xl"
+    },
+    "spacing_l": {
+      "type": "number",
+      "category": "letter-spacing",
+      "value": "1px",
+      "originalValue": "1px",
+      "name": "spacing_l"
+    },
+    "spacing_m": {
+      "type": "number",
+      "category": "letter-spacing",
+      "value": "0",
+      "originalValue": "0",
+      "name": "spacing_m"
+    },
+    "spacing_s": {
+      "type": "number",
+      "category": "letter-spacing",
+      "value": "-0.5px",
+      "originalValue": "-0.5px",
+      "name": "spacing_s"
+    },
+    "spacing_xs": {
+      "type": "number",
+      "category": "letter-spacing",
+      "value": "-1px",
+      "originalValue": "-1px",
+      "name": "spacing_xs"
+    },
+    "radius_default": {
+      "type": "number",
+      "category": "border-radius",
+      "value": "3px",
+      "originalValue": "3px",
+      "name": "radius_default"
+    },
+    "radius_circle": {
+      "type": "number",
+      "category": "border-radius",
+      "value": "50%",
+      "originalValue": "50%",
+      "name": "radius_circle"
+    },
+    "space_xxl": {
+      "type": "number",
+      "category": "space",
+      "value": "128px",
+      "originalValue": "128px",
+      "name": "space_xxl"
+    },
+    "space_xl": {
+      "type": "number",
+      "category": "space",
+      "value": "64px",
+      "originalValue": "64px",
+      "name": "space_xl"
+    },
+    "space_l": {
+      "type": "number",
+      "category": "space",
+      "value": "48px",
+      "originalValue": "48px",
+      "name": "space_l"
+    },
+    "space_m": {
+      "type": "number",
+      "category": "space",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "space_m"
+    },
+    "space_s": {
+      "type": "number",
+      "category": "space",
+      "value": "16px",
+      "originalValue": "16px",
+      "name": "space_s"
+    },
+    "space_xs": {
+      "type": "number",
+      "category": "space",
+      "value": "8px",
+      "originalValue": "8px",
+      "name": "space_xs"
+    },
+    "space_xxs": {
+      "type": "number",
+      "category": "space",
+      "value": "4px",
+      "originalValue": "4px",
+      "name": "space_xxs"
+    },
+    "line_height_m": {
+      "type": "number",
+      "category": "line-height",
+      "value": "1.6",
+      "originalValue": "1.6",
+      "name": "line_height_m"
+    },
+    "line_height_s": {
+      "type": "number",
+      "category": "line-height",
+      "value": "1.3",
+      "originalValue": "1.3",
+      "name": "line_height_s"
+    },
+    "line_height_xs": {
+      "type": "number",
+      "category": "line-height",
+      "value": "1",
+      "originalValue": "1",
+      "name": "line_height_xs"
+    }
+  }
+}
