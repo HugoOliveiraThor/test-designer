@@ -4,6 +4,7 @@ dist
 node_modules/
 dist/assets/
 dist/app.css
+dist/system
 dist/system.css
 dist/index.html
 dist/docs/
