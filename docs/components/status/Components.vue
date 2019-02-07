@@ -3,33 +3,33 @@
     <ul class="status-list">
       <li>
         <Icon name="ready" fill="#7cb518" size="small" />
-        <p>Ready</p>
+        <p>Pronto</p>
       </li>
       <li>
         <Icon name="review" :fill="tokens.color_ucla_gold.value" size="small" />
-        <p>Under review</p>
+        <p>Em revisão</p>
       </li>
       <li>
         <Icon name="deprecated" :fill="tokens.color_vermilion.value" size="small" />
-        <p>Deprecated</p>
+        <p>Depreciado</p>
       </li>
       <li>
         <Icon name="prototype" :fill="tokens.color_bleu_de_france.value" size="small" />
-        <p>Prototype</p>
+        <p>Em construção</p>
       </li>
       <li>
         <span>—</span>
-        <p>Not applicable</p>
+        <p>Não iniciado a construção</p>
       </li>
     </ul>
     <table>
       <thead>
         <tr>
-          <th v-if="show === 'all'">Component Name</th>
-          <th v-if="show === 'elements'">Element Name</th>
+          <th v-if="show === 'all'">Nome do componente</th>
+          <th v-if="show === 'all'">Elemento no Element UI</th>
           <th v-if="show === 'patterns'">Pattern Name</th>
           <th v-if="show === 'templates'">Template Name</th>
-          <th>Released in</th>
+          <th>Nº da release</th>
           <th>Status</th>
         </tr>
       </thead>
@@ -37,6 +37,10 @@
         <tr v-for="(component, index) in components" :key="index" class="component">
           <td v-if="component.name">
             <code class="name">{{ component.name }}</code>
+          </td>
+          <td v-else>N/A</td>
+          <td v-if="component.element">
+            <code class="name">{{ component.element }}</code>
           </td>
           <td v-else>N/A</td>
           <td v-if="component.release">{{ component.release }}</td>
@@ -70,55 +74,59 @@
 </template>
 
 <script>
-// If you want to use your own tokens here, change the following line to:
-// import designTokens from "@/assets/tokens/tokens.raw.json"
+import Icon from "./Icon.vue"
+import { getTemplateSelected } from "../../utils/helpers"
 import designTokens from "../../docs.tokens.json"
 import orderBy from "lodash/orderBy"
 
+const myFarmComponent = [require.context("@/temas/myfarm/components/", true, /\.vue$/)]
+// const blueComponent = [require.context("@/temas/myfarm/components/", true, /\.vue$/)]
+
 export default {
   name: "Components",
+  components: {
+    Icon,
+  },
   props: {
     show: {
       type: String,
       default: "all",
       validator: value => {
-        return value.match(/(all|patterns|templates|elements)/)
+        return value.match(/(all|patterns|templates|components)/)
       },
     },
   },
   methods: {
-    getComponents: function() {
-      let contexts
-
-      if (this.show === "all") {
-        contexts = [
-          require.context("@/elements/", true, /\.vue$/),
-          require.context("@/patterns/", true, /\.vue$/),
-          require.context("@/templates/", true, /\.vue$/),
-        ]
-      } else if (this.show === "elements") {
-        contexts = [require.context("@/elements/", true, /\.vue$/)]
-      } else if (this.show === "patterns") {
-        contexts = [require.context("@/patterns/", true, /\.vue$/)]
-      } else if (this.show === "templates") {
-        contexts = [require.context("@/templates/", true, /\.vue$/)]
-      }
-
+    getComponents: contextComponent => {
       const components = []
-      contexts.forEach(context => {
+      contextComponent.forEach(context => {
         context.keys().forEach(key => components.push(context(key).default))
       })
-
       return components
     },
-    orderData: function(data) {
-      return orderBy(data, "name", "asc")
-    },
+    orderData: data => orderBy(data, "name", "asc"),
   },
   data() {
-    return {
-      components: this.orderData(this.getComponents()),
-      tokens: designTokens.props,
+    switch (getTemplateSelected()) {
+      case "Blue":
+        return {
+          components: this.orderData(this.getComponents(blueComponent)),
+          tokens: designTokens.props,
+          checked: true,
+        }
+        break
+      case "MyFarm":
+        return {
+          components: this.orderData(this.getComponents(myFarmComponent)),
+          tokens: designTokens.props,
+        }
+        break
+      default:
+        return {
+          components: this.orderData(this.getComponents(myFarmComponent)),
+          tokens: designTokens.props,
+        }
+        break
     }
   },
 }

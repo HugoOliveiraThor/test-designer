@@ -107,7 +107,7 @@ export default {
 
 <style lang="scss" scoped>
 // Design Tokens with local scope
-$color-placeholder: tint($color-grey-60, 50%);
+$color-placeholder: tint($color-silver, 50%);
 
 .textarea {
   @include stack-space($space-s);
@@ -123,7 +123,7 @@ $color-placeholder: tint($color-grey-60, 50%);
     cursor: pointer;
     display: block;
     font-size: $size-s;
-    color: tint($color-grey-dark, 20%);
+    color: tint($color-rich-black, 20%);
     @include stack-space($space-xs);
   }
   textarea {
@@ -138,11 +138,12 @@ $color-placeholder: tint($color-grey-60, 50%);
     font-family: $font-text;
     background: $color-white;
     border-radius: $radius-default;
-    color: set-text-color($color-grey-dark, $color-white);
+    color: set-text-color($color-rich-black, $color-white);
     width: 100%;
     margin: 0;
     border: 0;
-    box-shadow: inset 0 1px 0 0 rgba($color-grey-dark, 0.07), 0 0 0 1px tint($color-grey-dark, 80%);
+    box-shadow: inset 0 1px 0 0 rgba($color-rich-black, 0.07),
+      0 0 0 1px tint($color-rich-black, 80%);
     &::-webkit-input-placeholder {
       -webkit-font-smoothing: antialiased;
       color: $color-placeholder;
@@ -157,17 +158,17 @@ $color-placeholder: tint($color-grey-60, 50%);
     }
     &:hover,
     &.hover {
-      box-shadow: 0 1px 5px 0 rgba($color-grey-dark, 0.07), 0 0 0 1px tint($color-grey-dark, 60%);
+      box-shadow: 0 1px 5px 0 rgba($color-rich-black, 0.07), 0 0 0 1px tint($color-rich-black, 60%);
     }
     &:focus,
     &.focus {
       transition: box-shadow 0.2s ease;
-      box-shadow: inset 0 0 0 1px $color-support-info, 0 0 0 1px $color-support-info;
+      box-shadow: inset 0 0 0 1px $color-bleu-de-france, 0 0 0 1px $color-bleu-de-france;
       outline: 0;
     }
     &[disabled] {
       -webkit-font-smoothing: antialiased;
-      box-shadow: 0 0 0 1px tint($color-grey-dark, 80%);
+      box-shadow: 0 0 0 1px tint($color-rich-black, 80%);
       background: lighten($color-placeholder, 42%);
       color: tint($color-placeholder, 20%);
       cursor: not-allowed;

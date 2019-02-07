@@ -10,12 +10,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const OptimizeCSSPlugin = require("optimize-css-assets-webpack-plugin")
 const CopyWebpackPlugin = require("copy-webpack-plugin")
 const SafeParser = require("postcss-safe-parser")
+const glob = require("glob")
 
 const env = require("../config/prod.env")
 
-baseWebpackConfig.entry = {
-  system: ["./src/system.js"],
-}
+const paths = utils.createDynamicInputsOutputDistFolder(glob.sync("./src/temas/**/main.js"))
+
+baseWebpackConfig.entry = paths
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -46,43 +47,31 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     // Compress extracted CSS. We are using this plugin so that possible
     // duplicated CSS from different components can be deduped.
-    new OptimizeCSSPlugin({
-      cssProcessorOptions: { parser: SafeParser },
-    }),
+    // Por enquanto vou deixar sem deixar tudo em uma linha --> Teste
+    // new OptimizeCSSPlugin({
+    //   cssProcessorOptions: { parser: SafeParser },
+    // }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
     // enable scope hoisting
     new webpack.optimize.ModuleConcatenationPlugin(),
-    // Copy and merge Sass tokens and system utilities as well
-    new MergeWebpackPlugin({
-      files: {
-        [utils.assetsSystemPath("system.utils.scss")]: [
-          "./src/styles/_spacing.scss",
-          "./src/styles/_mixins.scss",
-          "./src/styles/_functions.scss",
-        ],
-      },
-    }),
-    // copy custom static assets
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, "../src/assets"),
-        to: config.system.assetsSubDirectory,
-        ignore: [".*"],
-      },
-    ]),
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, "../src/themes"),
-        to: "system/themes",
-        ignore: [".*"],
-      },
-    ]),
+    // // Copy and merge Sass tokens and system utilities as well
     // new MergeWebpackPlugin({
     //   files: {
-    //     [path.resolve(__dirname, "./src/themes/**/")]: ["./src/themes/**/*.scss"],
+    //     [utils.assetsSystemPath("system.utils.scss")]: [
+    //       "./src/styles/_spacing.scss",
+    //       "./src/styles/_mixins.scss",
+    //       "./src/styles/_functions.scss",
+    //     ],
     //   },
     // }),
+    // new CopyWebpackPlugin([
+    //   {
+    //     from: path.resolve(__dirname, "../src/temas/"),
+    //     to: "temas",
+    //     ignore:['*.js','*.scss','*.vue','*.json','*yml',]
+    //   },
+    // ]),
   ],
 })
 

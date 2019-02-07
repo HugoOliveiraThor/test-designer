@@ -13,8 +13,10 @@
 </template>
 
 <script>
-import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
+// import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
 import { getTemplateSelected } from "../../utils/helpers"
+import myfarmTokens from "@/temas/myfarm/tokens/_index.raw.json"
+
 import orderBy from "lodash/orderBy"
 
 /**
@@ -27,14 +29,14 @@ import orderBy from "lodash/orderBy"
 export default {
   name: "Spacing",
   methods: {
-    orderData: function(data) {
+    orderData: data => {
       let order = orderBy(data, "category", "asc")
       return order
     },
   },
   data() {
     return {
-      tokens: this.orderData(defaultTokens.props),
+      tokens: this.orderData(myfarmTokens.props),
     }
   },
 }

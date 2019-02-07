@@ -4,12 +4,13 @@
  *
  * You should & can add your own dependencies here if needed.
  */
-import ElementUI from "element-ui"
+// import ElementUI from "element-ui"
 // Define contexts to require
 const contexts = [
   require.context("@/elements/", true, /\.vue$/),
-  require.context("@/patterns/", true, /\.vue$/),
-  require.context("@/templates/", true, /\.vue$/),
+  // require.context("@/patterns/", true, /\.vue$/),
+  // require.context("@/templates/", true, /\.vue$/),
+  require.context("@/temas/", true, /\.vue$/),
 ]
 
 // Define components
@@ -22,7 +23,7 @@ contexts.forEach(context => {
 const System = {
   install(Vue) {
     components.forEach(component => Vue.component(component.name, component))
-    Vue.use(ElementUI)
+    // Vue.use(ElementUI)
   },
 }
 

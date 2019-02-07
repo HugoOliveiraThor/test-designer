@@ -5,15 +5,16 @@ import App from "@/App"
 import router from "@/router"
 import WebFontLoader from "@/utils/webFontLoader" // eslint-disable-line no-unused-vars
 import Meta from "vue-meta"
-// import ElementUi from "element-ui"
-// import locale from "element-ui/lib/locale/lang/pt-br"
-// import "element-ui/packages/theme-chalk/src/index.scss"
-// Vue Design System: Auto importing components globally
-import DesignSystem from "@/system"
+import elementUi from "element-ui"
+import "./temas/myfarm/styles/index.css"
+import locale from "element-ui/lib/locale/lang/pt-br"
+// import "element-ui/lib/theme-chalk/index.css"
 
-Vue.use(DesignSystem)
+// Vue Design System: Auto importing components globally
+
+// Vue.use(DesignSystem)
 Vue.use(Meta)
-// Vue.use(ElementUi, { locale })
+Vue.use(elementUi)
 
 Vue.config.productionTip = false
 

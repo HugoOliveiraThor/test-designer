@@ -3,9 +3,9 @@
     <table>
       <thead>
         <tr>
-          <th>Token Name</th>
-          <th>Value</th>
-          <th>Category</th>
+          <th>Nome do token</th>
+          <th>Valor</th>
+          <th>Categoria</th>
         </tr>
       </thead>
       <tbody>
@@ -43,15 +43,13 @@
 
 <script>
 import { getTemplateSelected } from "../../utils/helpers"
-import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
-import myfarmTokens from "@/assets/themes/myfarm/tokens/_index.raw.json"
+import myfarmTokens from "@/temas/myfarm/tokens/_index.raw.json"
 import orderBy from "lodash/orderBy"
 
 /**
- * A list of available tokens in Vue Design System. Use these tokens in place
- * of hard-coded values in order to maintain a scalable and consistent system.
- * To edit these tokens and add more, see
- * [/src/tokens/](https://github.com/viljamis/conexa-sdk-ui/blob/master/src/tokens).
+ * A lista de todos os design tokens do myfarm. Use esse token para substituir valores hard-coded e com isso manter o sistema consiso e de fácil manutenção.
+ * Para editar esses tokens e adicionar mais vá em
+ * /src/temas/myfarm/"arquivo .yml que deseja alterar".
  */
 export default {
   name: "All",
@@ -64,7 +62,6 @@ export default {
   },
   computed: {
     tokens() {
-      console.log('All', getTemplateSelected())
       switch (getTemplateSelected()) {
         case "Blue":
           return this.orderData(defaultTokens.props)
@@ -73,7 +70,7 @@ export default {
           return this.orderData(myfarmTokens.props)
           break
         default:
-          return this.orderData(defaultTokens.props)
+          return this.orderData(myfarmTokens.props)
           break
       }
     },

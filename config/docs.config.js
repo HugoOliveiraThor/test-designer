@@ -1,5 +1,6 @@
 const path = require("path")
 const baseConfig = require("../build/webpack.base.conf.js")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const merge = require("webpack-merge")
 const packageConfig = require("../package.json")
 const chalk = require("chalk")
@@ -26,12 +27,12 @@ module.exports = {
    * Define a custom code highlighting theme.
    */
   editorConfig: {
-    theme: "night",
+    theme: "dracula",
   },
   /**
    * Path to static assets directory
    */
-  assetsDir: path.join(__dirname, "../src/assets"),
+  // assetsDir: path.join(__dirname, "../src/assets"),
   /**
    * Enabling the below option will break things in Vue Design System!
    */
@@ -42,6 +43,7 @@ module.exports = {
   require: [
     path.join(__dirname, "../docs/docs.helper.js"),
     path.join(__dirname, "../docs/docs.styles.scss"),
+    path.join(__dirname, "../src/main.js"), // Aqui onde importamos o ElementUI - esta na documentação do styleguide vue - Using third plugins
   ],
   /**
    * Enabling the following option splits sections into separate views.
@@ -51,6 +53,7 @@ module.exports = {
     {
       name: "Sobre Conexa UI",
       content: "../docs/overview.md",
+      exampleMode: "hide",
       sectionDepth: 1,
     },
     {
@@ -58,26 +61,18 @@ module.exports = {
       content: "../docs/getting-started/getting-started.md",
       components: "../docs/components/status/**!.vue/[A-Z]*.vue",
       sectionDepth: 1,
-      // exampleMode: "hide",
-      // usageMode: "hide",
-    },
-    {
-      name: "Design Principles",
-      content: "../docs/design-principles/principles.md",
-      sectionDepth: 1,
-      exampleMode: "hide",
-      usageMode: "hide",
     },
     {
       name: "Temas",
       content: "../docs/themes/themes.md",
-      exampleMode: "expand",
-      usageMode: "expand",
+      exampleMode: "collapse",
+      usageMode: "collapse",
       sectionDepth: 2,
       sections: [
         {
           name: "MyFarm",
           content: "../docs/themes/myfarm/myfarm.md",
+          components: "../docs/components/status/Components.vue",
           exampleMode: "expand",
           usageMode: "expand",
           sections: [
@@ -85,7 +80,7 @@ module.exports = {
               name: "Design Tokens",
               content: "../docs/design-tokens/tokens.md",
               theme: "my-farm",
-              sectionDepth: 1,
+              sectionDepth: 2,
               exampleMode: "expand",
               usageMode: "expand",
               components: () => [
@@ -98,7 +93,7 @@ module.exports = {
             {
               name: "Componentes",
               content: "../docs/themes/myfarm/components.md",
-              components: "../src/elements/**/[A-Z]*.vue",
+              components: "../src/temas/myfarm/components/**/[A-Z]*.vue",
               usageMode: "expand",
               exampleMode: "expand",
               sectionDepth: 2,
@@ -116,14 +111,13 @@ module.exports = {
       usageMode: "hide",
       sectionDepth: 3,
     },
-    // {
-    //   name: "Templates",
-    //   content: "../docs/templates/templates.md",
-    //   components: "../src/templates/**/[A-Z]*.vue",
-    //   exampleMode: "expand",
-    //   usageMode: "expand",
-    //   sectionDepth: 2,
-    // },
+    {
+      name: "Princípios do Design",
+      content: "../docs/design-principles/principles.md",
+      sectionDepth: 1,
+      exampleMode: "hide",
+      usageMode: "hide",
+    },
     {
       name: "Downloads",
       content: "../docs/downloads.md",

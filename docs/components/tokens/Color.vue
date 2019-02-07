@@ -19,8 +19,8 @@
 <script>
 import orderBy from "lodash/orderBy"
 import { getTemplateSelected } from "../../utils/helpers"
-import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
-import myfarmTokens from "@/assets/themes/myfarm/tokens/_index.raw.json"
+// import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
+import myfarmTokens from "@/temas/myfarm/tokens/_index.raw.json"
 /**
  * The color palette comes with 5 different weights for each hue. These hues
  * should be used purposefully to communicate how things function in the
@@ -33,7 +33,7 @@ export default {
   status: "prototype",
   release: "3.5.0",
   methods: {
-    orderData: function(data) {
+    orderData: data => {
       let byName = orderBy(data, "order", "asc")
       let byCategoryAndName = orderBy(byName, "name")
       return byName
@@ -41,7 +41,6 @@ export default {
   },
   computed: {
     tokenProps() {
-      console.log('Entrou',getTemplateSelected())
       switch (getTemplateSelected()) {
         case "Blue":
           return this.orderData(defaultTokens.props)

@@ -2,9 +2,9 @@
 
 ### Componentes disponíveis:
 
-### 1. [Button](#/Themes/MyFarm/Components/Button)
+### 1. [Button](#/Temas/MyFarm/Componentes/Button)
 
-### 2. [Card](#/Themes/MyFarm/Components/Card)
+### 2. [Card](#/Temas/MyFarm/Components/Card)
 
 ### 3. [Checkbox](#/Themes/MyFarm/Components/Checkbox)
 

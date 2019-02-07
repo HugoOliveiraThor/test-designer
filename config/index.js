@@ -12,7 +12,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, "../dist"),
-    assetsSubDirectory: "assets",
+    assetsSubDirectory: "",
     assetsPublicPath: "/",
 
     // Source map
@@ -42,7 +42,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, "../dist"),
-    assetsSubDirectory: "system",
+    assetsSubDirectory: "",
     assetsPublicPath: "/",
 
     // The system.js library target, supports all

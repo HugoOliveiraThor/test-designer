@@ -1,33 +1,21 @@
 ### Princípios de Design são o alicerce do SDK. Eles formam a base de um bom produto e ajudam a equipe na tomada de decisões. Eles estão aqui para guiar você e sua equipe ao trabalhar com as inúmeras partes do SDK e ajudá-lo a tomar decisões melhores e mais informadas.
 
-## 1. Design is how it works
+## 1. Designer e como isso funciona
 
 Comming soon...
 
-## 2. Reduce concepts to increase confidence
+## 2. Reduzir complexidade para aumentar a confiança
 
 Comming soon...
 
-## 3. Design with real data
+## 3. Designer com dados reais
 
 Comming soon...
 
-## 4. Design systems, not pages
+## 4. Faça designer de sistemas, não só de páginas
 
 Comming soon...
 
-## 5. Involve code early
-
-Comming soon...
-
-## 6. Fast is better than slow
-
-Comming soon...
-
-## 7. Let content determine breakpoints
-
-Comming soon...
-
-## 8. Strive for universality
+## 5. Escreva o código de forma clara
 
 Comming soon...

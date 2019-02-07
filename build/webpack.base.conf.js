@@ -1,6 +1,7 @@
 "use strict"
 const path = require("path")
 const utils = require("./utils")
+const webpack = require("webpack")
 const config = require("../config")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const { VueLoaderPlugin } = require("vue-loader")
@@ -85,7 +86,8 @@ module.exports = {
       },
     ],
   },
-  plugins: [new VueLoaderPlugin(), new MiniCssExtractPlugin("style.css")],
+  plugins: [new VueLoaderPlugin()],
+
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue
     // source contains it (although only uses it if it's native).

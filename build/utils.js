@@ -66,19 +66,13 @@ exports.cssLoaders = function(options) {
   const sassResourcesConfig = {
     loader: "sass-resources-loader",
     options: {
-      resources: [
-        path.resolve(__dirname, "../src/assets/themes/**/*.scss"),
-        path.resolve(__dirname, "../src/assets/themes/**/*.map.scss"),
-        path.resolve(__dirname, "../src/themes/**/*.scss"),
-        path.resolve(__dirname, "../src/styles/styles.scss"),
-      ],
+      resources: [path.resolve(__dirname, "../src/styles/styles.scss")],
     },
   }
 
   const sassOptions = {
-    outputStyle: "compressed",
+    outputStyle: "expanded", // Depois vou mudar para compress por enquanto para fazer os testes.
   }
-
   // https://vue-loader.vuejs.org/guide/extract-css.html
   return {
     css: generateLoaders(),
@@ -122,4 +116,13 @@ exports.createNotifierCallback = () => {
       icon: path.join(__dirname, "logo.png"),
     })
   }
+}
+
+exports.createDynamicInputsOutputDistFolder = entryArray => {
+  const createObject = entryArray.reduce((acc, item) => {
+    const name = item.replace("./src/", "").replace("main.js", "index")
+    acc[name] = item
+    return acc
+  }, {})
+  return createObject
 }
