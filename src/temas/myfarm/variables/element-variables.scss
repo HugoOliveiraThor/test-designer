@@ -1,5 +1,3 @@
-/* Element Chalk Variables */
-
 /* Transition
 -------------------------- */
 $--all-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !default;
@@ -594,7 +592,7 @@ $--slider-button-wrapper-offset: -15px !default;
 /* Steps
 --------------------------*/
 $--steps-border-color: $--disabled-border-base !default;
-$--steps-border-radius: 4px !default;
+$--steps-border-radius: 20px !default;
 $--steps-padding: 20px !default;
 
 /* Menu
@@ -709,7 +707,6 @@ $--breakpoints: (
     min-width: $--xl,
   ),
 );
-
 $--breakpoints-spec: (
   "xs-only": (
     max-width: $--sm - 1,

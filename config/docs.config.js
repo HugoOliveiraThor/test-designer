@@ -1,5 +1,6 @@
 const path = require("path")
 const baseConfig = require("../build/webpack.base.conf.js")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const merge = require("webpack-merge")
 const packageConfig = require("../package.json")
 const chalk = require("chalk")
@@ -106,6 +107,9 @@ module.exports = {
           usageMode: "hide",
         },
       ],
+      exampleMode: "hide",
+      usageMode: "hide",
+      sectionDepth: 3,
     },
     {
       name: "Princípios do Design",
