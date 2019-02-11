@@ -161,6 +161,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "JJvw":
+/*!****************************************************************************************!*\
+  !*** ./src/temas/myfarm/components/radio/radio.scss?vue&type=style&index=0&lang=scss& ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module exports are unknown */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_radio_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./radio.scss?vue&type=style&index=0&lang=scss& */ "Yb7a");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_radio_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_radio_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_radio_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_radio_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_radio_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "KHd+":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -315,7 +332,7 @@ if (typeof window !== "undefined" && window.Vue) {
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/toggle-button.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/Toogle.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -557,7 +574,7 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./src/temas/myfarm/components/toggle/toggle-button.vue + 4 modules ***!
   \**************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -645,7 +662,7 @@ component.options.__file = "toggle-button.vue"
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/toggle-button.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -809,6 +826,30 @@ component.options.__file = "toggle.vue"
 
 /***/ }),
 
+/***/ "Yb7a":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/radio/radio.scss?vue&type=style&index=0&lang=scss& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "ZtqM":
+/*!********************************************************************************************!*\
+  !*** ./src/temas/myfarm/components/radio/Radio.vue?vue&type=custom&index=0&blockType=docs ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "d51b":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/uploader/uploader.scss?vue&type=style&index=0&lang=scss& ***!
@@ -832,6 +873,7 @@ component.options.__file = "toggle.vue"
 var map = {
 	"./button/Button.vue": "hGyZ",
 	"./inputs/Input.vue": "ylCN",
+	"./radio/Radio.vue": "xgvz",
 	"./select/Select.vue": "TVIv",
 	"./toggle/Toogle.vue": "Ognz",
 	"./toggle/toggle-button.vue": "XGbj",
@@ -868,7 +910,7 @@ webpackContext.id = "dOj6";
   \***********************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/uploader/Uploader.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -953,7 +995,7 @@ component.options.__file = "Uploader.vue"
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/button/Button.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1138,13 +1180,133 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "xgvz":
+/*!*****************************************************************!*\
+  !*** ./src/temas/myfarm/components/radio/Radio.vue + 4 modules ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/radio/Radio.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/radio/Radio.vue?vue&type=template&id=4095490c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-row',[_c('el-radio',{attrs:{"label":"1"},model:{value:(_vm.radio),callback:function ($$v) {_vm.radio=$$v},expression:"radio"}},[_vm._v("Normal Primary")])],1),_vm._v(" "),_c('el-row',[_c('el-radio',{attrs:{"disabled":"","label":"disabled"},model:{value:(_vm.radio1),callback:function ($$v) {_vm.radio1=$$v},expression:"radio1"}},[_vm._v("Disabled")])],1)],1)}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/radio/Radio.vue?vue&type=template&id=4095490c&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/radio/radio.js?vue&type=script&lang=js&
+/**
+ * @author Hugo Oliveira <hugo.oliveira@siagri.com.br>
+ */
+
+/**
+ * Checkboxs são geralmente usados ​​para selecionar opções sejam unitários ou em grupos.
+ *
+ * @see Veja [ElementUI Radio](https://element.eleme.io/#/en-US/component/radio)
+ */
+/* harmony default export */ var radiovue_type_script_lang_js_ = ({
+  name: "Radio",
+  element: "<el-radio/>",
+  status: "prototype",
+  release: "0.0.1",
+  data: function data() {
+    return {
+      radio: "1",
+      radio1: "selected and disabled"
+    };
+  },
+  props: {
+    /**
+     * @model
+     *
+     */
+    value: String,
+
+    /**
+     * O elemento referente ao HTML.
+     * `checkbox`
+     */
+    type: {
+      type: String,
+      default: "checkbox"
+    },
+
+    /**
+     * Manually trigger various states of the checkbox.
+     * `disabled, checked`
+     */
+    state: {
+      type: String,
+      default: null,
+      validator: function validator(value) {
+        return value.match(/(disabled|checked)/);
+      }
+    },
+
+    /**
+     * Eventos do checkbox.
+     * Dispara quando se clica em cima do checkbox
+     */
+    change: {
+      type: Function,
+      default: function _default(event) {
+        console.log("You have clicked here my friend!", event.target);
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/temas/myfarm/components/radio/radio.js?vue&type=script&lang=js&
+ /* harmony default export */ var radio_radiovue_type_script_lang_js_ = (radiovue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/temas/myfarm/components/radio/radio.scss?vue&type=style&index=0&lang=scss&
+var radiovue_type_style_index_0_lang_scss_ = __webpack_require__("JJvw");
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("KHd+");
+
+// EXTERNAL MODULE: ./src/temas/myfarm/components/radio/Radio.vue?vue&type=custom&index=0&blockType=docs
+var Radiovue_type_custom_index_0_blockType_docs = __webpack_require__("ZtqM");
+var Radiovue_type_custom_index_0_blockType_docs_default = /*#__PURE__*/__webpack_require__.n(Radiovue_type_custom_index_0_blockType_docs);
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/radio/Radio.vue
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["default"])(
+  radio_radiovue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* custom blocks */
+
+if (typeof Radiovue_type_custom_index_0_blockType_docs_default.a === 'function') Radiovue_type_custom_index_0_blockType_docs_default()(component)
+
+component.options.__file = "Radio.vue"
+/* harmony default export */ var Radio = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "ylCN":
 /*!******************************************************************!*\
   !*** ./src/temas/myfarm/components/inputs/Input.vue + 4 modules ***!
   \******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
