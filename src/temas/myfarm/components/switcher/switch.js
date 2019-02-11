@@ -28,4 +28,11 @@ export default {
      */
     value: String,
   },
+  watch: {
+    value1: function(val) {
+      console.log("Trocou valor", val)
+      alert(`Testando troca componentes----${val}`)
+    },
+  },
+  methods: {},
 }
