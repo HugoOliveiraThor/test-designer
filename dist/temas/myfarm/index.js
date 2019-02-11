@@ -96,18 +96,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "+8vg":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=style&index=0&lang=scss& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "+sW4":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/toggle/toogle.scss?vue&type=style&index=0&id=bebebf10&lang=scss&scoped=true& ***!
@@ -308,12 +296,24 @@ if (typeof window !== "undefined" && window.Vue) {
 
 /***/ }),
 
+/***/ "NhIO":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=style&index=0&lang=scss& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "Ognz":
 /*!*******************************************************************!*\
   !*** ./src/temas/myfarm/components/toggle/Toogle.vue + 4 modules ***!
   \*******************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/toggle-button.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/ToggleButton.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/Toogle.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -327,8 +327,8 @@ var staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/Toogle.vue?vue&type=template&id=bebebf10&scoped=true&
 
-// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/toggle-button.vue + 4 modules
-var toggle_button = __webpack_require__("XGbj");
+// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue + 4 modules
+var ToggleButton = __webpack_require__("ogzH");
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/toggle/toogle.js?vue&type=script&lang=js&
 /**
@@ -348,7 +348,7 @@ var toggle_button = __webpack_require__("XGbj");
   status: "prototype",
   release: "0.0.1",
   components: {
-    toggleButton: toggle_button["default"]
+    ToggleButton: ToggleButton["default"]
   },
   props: {
     customClass: {
@@ -523,6 +523,23 @@ component.options.__file = "Select.vue"
 
 /***/ }),
 
+/***/ "VnZC":
+/*!***********************************************************************************************!*\
+  !*** ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=style&index=0&lang=scss& ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module exports are unknown */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ToggleButton.vue?vue&type=style&index=0&lang=scss& */ "NhIO");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "X7fK":
 /*!**********************************************************************************************!*\
   !*** ./src/temas/myfarm/components/uploader/uploader.scss?vue&type=style&index=0&lang=scss& ***!
@@ -552,263 +569,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "XGbj":
-/*!**************************************************************************!*\
-  !*** ./src/temas/myfarm/components/toggle/toggle-button.vue + 4 modules ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=template&id=7457b136&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-button',{staticClass:"toggle-button",style:({
-    color: _vm.selected ? _vm.selectedTextColor : _vm.textColor,
-    'background-color': _vm.selected ? _vm.selectedBgColor : 'transparent',
-  }),attrs:{"label":_vm.label}})}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=template&id=7457b136&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var toggle_buttonvue_type_script_lang_js_ = ({
-  name: "Toogle-Button",
-  props: {
-    label: {
-      type: String,
-      default: ""
-    },
-    selectedTextColor: {
-      type: String
-    },
-    selectedBgColor: {
-      type: String
-    },
-    textColor: {
-      type: String
-    },
-    selected: {
-      type: Boolean,
-      default: false
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=script&lang=js&
- /* harmony default export */ var toggle_toggle_buttonvue_type_script_lang_js_ = (toggle_buttonvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=style&index=0&lang=scss&
-var toggle_buttonvue_type_style_index_0_lang_scss_ = __webpack_require__("lTi/");
-
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("KHd+");
-
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle-button.vue
-
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["default"])(
-  toggle_toggle_buttonvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-component.options.__file = "toggle-button.vue"
-/* harmony default export */ var toggle_button = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "XJzK":
-/*!*******************************************************************!*\
-  !*** ./src/temas/myfarm/components/toggle/toggle.vue + 4 modules ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/toggle-button.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/toggle.vue?vue&type=template&id=6d1eba4e&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-group',{staticClass:"toggle",class:_vm.customClass,style:({ 'background-color': _vm.bgColor }),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}},[_c('toggle-button',{attrs:{"selected":_vm.firstLabel === _vm.selected || _vm.selected === true || _vm.selected === 1,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.firstLabel}}),_vm._v(" "),_c('toggle-button',{attrs:{"selected":_vm.secondLabel === _vm.selected || _vm.selected === false || _vm.selected === 0,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.secondLabel}}),_vm._v(" "),_c('toggle-button',{directives:[{name:"show",rawName:"v-show",value:(_vm.thirdLabel !== null && _vm.thirdLabel !== ''),expression:"thirdLabel !== null && thirdLabel !== ''"}],attrs:{"selected":_vm.thirdLabel === _vm.selected || _vm.selected === false || _vm.selected === 2,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.thirdLabel}})],1)}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle.vue?vue&type=template&id=6d1eba4e&
-
-// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/toggle-button.vue + 4 modules
-var toggle_button = __webpack_require__("XGbj");
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/toggle.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var togglevue_type_script_lang_js_ = ({
-  name: "siagriToggle",
-  components: {
-    toggleButton: toggle_button["default"]
-  },
-  props: {
-    customClass: {
-      type: String,
-      default: ""
-    },
-    firstLabel: {
-      type: String,
-      default: ""
-    },
-    secondLabel: {
-      type: String,
-      default: ""
-    },
-    thirdLabel: {
-      type: String,
-      default: ""
-    },
-    bgColor: {
-      type: String,
-      default: "#53b7a8"
-    },
-    selectedBgColor: {
-      type: String,
-      default: "#fff"
-    },
-    selectedTextColor: {
-      type: String,
-      default: "#53b7a8"
-    },
-    textColor: {
-      type: String,
-      default: "#ccc"
-    },
-    value: {
-      type: [String, Boolean, Number]
-    },
-    transformValue: {
-      type: Boolean,
-      default: false
-    },
-    transformToInt: {
-      type: Boolean,
-      default: false
-    }
-  },
-  data: function data() {
-    return {
-      selected: null
-    };
-  },
-  methods: {
-    toInt: function toInt(val) {
-      var self = this; // eslint-disable-next-line no-extra-boolean-cast
-
-      return self.transformToInt ? val ? 1 : 0 : val;
-    },
-    transform: function transform(val) {
-      var self = this;
-      var transform = self.transformValue || self.transformToInt ? self.toInt(val === self.firstLabel || val === true || val === 1) : val;
-      return transform;
-    }
-  },
-  watch: {
-    selected: {
-      handler: function handler(val) {
-        var self = this;
-        self.$emit("input", val);
-        self.$emit("onChange", val);
-      },
-      immediate: true
-    },
-    "$props.value": {
-      handler: function handler(val) {
-        var self = this;
-        var result = self.toInt(self.transform(val));
-        self.$set(self, "selected", result);
-      },
-      immediate: true
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle.vue?vue&type=script&lang=js&
- /* harmony default export */ var toggle_togglevue_type_script_lang_js_ = (togglevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("KHd+");
-
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["default"])(
-  toggle_togglevue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-component.options.__file = "toggle.vue"
-/* harmony default export */ var toggle = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
 /***/ "d51b":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/uploader/uploader.scss?vue&type=style&index=0&lang=scss& ***!
@@ -833,9 +593,8 @@ var map = {
 	"./button/Button.vue": "hGyZ",
 	"./inputs/Input.vue": "ylCN",
 	"./select/Select.vue": "TVIv",
+	"./toggle/ToggleButton.vue": "ogzH",
 	"./toggle/Toogle.vue": "Ognz",
-	"./toggle/toggle-button.vue": "XGbj",
-	"./toggle/toggle.vue": "XJzK",
 	"./uploader/Uploader.vue": "eBMG"
 };
 
@@ -1109,23 +868,6 @@ component.options.__file = "Button.vue"
 
 /***/ }),
 
-/***/ "lTi/":
-/*!************************************************************************************************!*\
-  !*** ./src/temas/myfarm/components/toggle/toggle-button.vue?vue&type=style&index=0&lang=scss& ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module exports are unknown */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_toggle_button_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!../../../../../node_modules/vue-loader/lib??vue-loader-options!./toggle-button.vue?vue&type=style&index=0&lang=scss& */ "+8vg");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_toggle_button_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_toggle_button_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_toggle_button_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_toggle_button_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_toggle_button_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "mCXD":
 /*!**********************************************************************************************!*\
   !*** ./src/temas/myfarm/components/button/Button.vue?vue&type=custom&index=0&blockType=docs ***!
@@ -1135,6 +877,93 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 
+
+/***/ }),
+
+/***/ "ogzH":
+/*!*************************************************************************!*\
+  !*** ./src/temas/myfarm/components/toggle/ToggleButton.vue + 4 modules ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=template&id=330822a1&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-button',{staticClass:"toggle-button",style:({
+    color: _vm.selected ? _vm.selectedTextColor : _vm.textColor,
+    'background-color': _vm.selected ? _vm.selectedBgColor : 'transparent',
+  }),attrs:{"label":_vm.label}})}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=template&id=330822a1&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var ToggleButtonvue_type_script_lang_js_ = ({
+  name: "Toogle-Button",
+  props: {
+    label: {
+      type: String,
+      default: ""
+    },
+    selectedTextColor: {
+      type: String
+    },
+    selectedBgColor: {
+      type: String
+    },
+    textColor: {
+      type: String
+    },
+    selected: {
+      type: Boolean,
+      default: false
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=script&lang=js&
+ /* harmony default export */ var toggle_ToggleButtonvue_type_script_lang_js_ = (ToggleButtonvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=style&index=0&lang=scss&
+var ToggleButtonvue_type_style_index_0_lang_scss_ = __webpack_require__("VnZC");
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("KHd+");
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["default"])(
+  toggle_ToggleButtonvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "ToggleButton.vue"
+/* harmony default export */ var ToggleButton = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 

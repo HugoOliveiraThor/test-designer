@@ -8,14 +8,14 @@
  * Local de onde retirou @see Veja [ElementUI Steps](https://element.eleme.io/#/en-US/component/steps)
  *
  */
-import toggleButton from "./toggle-button"
+import ToggleButton from "./ToggleButton"
 export default {
   name: "Toogle",
   element: "N/A",
   status: "prototype",
   release: "0.0.1",
   components: {
-    toggleButton,
+    ToggleButton,
   },
   props: {
     customClass: {
