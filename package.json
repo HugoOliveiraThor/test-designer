@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
-  "main": "dist/system/system.js",
+  "main": "dist/temas/myfarm/index.js",
   "files": [
-    "dist/system"
+    "dist/temas"
   ],
   "homepage": "https://conexa.digital",
   "private": true,
