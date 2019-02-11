@@ -1,5 +1,5 @@
 // import "element-ui/lib/theme-chalk/index.css"
-import ElementUI from "element-ui"
+// import ElementUI from "element-ui"
 // Define contexts to require
 const contexts = [require.context("./components/", true, /\.vue$/)]
 
@@ -13,7 +13,7 @@ contexts.forEach(context => {
 const System = {
   install(Vue) {
     components.forEach(component => Vue.component(component.name, component))
-    Vue.use(ElementUI)
+    // Vue.use(ElementUI)
   },
 }
 
