@@ -16,6 +16,7 @@ const contexts = [
 // Define components
 const components = []
 contexts.forEach(context => {
+  console.log("MAIN SYSTEM")
   context.keys().forEach(key => components.push(context(key).default))
 })
 
