@@ -1,6 +1,5 @@
 /* BEM support Func
  -------------------------- */
-/* Element Chalk Variables */
 /* Transition
 -------------------------- */
 /* Colors
@@ -118,7 +117,6 @@
  -------------------------- */
 /* BEM
  -------------------------- */
-/* Element Chalk Variables */
 /* Transition
 -------------------------- */
 /* Colors
@@ -238,5 +236,4 @@
   overflow: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px;
-}
+  padding: 20px; }

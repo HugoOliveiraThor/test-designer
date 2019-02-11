@@ -1,6 +1,5 @@
 /* BEM support Func
  -------------------------- */
-/* Element Chalk Variables */
 /* Transition
 -------------------------- */
 /* Colors
@@ -118,7 +117,6 @@
  -------------------------- */
 /* BEM
  -------------------------- */
-/* Element Chalk Variables */
 /* Transition
 -------------------------- */
 /* Colors
@@ -240,20 +238,14 @@
   line-height: 34px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  cursor: pointer;
-}
-.el-select-dropdown__item.is-disabled {
-  color: #c0c4cc;
-  cursor: not-allowed;
-}
-.el-select-dropdown__item.is-disabled:hover {
-  background-color: #fff;
-}
-.el-select-dropdown__item.hover,
-.el-select-dropdown__item:hover {
-  background-color: #f5f7fa;
-}
-.el-select-dropdown__item.selected {
-  color: #00938f;
-  font-weight: bold;
-}
+  cursor: pointer; }
+  .el-select-dropdown__item.is-disabled {
+    color: #c0c4cc;
+    cursor: not-allowed; }
+    .el-select-dropdown__item.is-disabled:hover {
+      background-color: #fff; }
+  .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: #f5f7fa; }
+  .el-select-dropdown__item.selected {
+    color: #00938f;
+    font-weight: bold; }

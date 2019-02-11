@@ -175,6 +175,26 @@
   STACK-SPACE: For vertically stacked content.
   INLINE-SPACE: For things displayed inline.
 */
+.el-step__head.is-process {
+  border-color: #ff7639;
+}
+.el-step__head.is-finish {
+  color: #ff7639;
+  border-color: #ff7639;
+}
+.el-step__head.is-success {
+  color: #ff7639;
+  border-color: #ff7639;
+}
+.el-step__title.is-success {
+  color: #ff7639;
+}
+.el-step__title.is-finish {
+  color: #ff7639;
+}
+.el-step__head.is-process {
+  color: #ff7639;
+}
 
 /* GLOBAL: INCLUDES
  *
@@ -224,44 +244,104 @@
 
 
 
+/* GLOBAL: INCLUDES
+ *
+ * It is recommended to only include variables,
+ * mixins, etc. in this file, to prevent duplicated
+ * CSS in your final, compiled files.
+ */
+/* GLOBAL FUNCTIONS
+--------------------------------------------- */
+/* GLOBAL MIXINS
+--------------------------------------------- */
+/* AUTO SCALING FOR TYPE WITH MIN/MAX SIZES
 
+  @param {Number}  $responsive  - Viewport-based size
+  @param {Number}  $min         - Minimum font size (px)
+  @param {Number}  $max         - Maximum font size (px) (optional)
 
+  @param {Number}  $fallback    - Fallback for viewport-based units (optional)
 
+  @example SCSS - 5vw size, 35px min & 150px max size + 50px fallback:
 
+  @include responsive-font(5vw, 35px, 150px, 50px);
+*/
+/* VUE DESIGN SYSTEM SPACING HELPERS
+--------------------------------------------- */
+/*
+  INSET-SPACE: For interface containers.
+  INSET-SQUISH-SPACE: For buttons, form elements, cells.
+  STACK-SPACE: For vertically stacked content.
+  INLINE-SPACE: For things displayed inline.
+*/
 
+/* GLOBAL: INCLUDES
+ *
+ * It is recommended to only include variables,
+ * mixins, etc. in this file, to prevent duplicated
+ * CSS in your final, compiled files.
+ */
+/* GLOBAL FUNCTIONS
+--------------------------------------------- */
+/* GLOBAL MIXINS
+--------------------------------------------- */
+/* AUTO SCALING FOR TYPE WITH MIN/MAX SIZES
 
+  @param {Number}  $responsive  - Viewport-based size
+  @param {Number}  $min         - Minimum font size (px)
+  @param {Number}  $max         - Maximum font size (px) (optional)
 
+  @param {Number}  $fallback    - Fallback for viewport-based units (optional)
 
+  @example SCSS - 5vw size, 35px min & 150px max size + 50px fallback:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  @include responsive-font(5vw, 35px, 150px, 50px);
+*/
+/* VUE DESIGN SYSTEM SPACING HELPERS
+--------------------------------------------- */
+/*
+  INSET-SPACE: For interface containers.
+  INSET-SQUISH-SPACE: For buttons, form elements, cells.
+  STACK-SPACE: For vertically stacked content.
+  INLINE-SPACE: For things displayed inline.
+*/
+.el-radio-group[data-v-072faeb7] {
+  background-color: #ccc;
+  border-radius: 30px;
+  padding: 0 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.el-radio-group[data-v-072faeb7] .el-radio-button {
+  border-radius: 30px;
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.el-radio-group[data-v-072faeb7] .el-radio-button:first-of-type {
+  margin-right: 10px;
+}
+.el-radio-group[data-v-072faeb7] .el-radio-button span, .el-radio-group[data-v-072faeb7] .el-radio-button span:hover {
+  padding: 5px 10px;
+  border-radius: 30px !important;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: bold;
+  color: inherit !important;
+  font-size: 12px;
+}
+.el-radio-group[data-v-072faeb7] .el-radio-button.is-active span {
+  background-color: #fff !important;
+}
 
 
 
