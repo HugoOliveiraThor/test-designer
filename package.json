@@ -5,7 +5,7 @@
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
   "main":"./dist/temas/myfarm/index.js",
   "files": [
-    "dist/temas"
+    "dist/"
   ],
   "bin": {
     "conexa": "./lib/installTheme.js"
