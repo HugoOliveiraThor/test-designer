@@ -9,6 +9,7 @@
  *
  */
 import ToggleButton from "./ToggleButton"
+import tokens from "../../tokens/_index.json"
 export default {
   name: "Toogle",
   element: "N/A",
@@ -36,7 +37,7 @@ export default {
     },
     bgColor: {
       type: String,
-      default: "#53b7a8",
+      default: tokens.color_grey_10,
     },
     selectedBgColor: {
       type: String,
@@ -44,11 +45,11 @@ export default {
     },
     selectedTextColor: {
       type: String,
-      default: "#53b7a8",
+      default: tokens.color_primary,
     },
     textColor: {
       type: String,
-      default: "#ccc",
+      default: tokens.color_grey_80,
     },
     value: {
       type: [String, Boolean, Number],
