@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
-  "main": "dist/temas/myfarm/index.js",
+  "main":"",
   "files": [
     "dist/temas"
   ],
+  "bin": {
+    "conexa": "./installTheme.js"
+  },
   "homepage": "https://conexa.digital",
   "private": true,
   "license": "MIT",
@@ -109,16 +112,27 @@
     }
   },
   "dependencies": {
+    "@octokit/rest": "^16.15.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
     "del": "^3.0.0",
     "element-ui": "^2.4.11",
+    "figlet": "^1.2.1",
     "gulp-clean": "^0.4.0",
+    "inquirer": "^6.2.2",
     "lodash": "^4.17.11",
     "mini-css-extract-plugin": "^0.4.5",
+    "minimist": "^1.2.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-safe-parser": "^4.0.1",
     "postcss-url": "^8.0.0",
+    "replace-in-file": "^3.4.3",
+    "simple-git": "^1.107.0",
     "tinycolor2": "^1.4.1",
+    "touch": "^3.1.0",
     "vue": "^2.5.17",
     "vue-click-outside": "^1.0.7",
     "vue-lodash": "^2.0.0",
