@@ -15,7 +15,8 @@ const glob = require("glob")
 const env = require("../config/prod.env")
 
 const paths = utils.createDynamicInputsOutputDistFolder(glob.sync("./src/temas/**/main.js"))
-console.log("PATH", paths)
+
+console.log(paths)
 baseWebpackConfig.entry = paths
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -70,6 +71,12 @@ const webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, "../src/temas/"),
         to: "temas",
         ignore: ["*.js", "*.scss", "*.vue", "*.json", "*yml"],
+      },
+    ]),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, "../lib/"),
+        to: "lib",
       },
     ]),
   ],
