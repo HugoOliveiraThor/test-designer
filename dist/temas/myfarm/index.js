@@ -108,6 +108,18 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
+/***/ "1Xl/":
+/*!*********************************************************************************************!*\
+  !*** ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "Dh70":
 /*!**********************************************************************************************!*\
   !*** ./src/temas/myfarm/components/toggle/Toogle.vue?vue&type=custom&index=0&blockType=docs ***!
@@ -303,7 +315,7 @@ if (typeof window !== "undefined" && window.Vue) {
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/ToggleButton.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/Toogle.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/inputs/Input.vue */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/tokens/_index.json (<- Module is not an ECMAScript module) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -510,6 +522,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var map = {
 	"./button/Button.vue": "hGyZ",
+	"./inputs/Input.vue": "ylCN",
 	"./toggle/ToggleButton.vue": "ogzH",
 	"./toggle/Toogle.vue": "Ognz"
 };
@@ -543,7 +556,7 @@ webpackContext.id = "dOj6";
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/button/Button.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/toggle/ToggleButton.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/inputs/Input.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -716,7 +729,7 @@ component.options.__file = "Button.vue"
   !*** ./src/temas/myfarm/components/toggle/ToggleButton.vue + 4 modules ***!
   \*************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/inputs/Input.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -807,6 +820,251 @@ component.options.__file = "ToggleButton.vue"
 /***/ (function(module) {
 
 module.exports = {"color_grey_40":"rgb(189, 193, 201)","color_grey_10":"rgb(238, 239, 241)","color_primary":"rgb(255, 118, 57)","color_grey_0":"rgb(255, 255, 255)","color_white":"rgb(255, 255, 255)","color_status_atraso":"rgb(249, 92, 117)","color_support_alerta":"rgb(252, 164, 68)","color_status_indiferente":"rgb(189, 193, 201)","color_support_erro":"rgb(247, 57, 82)","color_status_alerta":"rgb(253, 183, 113)","color_secondary":"rgb(0, 147, 143)","color_status_concluido":"rgb(68, 200, 155)","color_support_info":"rgb(75, 137, 255)","color_grey_dark":"rgb(69, 78, 95)","color_status_em_progresso":"rgb(112, 157, 252)","color_grey_80":"rgb(124, 130, 147)","color_grey_60":"rgb(157, 161, 174)","color_support_sucesso":"rgb(4, 162, 108)","size_body":"14px","size_overline":"11px","size_button_mini":"12px","size_big_number":"60px","size_h1":"34px","size_h2":"20px","size_h3":"19px","size_text":"12px","size_button":"14px","size_medium_number":"40px","size_small_number":"20px","font_heading":"Barlow, sans-serif","font_text":"Barlow, sans-serif","weight_bold":"700","weight_semi_bold":"600","weight_regular":"400","weight_light":"300","opacity_disabled":"0.5","height_footer":"64px","tappable_square":"44px","media_query_m":"(min-width: 768px)","media_query_l":"(min-width: 1024px)","shadow_s":"0 0 0 1px rgba(92,106,196,.1)","radius_default":"4px"};
+
+/***/ }),
+
+/***/ "ylCN":
+/*!******************************************************************!*\
+  !*** ./src/temas/myfarm/components/inputs/Input.vue + 4 modules ***!
+  \******************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/inputs/Input.vue?vue&type=template&id=773626bd&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-form',{ref:"ruleForm",staticClass:"demo-ruleForm",attrs:{"model":_vm.ruleForm,"label-position":"top","rules":_vm.rules,"label-width":"120px"}},[_c('el-form-item',{attrs:{"label":"Normal"}},[_c('el-input',{attrs:{"autocomplete":"off","placeholder":""},model:{value:(_vm.ruleForm.value1),callback:function ($$v) {_vm.$set(_vm.ruleForm, "value1", $$v)},expression:"ruleForm.value1"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"label":"Disabled"}},[_c('el-input',{attrs:{"placeholder":"","disabled":true},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v},expression:"value2"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"label":"Focus primario"}},[_c('el-input',{attrs:{"placeholder":"Focus primário","disabled":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v},expression:"value3"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',[_c('el-input',{attrs:{"placeholder":"Alerta","disabled":true},model:{value:(_vm.value4),callback:function ($$v) {_vm.value4=$$v},expression:"value4"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"prop":"erro"}},[_c('el-input',{attrs:{"placeholder":"Erro"},model:{value:(_vm.ruleForm.erro),callback:function ($$v) {_vm.$set(_vm.ruleForm, "erro", $$v)},expression:"ruleForm.erro"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',[_c('el-input',{attrs:{"placeholder":"Sucesso","type":"success"},model:{value:(_vm.value6),callback:function ($$v) {_vm.value6=$$v},expression:"value6"}})],1),_vm._v(" "),_c('el-form-item',[_c('el-button',{attrs:{"type":"primary"},on:{"click":function($event){_vm.submitForm('ruleForm')}}},[_vm._v("Testar form")]),_vm._v(" "),_c('el-button',{on:{"click":function($event){_vm.resetForm('ruleForm')}}},[_vm._v("Limpar os campos")])],1)],1)],1)}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/inputs/Input.vue?vue&type=template&id=773626bd&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/inputs/input.js?vue&type=script&lang=js&
+/** 
+Entradas são usadas para permitir que os usuários forneçam entrada de texto quando o esperado
+entrada é curta. Form Input tem um leque de opções e suporta vários textos
+formatos incluindo números. Para uma entrada mais longa, use o elemento `Textarea` do formulário. */
+/* harmony default export */ var inputvue_type_script_lang_js_ = ({
+  name: "Input",
+  // status: "prototype",
+  // release: "0.0.1",
+  data: function data() {
+    return {
+      labelPosition: "right",
+      formLabelAlign: {
+        name: ""
+      },
+      ruleForm: {
+        name: "",
+        region: "",
+        date1: "",
+        date2: "",
+        delivery: false,
+        type: [],
+        resource: "",
+        desc: "",
+        normal: "",
+        erro: "",
+        value1: ""
+      },
+      rules: {
+        region: [{
+          required: true,
+          message: "Please select Activity zone",
+          trigger: "change"
+        }],
+        erro: [{
+          required: true,
+          message: this.upperCaseString("erro com uppercase"),
+          trigger: "blur"
+        }, {
+          min: 3,
+          max: 5,
+          message: "Length should be 3 to 5",
+          trigger: "blur"
+        }],
+        date1: [{
+          type: "date",
+          required: true,
+          message: "Please pick a date",
+          trigger: "change"
+        }],
+        date2: [{
+          type: "date",
+          required: true,
+          message: "Please pick a time",
+          trigger: "change"
+        }],
+        type: [{
+          type: "array",
+          required: true,
+          message: "Please select at least one activity type",
+          trigger: "change"
+        }],
+        resource: [{
+          required: true,
+          message: "Please select activity resource",
+          trigger: "change"
+        }],
+        desc: [{
+          required: true,
+          message: "Please input activity form",
+          trigger: "blur"
+        }]
+      }
+    };
+  },
+  props: {
+    /**
+     * The type of the form input field.
+     * `text, number, email`
+     */
+    type: {
+      type: String,
+      default: "text",
+      validator: function validator(value) {
+        return value.match(/(text|number|email)/);
+      }
+    },
+
+    /**
+     * Text value of the form input field.
+     */
+    value: {
+      type: String,
+      default: null
+    },
+
+    /**
+     * Could be an object or a single value.
+     */
+    object: {
+      type: String || Object,
+      default: null
+    },
+
+    /**
+     * The placeholder value for the form input field.
+     */
+    placeholder: {
+      type: String,
+      default: null
+    },
+
+    /**
+     * The label of the form input field.
+     */
+    label: {
+      type: String,
+      default: null
+    },
+
+    /**
+     * The html element name used for the wrapper.
+     * `div, section`
+     */
+    wrapper: {
+      type: String,
+      default: "div",
+      validator: function validator(value) {
+        return value.match(/(div|section)/);
+      }
+    },
+
+    /**
+     * The width of the form input field.
+     * `medium`
+     */
+    size: {
+      type: String,
+      default: "medium",
+      validator: function validator(value) {
+        return value.match(/(auto|medium)/);
+      }
+    },
+
+    /**
+     * Whether the form input field is disabled or not.
+     * `true, false`
+     */
+    disabled: {
+      type: Boolean,
+      default: false
+    },
+
+    /**
+     * Manually trigger various states of the input.
+     * `hover, active, focus`
+     */
+    state: {
+      type: String,
+      default: null,
+      validator: function validator(value) {
+        return value.match(/(hover|active|focus)/);
+      }
+    }
+  },
+  methods: {
+    onInput: function onInput(value) {
+      this.$emit("change", value);
+    },
+    onFocus: function onFocus(value) {
+      this.$emit("focus", value);
+    },
+    submitForm: function submitForm(formName) {
+      this.$refs[formName].validate(function (valid) {
+        if (valid) {
+          alert("submit!");
+        } else {
+          console.log("error submit!!");
+          return false;
+        }
+      });
+    },
+    upperCaseString: function upperCaseString(string) {
+      return string.toUpperCase();
+    },
+    resetForm: function resetForm(formName) {
+      this.$refs[formName].resetFields();
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/temas/myfarm/components/inputs/input.js?vue&type=script&lang=js&
+ /* harmony default export */ var inputs_inputvue_type_script_lang_js_ = (inputvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("KHd+");
+
+// EXTERNAL MODULE: ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs
+var Inputvue_type_custom_index_0_blockType_docs = __webpack_require__("1Xl/");
+var Inputvue_type_custom_index_0_blockType_docs_default = /*#__PURE__*/__webpack_require__.n(Inputvue_type_custom_index_0_blockType_docs);
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/inputs/Input.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["default"])(
+  inputs_inputvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* custom blocks */
+
+if (typeof Inputvue_type_custom_index_0_blockType_docs_default.a === 'function') Inputvue_type_custom_index_0_blockType_docs_default()(component)
+
+component.options.__file = "Input.vue"
+/* harmony default export */ var Input = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
