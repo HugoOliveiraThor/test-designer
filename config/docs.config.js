@@ -36,7 +36,7 @@ module.exports = {
   /**
    * Enabling the below option will break things in Vue Design System!
    */
-  skipComponentsWithoutExample: false,
+  skipComponentsWithoutExample: true,
   /**
    * We’re defining below JS and SCSS requires for the documentation.
    */
