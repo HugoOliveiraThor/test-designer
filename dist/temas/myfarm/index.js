@@ -303,7 +303,7 @@ if (typeof window !== "undefined" && window.Vue) {
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/ToggleButton.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/Toogle.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/toggle/ToggleButton.vue */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/tokens/_index.json (<- Module is not an ECMAScript module) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
