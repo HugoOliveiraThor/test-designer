@@ -4,8 +4,11 @@
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
   "main":"",
+  "files": [
+    "dist/"
+  ],
   "bin": {
-    "conexa": "./lib/installTheme.js"
+    "conexa": "./dist/lib/installTheme.js"
   },
   "homepage": "https://conexa.digital",
   "private": true,
