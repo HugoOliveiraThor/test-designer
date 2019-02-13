@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
-  "main":"",
+  "main": "",
   "files": [
     "dist/"
   ],
@@ -118,7 +118,7 @@
     "clui": "^0.3.6",
     "configstore": "^4.0.0",
     "del": "^3.0.0",
-    "element-ui": "^2.4.11",
+    "element-ui": "github:leonardotessaroalves/element#dev",
     "figlet": "^1.2.1",
     "gulp-clean": "^0.4.0",
     "inquirer": "^6.2.2",

@@ -1,7 +1,7 @@
 const inquirer = require("inquirer")
 const _without = require("lodash/without")
 const fs = require("fs")
-const path = require('path')
+const path = require("path")
 
 module.exports = {
   selectTheme: () => {
