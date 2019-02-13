@@ -1,0 +1,27 @@
+@import "@/temas/myfarm/tokens/_index.scss";
+
+.el-step__head.is-process {
+  border-color: $color-primary;
+}
+
+.el-step__head.is-finish {
+  color: $color-primary;
+  border-color: $color-primary;
+}
+
+.el-step__head.is-success {
+  color: $color-primary;
+  border-color: $color-primary;
+}
+
+.el-step__title.is-success {
+  color: $color-primary;
+}
+
+.el-step__title.is-finish {
+  color: $color-primary;
+}
+
+.el-step__head.is-process {
+  color: $color-primary;
+}
