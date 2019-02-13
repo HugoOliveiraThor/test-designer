@@ -1,18 +1,18 @@
 /**
- * @author 'Seu nome' <seunome.oliveira@siagri.com.br>
+ * @author 'Hugo Oliveira' <seunome.oliveira@siagri.com.br>
  */
 
 /**
  *
- * Steps guiam o usuário para concluir alguma tarefa ou seguir algum fluxo. Importante salientar que o número de etapas não pode ser inferior a 2
- * Local de onde retirou @see Veja [ElementUI Steps](https://element.eleme.io/#/en-US/component/steps)
+ * Toggle permite alterar entre opções e disparar eventos que podem ser usados para manipular eventos dados etc...
+ *
  *
  */
 import ToggleButton from "./ToggleButton"
 import tokens from "../../tokens/_index.json"
 export default {
   name: "CnxToggle",
-  element: "N/A",
+  element: "cnx-toggle",
   status: "prototype",
   release: "0.0.1",
   components: {
@@ -89,7 +89,6 @@ export default {
         let self = this
         self.$emit("input", val)
         self.$emit("onChange", val)
-        console.log("Val", val)
       },
       immediate: true,
     },

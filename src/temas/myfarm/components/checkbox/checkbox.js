@@ -9,8 +9,8 @@
  */
 
 export default {
-  name: "Checkbox",
-  element: "<el-checkbox/>",
+  name: "CnxCheckbox",
+  element: "cnx-checkbox",
   status: "prototype",
   release: "0.0.1",
   data() {

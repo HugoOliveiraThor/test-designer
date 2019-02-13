@@ -14,6 +14,6 @@
 
 <docs>
   ```jsx
-  <Checkbox />
+  <cnx-checkbox />
   ```
 </docs>

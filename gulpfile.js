@@ -20,22 +20,6 @@ gulp.task("newTheme", async function() {
 })
 
 /**
- * Create a new component in a theme
- * There is some defaults options used here
- * @params nameComponent
- * @params nameTheme
- */
-
-gulp.task("newComponent", async function() {
-  // This task pass name of the component
-  let nameComponent = defaults(args.nameComponent)
-  let nameTheme = defaults(args.nameTheme)
-  gulp
-    .src(["./src/boilerplate-component/*"])
-    .pipe(gulp.dest("./src/temas/" + nameTheme + "/components/" + nameComponent + "/"))
-})
-
-/**
  * É uma maneira de contornar o problema dentro do element-theme-chalk
  * There is some defaults options used here
  * Ex: gulp newComponent --nameComponent "select" --nameTheme "myfarm"

@@ -6,7 +6,6 @@ const contexts = [require.context("./components/", true, /\.vue$/)]
 // Define components
 const components = []
 contexts.forEach(context => {
-  console.log("MAIN", context)
   context.keys().forEach(key => components.push(context(key).default))
 })
 
@@ -14,7 +13,6 @@ contexts.forEach(context => {
 const System = {
   install(Vue) {
     components.forEach(component => Vue.component(component.name, component))
-    // Vue.use(ElementUI)
   },
 }
 

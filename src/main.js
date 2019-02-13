@@ -6,15 +6,21 @@ import router from "@/router"
 import WebFontLoader from "@/utils/webFontLoader" // eslint-disable-line no-unused-vars
 import Meta from "vue-meta"
 import elementUi from "element-ui"
+import money from "v-money"
 import "./temas/myfarm/styles/index.css"
-import locale from "element-ui/lib/locale/lang/pt-br"
-// import "element-ui/lib/theme-chalk/index.css"
 
 // Vue Design System: Auto importing components globally
 
-// Vue.use(DesignSystem)
 Vue.use(Meta)
 Vue.use(elementUi)
+Vue.use(money, {
+  decimal: ",",
+  thousands: ".",
+  prefix: "R$ ",
+  suffix: "",
+  precision: 2,
+  masked: true,
+})
 
 Vue.config.productionTip = false
 

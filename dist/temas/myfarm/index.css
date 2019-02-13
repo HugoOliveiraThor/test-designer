@@ -28,9 +28,6 @@
   STACK-SPACE: For vertically stacked content.
   INLINE-SPACE: For things displayed inline.
 */
-.terapia {
-  color: #fff;
-}
 
 
 
@@ -73,6 +70,83 @@
   STACK-SPACE: For vertically stacked content.
   INLINE-SPACE: For things displayed inline.
 */
+
+/* GLOBAL: INCLUDES
+ *
+ * It is recommended to only include variables,
+ * mixins, etc. in this file, to prevent duplicated
+ * CSS in your final, compiled files.
+ */
+/* GLOBAL FUNCTIONS
+--------------------------------------------- */
+/* GLOBAL MIXINS
+--------------------------------------------- */
+/* AUTO SCALING FOR TYPE WITH MIN/MAX SIZES
+
+  @param {Number}  $responsive  - Viewport-based size
+  @param {Number}  $min         - Minimum font size (px)
+  @param {Number}  $max         - Maximum font size (px) (optional)
+
+  @param {Number}  $fallback    - Fallback for viewport-based units (optional)
+
+  @example SCSS - 5vw size, 35px min & 150px max size + 50px fallback:
+
+  @include responsive-font(5vw, 35px, 150px, 50px);
+*/
+/* VUE DESIGN SYSTEM SPACING HELPERS
+--------------------------------------------- */
+/*
+  INSET-SPACE: For interface containers.
+  INSET-SQUISH-SPACE: For buttons, form elements, cells.
+  STACK-SPACE: For vertically stacked content.
+  INLINE-SPACE: For things displayed inline.
+*/
+.siagri-input-number {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.siagri-input-number input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font: 400 14px Arial;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: solid 1px #b9b9b9;
+  text-align: right;
+}
+.siagri-input-number .suffix {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: #919191;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: right;
+  justify-content: flex-end;
+}
+.siagri-input-number .suffix * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.siagri-input-number.small input {
+  height: 32px;
+}
+.is-error .siagri-input-number input {
+  border-bottom: 2px solid #F74759;
+}
+.is-success .siagri-input-number input {
+  border-bottom: 2px solid #7EC894;
+}
 
 /* GLOBAL: INCLUDES
  *

@@ -124,20 +124,20 @@ var _index = __webpack_require__("ti+b");
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/toggle/toggle.js?vue&type=script&lang=js&
 /**
- * @author 'Seu nome' <seunome.oliveira@siagri.com.br>
+ * @author 'Hugo Oliveira' <seunome.oliveira@siagri.com.br>
  */
 
 /**
  *
- * Steps guiam o usuário para concluir alguma tarefa ou seguir algum fluxo. Importante salientar que o número de etapas não pode ser inferior a 2
- * Local de onde retirou @see Veja [ElementUI Steps](https://element.eleme.io/#/en-US/component/steps)
+ * Toggle permite alterar entre opções e disparar eventos que podem ser usados para manipular eventos dados etc...
+ * 
  *
  */
 
 
 /* harmony default export */ var togglevue_type_script_lang_js_ = ({
   name: "CnxToggle",
-  element: "N/A",
+  element: "cnx-toggle",
   status: "prototype",
   release: "0.0.1",
   components: {
@@ -211,7 +211,6 @@ var _index = __webpack_require__("ti+b");
         var self = this;
         self.$emit("input", val);
         self.$emit("onChange", val);
-        console.log("Val", val);
       },
       immediate: true
     },
@@ -363,6 +362,217 @@ component.options.__file = "Switcher.vue"
 
 /***/ }),
 
+/***/ "1XFg":
+/*!******************************************************************************!*\
+  !*** ./src/temas/myfarm/components/input-number/InputNumber.vue + 5 modules ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/defineProperty.js (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=template&id=35e836bc&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"siagri-input-number",class:_vm.size},[_c('input',{directives:[{name:"money",rawName:"v-money",value:({ precision: _vm.precision, suffix: _vm.suffix, prefix: _vm.prefix, thousands: _vm.thousands }),expression:"{ precision, suffix, prefix, thousands }"}],ref:"input",attrs:{"size":_vm.size,"min":_vm.min,"max":_vm.max,"readonly":_vm.$props.readonly},domProps:{"value":_vm.valor},on:{"change":_vm.change,"blur":function($event){_vm.$emit('blur')},"keydown":function($event){_vm.$emit('keydown')},"keyup":function($event){_vm.$emit('keyup')}}}),_vm._v(" "),(_vm.$slots.suffix)?_c('div',{staticClass:"suffix"},[_vm._t("suffix")],2):_vm._e()])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=template&id=35e836bc&
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/defineProperty.js
+var defineProperty = __webpack_require__("lSNA");
+var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty);
+
+// CONCATENATED MODULE: ./src/temas/myfarm/helpers/utils/monetary.js
+var moedaParaNumero = function moedaParaNumero(valor) {
+  console.log(valor);
+  if (typeof valor === 'number') return valor;
+  var occ = occurrences(valor, '.');
+
+  if (occ >= 1) {
+    var str = valor.replace('R$', '');
+    var numeroDeVirgulas = occurrences(valor, ',');
+    if (occ >= 1 && numeroDeVirgulas >= 1) str = str.split('.').join('');
+    str = str.replace(',', '.');
+    return parseFloat(str);
+  } else {
+    var _str = valor.replace('R$', '');
+
+    if (_str.indexOf(',') > -1) _str = _str.replace(',', '.');
+    return parseFloat(_str);
+  }
+};
+
+function occurrences(string, subString, allowOverlapping) {
+  string += '';
+  subString += '';
+  if (subString.length <= 0) return string.length + 1;
+  var n = 0;
+  var pos = 0;
+  var step = allowOverlapping ? 1 : subString.length;
+
+  while (true) {
+    pos = string.indexOf(subString, pos);
+
+    if (pos >= 0) {
+      ++n;
+      pos += step;
+    } else break;
+  }
+
+  return n;
+}
+
+var numeroParaMoeda = function numeroParaMoeda(valor) {
+  var decimal = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+  var formatter = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+    minimumFractionDigits: decimal
+  });
+  return typeof valor === 'string' ? formatter.format(moedaParaNumero(valor)).replace('R$', '') : formatter.format(valor).replace('R$', '');
+};
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/input-number/scripts.js?vue&type=script&lang=js&
+
+
+var _props, _name$element$status$;
+
+/**
+ * @author 'Hugo Oliveira' <seunome.oliveira@siagri.com.br>
+ */
+
+/**
+ *
+ * Ex: Input Numbers são geralmente usados ​​para selecionar opções sejam unitários ou em grupos.
+ *
+ *
+ */
+
+/* harmony default export */ var scriptsvue_type_script_lang_js_ = (_name$element$status$ = {
+  name: "CnxInputNumber",
+  element: "<cnx-input-number/>",
+  status: "prototype",
+  release: "0.0.1",
+  data: function data() {
+    return {};
+  },
+  props: (_props = {
+    /**
+     * @model
+     *
+     */
+    value: String,
+    readonly: {
+      type: Boolean,
+      default: function _default() {
+        return false;
+      }
+    },
+    size: {
+      type: String,
+      default: 'normal'
+    },
+    thousands: {
+      type: String,
+      default: ''
+    },
+    precision: {
+      type: Number,
+      default: 2
+    },
+    suffix: {
+      type: String,
+      default: ''
+    },
+    prefix: {
+      type: String,
+      default: ''
+    }
+  }, defineProperty_default()(_props, "value", {
+    type: [Number, String],
+    default: 0
+  }), defineProperty_default()(_props, "initialValue", {
+    type: [Number, String],
+    default: 0
+  }), defineProperty_default()(_props, "min", {
+    type: Number,
+    default: 999999999
+  }), defineProperty_default()(_props, "max", {
+    type: Number,
+    default: 999999999
+  }), _props)
+}, defineProperty_default()(_name$element$status$, "data", function data() {
+  return {
+    valor: 0
+  };
+}), defineProperty_default()(_name$element$status$, "mounted", function mounted() {
+  if (this.$slots.suffix) {
+    var width = this.$slots.suffix[0].elm.clientWidth;
+    this.$refs.input.style.paddingRight = "".concat(width + 20, "px");
+  }
+}), defineProperty_default()(_name$element$status$, "updated", function updated() {
+  if (this.$slots.suffix) {
+    var width = this.$slots.suffix[0].elm.clientWidth;
+    this.$refs.input.style.paddingRight = "".concat(width + 20, "px");
+  }
+}), defineProperty_default()(_name$element$status$, "methods", {
+  change: function change(evt) {
+    var value = moedaParaNumero(evt.target.value);
+    this.$emit('input', value);
+    this.$emit('change', value);
+  }
+}), defineProperty_default()(_name$element$status$, "watch", {
+  value: {
+    immediate: true,
+    handler: function handler(val, oldVal) {
+      this.valor = "".concat(this.prefix).concat(numeroParaMoeda(val, this.precision)).concat(this.suffix);
+      this.$forceUpdate();
+    }
+  }
+}), _name$element$status$);
+// CONCATENATED MODULE: ./src/temas/myfarm/components/input-number/scripts.js?vue&type=script&lang=js&
+ /* harmony default export */ var input_number_scriptsvue_type_script_lang_js_ = (scriptsvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/temas/myfarm/components/input-number/styles.scss?vue&type=style&index=0&lang=scss&
+var stylesvue_type_style_index_0_lang_scss_ = __webpack_require__("EVOQ");
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("KHd+");
+
+// EXTERNAL MODULE: ./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=custom&index=0&blockType=docs
+var InputNumbervue_type_custom_index_0_blockType_docs = __webpack_require__("ZjhC");
+var InputNumbervue_type_custom_index_0_blockType_docs_default = /*#__PURE__*/__webpack_require__.n(InputNumbervue_type_custom_index_0_blockType_docs);
+
+// CONCATENATED MODULE: ./src/temas/myfarm/components/input-number/InputNumber.vue
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["default"])(
+  input_number_scriptsvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* custom blocks */
+
+if (typeof InputNumbervue_type_custom_index_0_blockType_docs_default.a === 'function') InputNumbervue_type_custom_index_0_blockType_docs_default()(component)
+
+component.options.__file = "InputNumber.vue"
+/* harmony default export */ var InputNumber = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "1Xl/":
 /*!*********************************************************************************************!*\
   !*** ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs ***!
@@ -471,6 +681,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_button_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_button_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_button_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_button_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_button_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "EVOQ":
+/*!************************************************************************************************!*\
+  !*** ./src/temas/myfarm/components/input-number/styles.scss?vue&type=style&index=0&lang=scss& ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module exports are unknown */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_styles_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./styles.scss?vue&type=style&index=0&lang=scss& */ "YOvM");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_styles_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_styles_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_styles_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_styles_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_styles_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -651,7 +878,6 @@ var contexts = [__webpack_require__("dOj6")]; // Define components
 
 var components = [];
 contexts.forEach(function (context) {
-  console.log("MAIN", context);
   context.keys().forEach(function (key) {
     return components.push(context(key).default);
   });
@@ -661,7 +887,7 @@ var System = {
   install: function install(Vue) {
     components.forEach(function (component) {
       return Vue.component(component.name, component);
-    }); // Vue.use(ElementUI)
+    });
   }
 }; // Automatic installation if Vue has been added to the global scope
 
@@ -912,12 +1138,12 @@ component.options.__file = "Select.vue"
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=template&id=1c9c9f64&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=template&id=3ffbd28e&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticStyle:{"font-family":"'Barlow'"}},[_c('el-checkbox',{on:{"change":_vm.change},model:{value:(_vm.checked),callback:function ($$v) {_vm.checked=$$v},expression:"checked"}},[_vm._v("Normal")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-checkbox-group',{model:{value:(_vm.checkList),callback:function ($$v) {_vm.checkList=$$v},expression:"checkList"}},[_c('el-checkbox',{attrs:{"label":"Desativado","disabled":""}}),_vm._v(" "),_c('el-checkbox',{attrs:{"label":"Selecionado e Desativado","disabled":""}})],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=template&id=1c9c9f64&
+// CONCATENATED MODULE: ./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=template&id=3ffbd28e&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/checkbox/checkbox.js?vue&type=script&lang=js&
 /**
@@ -930,8 +1156,8 @@ var staticRenderFns = []
  * @see Veja [ElementUI Checkbox](https://element.eleme.io/#/en-US/component/checkbox)
  */
 /* harmony default export */ var checkboxvue_type_script_lang_js_ = ({
-  name: "Checkbox",
-  element: "<el-checkbox/>",
+  name: "CnxCheckbox",
+  element: "cnx-checkbox",
   status: "prototype",
   release: "0.0.1",
   data: function data() {
@@ -1055,6 +1281,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "YOvM":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/input-number/styles.scss?vue&type=style&index=0&lang=scss& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "Yb7a":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/radio/radio.scss?vue&type=style&index=0&lang=scss& ***!
@@ -1064,6 +1302,18 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "ZjhC":
+/*!*********************************************************************************************************!*\
+  !*** ./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=custom&index=0&blockType=docs ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -1103,6 +1353,7 @@ var map = {
 	"./button/Button.vue": "hGyZ",
 	"./card/Card.vue": "wQ7u",
 	"./checkbox/Checkbox.vue": "Uyzw",
+	"./input-number/InputNumber.vue": "1XFg",
 	"./inputs/Input.vue": "ylCN",
 	"./radio/Radio.vue": "xgvz",
 	"./select/Select.vue": "TVIv",
@@ -1141,17 +1392,17 @@ webpackContext.id = "dOj6";
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/button/Button.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/checkbox/Checkbox.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/button/Button.vue?vue&type=template&id=64ac9e75&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-row',[_c('el-button',{staticClass:"terapia",attrs:{"type":"primary active"}},[_vm._v("Primary")]),_vm._v(" "),_c('el-button',{attrs:{"type":"primary","icon":"el-icon-plus"}},[_vm._v("Primary with icon")]),_vm._v(" "),_c('el-button',{attrs:{"type":"info","disabled":""}},[_vm._v("Disabled")]),_vm._v(" "),_c('el-button',{attrs:{"type":"info","icon":"el-icon-plus","disabled":""}},[_vm._v("Primary with icon")])],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-row',[_c('el-button',[_vm._v("Secundário")]),_vm._v(" "),_c('el-button',{attrs:{"icon":"el-icon-plus"}},[_vm._v("Default with icon")]),_vm._v(" "),_c('el-button',{attrs:{"disabled":""}},[_vm._v("Disabled")]),_vm._v(" "),_c('el-button',{attrs:{"icon":"el-icon-plus","disabled":""}},[_vm._v("Default disabled")])],1)],1)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/button/Button.vue?vue&type=template&id=e8cc13a8&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-row',[_c('el-button',{attrs:{"type":"primary active"}},[_vm._v("Primary")]),_vm._v(" "),_c('el-button',{attrs:{"type":"primary","icon":"el-icon-plus"}},[_vm._v("Primary with icon")]),_vm._v(" "),_c('el-button',{attrs:{"type":"info","disabled":""}},[_vm._v("Disabled")]),_vm._v(" "),_c('el-button',{attrs:{"type":"info","icon":"el-icon-plus","disabled":""}},[_vm._v("Primary with icon")])],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-row',[_c('el-button',[_vm._v("Secundário")]),_vm._v(" "),_c('el-button',{attrs:{"icon":"el-icon-plus"}},[_vm._v("Default with icon")]),_vm._v(" "),_c('el-button',{attrs:{"disabled":""}},[_vm._v("Disabled")]),_vm._v(" "),_c('el-button',{attrs:{"icon":"el-icon-plus","disabled":""}},[_vm._v("Default disabled")])],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/temas/myfarm/components/button/Button.vue?vue&type=template&id=64ac9e75&
+// CONCATENATED MODULE: ./src/temas/myfarm/components/button/Button.vue?vue&type=template&id=e8cc13a8&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/button/button.js?vue&type=script&lang=js&
 /**
@@ -1306,6 +1557,33 @@ component.options.__file = "Button.vue"
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "lSNA":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports) {
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+module.exports = _defineProperty;
 
 /***/ }),
 
