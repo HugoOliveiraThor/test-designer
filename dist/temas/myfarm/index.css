@@ -303,7 +303,7 @@
   STACK-SPACE: For vertically stacked content.
   INLINE-SPACE: For things displayed inline.
 */
-.el-radio-group[data-v-70f52db4] {
+.el-radio-group[data-v-96a69ba4] {
   background-color: #ff7639;
   border-radius: 4px;
   padding: 0 5px;
@@ -312,18 +312,18 @@
   display: flex;
   align-items: center;
 }
-.el-radio-group[data-v-70f52db4] .el-radio-button {
+.el-radio-group[data-v-96a69ba4] .el-radio-button {
   flex: 1;
   border-radius: 4px;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.el-radio-group[data-v-70f52db4] .el-radio-button:first-of-type {
+.el-radio-group[data-v-96a69ba4] .el-radio-button:first-of-type {
   margin-right: 10px;
 }
-.el-radio-group[data-v-70f52db4] .el-radio-button span,
-.el-radio-group[data-v-70f52db4] .el-radio-button span:hover {
+.el-radio-group[data-v-96a69ba4] .el-radio-button span,
+.el-radio-group[data-v-96a69ba4] .el-radio-button span:hover {
   padding: 5px 10px;
   border-radius: 30px !important;
   text-transform: uppercase;
@@ -339,10 +339,10 @@
   color: inherit !important;
   font-size: 12px;
 }
-.el-radio-group[data-v-70f52db4] .el-radio-button.is-active {
+.el-radio-group[data-v-96a69ba4] .el-radio-button.is-active {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
 }
-.el-radio-group[data-v-70f52db4] .el-radio-button.is-active span {
+.el-radio-group[data-v-96a69ba4] .el-radio-button.is-active span {
   background-color: #fff !important;
 }
 

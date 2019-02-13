@@ -35,7 +35,7 @@
 
 <docs>
   ```jsx
-  <cnx-toogle
+  <cnx-toggle
     firstLabel="FirstLabel"
     secondLabel="SecondLabel"
   />

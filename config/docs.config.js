@@ -95,7 +95,7 @@ module.exports = {
               content: "../docs/themes/myfarm/components.md",
               components: "../src/temas/myfarm/components/**/[A-Z]*.vue",
               usageMode: "expand",
-              exampleMode: "hide",
+              exampleMode: "expand",
               sectionDepth: 2,
             },
           ],
