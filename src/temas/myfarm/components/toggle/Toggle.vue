@@ -30,12 +30,12 @@
   </el-radio-group>
 </template>
 
-<script src="./toogle.js" />
-<style lang="scss" src="./toogle.scss" scoped></style>
+<script src="./toggle.js" />
+<style lang="scss" src="./toggle.scss" scoped></style>
 
 <docs>
   ```jsx
-  <Toogle 
+  <cnx-toogle
     firstLabel="FirstLabel"
     secondLabel="SecondLabel"
   />

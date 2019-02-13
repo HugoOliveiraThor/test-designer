@@ -1,7 +1,6 @@
 var gulp = require("gulp")
 const args = require("yargs").argv
 const replace = require("gulp")
-const watch = require("gulp-watch")
 
 // To pass arguments send --name -> is default for the tasks
 const defaults = function(name) {
@@ -39,6 +38,7 @@ gulp.task("newComponent", async function() {
 /**
  * É uma maneira de contornar o problema dentro do element-theme-chalk
  * There is some defaults options used here
+ * Ex: gulp newComponent --nameComponent "select" --nameTheme "myfarm"
  * @params nameComponent
  * @params nameTheme
  */
