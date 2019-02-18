@@ -66,9 +66,9 @@ module.exports = {
     {
       name: "Temas",
       content: "../docs/themes/themes.md",
-      exampleMode: "collapse",
-      usageMode: "collapse",
-      sectionDepth: 2,
+      exampleMode: "expand",
+      usageMode: "expand",
+      sectionDepth: 1,
       sections: [
         {
           name: "MyFarm",
