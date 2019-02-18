@@ -44,6 +44,6 @@
 
 <docs>
   ```jsx
-  <Input />
+  <cnx-input />
   ```
 </docs>

@@ -10,7 +10,7 @@
  */
 import { moedaParaNumero, numeroParaMoeda } from "../../helpers/utils/monetary"
 export default {
-  name: "CnxInputNumber",
+  name: "cnx-input-number",
   element: "<cnx-input-number/>",
   status: "prototype",
   release: "0.0.1",

@@ -13,7 +13,7 @@
  */
 
 export default {
-  name: "Button",
+  name: "cnx-button",
   element: "<el-button/>",
   status: "prototype",
   release: "0.0.1",

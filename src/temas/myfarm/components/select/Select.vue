@@ -7,6 +7,6 @@
 
 <docs>
   ```jsx
-  <Select />
+  <cnx-select />
   ```
 </docs>

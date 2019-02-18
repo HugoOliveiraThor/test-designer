@@ -107,9 +107,6 @@ module.exports = {
           usageMode: "hide",
         },
       ],
-      exampleMode: "hide",
-      usageMode: "hide",
-      sectionDepth: 3,
     },
     {
       name: "Princípios do Design",

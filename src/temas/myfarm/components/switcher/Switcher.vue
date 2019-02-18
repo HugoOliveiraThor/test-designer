@@ -11,6 +11,6 @@
 
 <docs>
   ```jsx
-  <Switcher />
+  <cnx-switch />
   ```
 </docs>

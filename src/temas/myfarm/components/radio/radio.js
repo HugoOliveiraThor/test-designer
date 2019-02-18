@@ -9,7 +9,7 @@
  */
 
 export default {
-  name: "Radio",
+  name: "cnx-radio",
   element: "<el-radio/>",
   status: "prototype",
   release: "0.0.1",

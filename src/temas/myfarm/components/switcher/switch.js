@@ -9,7 +9,7 @@
  */
 
 export default {
-  name: "Switcher",
+  name: "cnx-swticher",
   element: "<el-switch/>",
   status: "prototype",
   release: "0.0.1",

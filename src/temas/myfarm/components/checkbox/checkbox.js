@@ -9,7 +9,7 @@
  */
 
 export default {
-  name: "CnxCheckbox",
+  name: "cnx-checkbox",
   element: "cnx-checkbox",
   status: "prototype",
   release: "0.0.1",

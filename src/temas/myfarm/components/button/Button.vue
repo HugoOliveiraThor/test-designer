@@ -22,6 +22,6 @@
 <docs>
 
   ```jsx
-  <Button />
+  <cnx-button />
   ```
 </docs>

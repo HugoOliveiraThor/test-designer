@@ -10,6 +10,6 @@
 
 <docs>
   ```jsx
-  <Radio />
+  <cnx-radio />
   ```
 </docs>

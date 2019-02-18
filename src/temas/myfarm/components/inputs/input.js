@@ -4,7 +4,7 @@ entrada é curta. Form Input tem um leque de opções e suporta vários textos
 formatos incluindo números. Para uma entrada mais longa, use o elemento `Textarea` do formulário. */
 
 export default {
-  name: "Input",
+  name: "cnx-input",
   // status: "prototype",
   // release: "0.0.1",
   data() {

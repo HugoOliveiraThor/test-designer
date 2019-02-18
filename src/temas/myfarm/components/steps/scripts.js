@@ -9,7 +9,7 @@
  *
  */
 export default {
-  name: "Steps",
+  name: "cnx-steps",
   element: "<el-steps/>",
   status: "prototype",
   release: "0.0.1",

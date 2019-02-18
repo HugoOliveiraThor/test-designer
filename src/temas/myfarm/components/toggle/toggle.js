@@ -11,7 +11,7 @@
 import ToggleButton from "./ToggleButton"
 import tokens from "../../tokens/_index.json"
 export default {
-  name: "CnxToggle",
+  name: "cnx-toggle",
   element: "cnx-toggle",
   status: "prototype",
   release: "0.0.1",

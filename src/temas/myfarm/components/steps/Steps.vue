@@ -23,6 +23,6 @@
 
 <docs>
   ```jsx
-  <Steps />
+  <cnx-steps />
   ```
 </docs>

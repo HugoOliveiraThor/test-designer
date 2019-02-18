@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "Toogle-Button",
+  name: "cnx-toggle-button",
   props: {
     label: {
       type: String,
