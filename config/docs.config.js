@@ -35,7 +35,6 @@ module.exports = {
   // assetsDir: path.join(__dirname, "../src/assets"),
   /**
    * Enabling the below option will break things in Vue Design System!
-   * Essa opção seria para esconder os componentes que não tem exemplos -> ex: ToggleButton é um componente que é usado dentro do Toggle não deveria ser apresentado na tela principal
    */
   skipComponentsWithoutExample: false,
   /**
@@ -66,9 +65,9 @@ module.exports = {
     {
       name: "Temas",
       content: "../docs/themes/themes.md",
-      exampleMode: "expand",
-      usageMode: "expand",
-      sectionDepth: 1,
+      exampleMode: "collapse",
+      usageMode: "collapse",
+      sectionDepth: 2,
       sections: [
         {
           name: "MyFarm",
@@ -93,16 +92,14 @@ module.exports = {
             },
             {
               name: "Componentes",
+              content: "../docs/themes/myfarm/components.md",
               components: "../src/temas/myfarm/components/**/[A-Z]*.vue",
-              usageMode: "hide",
-              exampleMode: "hide",
-              sectionDepth: 1,
+              usageMode: "expand",
+              exampleMode: "expand",
+              sectionDepth: 2,
             },
           ],
         },
-        /*
-        Nos temos que criar de maneira manual os novos temas 
-        */
         {
           name: "Blue",
           content: "../docs/themes/blue/blue.md",
@@ -110,6 +107,9 @@ module.exports = {
           usageMode: "hide",
         },
       ],
+      exampleMode: "hide",
+      usageMode: "hide",
+      sectionDepth: 3,
     },
     {
       name: "Princípios do Design",

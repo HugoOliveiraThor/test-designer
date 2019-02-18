@@ -20,7 +20,6 @@
 <style lang="scss" src="./button.scss"></style>
 
 <docs>
-
   ```jsx
   <cnx-button />
   ```
