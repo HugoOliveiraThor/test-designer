@@ -16,6 +16,7 @@ const defaults = function(name) {
 gulp.task("newTheme", async function() {
   // This task pass name of the component
   let newTheme = defaults(args.nameTheme)
+  // Think how to generate new theme and import automatically to folders of new theme -> need to write in code
   gulp.src(["./src/temas/myfarm/**/*"]).pipe(gulp.dest("./src/temas/" + newTheme + "/"))
 })
 

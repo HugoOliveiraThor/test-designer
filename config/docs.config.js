@@ -35,6 +35,7 @@ module.exports = {
   // assetsDir: path.join(__dirname, "../src/assets"),
   /**
    * Enabling the below option will break things in Vue Design System!
+   * Essa opção seria para esconder os componentes que não tem exemplos -> ex: ToggleButton é um componente que é usado dentro do Toggle não deveria ser apresentado na tela principal
    */
   skipComponentsWithoutExample: false,
   /**
@@ -100,6 +101,9 @@ module.exports = {
             },
           ],
         },
+        /*
+        Nos temos que criar de maneira manual os novos temas 
+        */
         {
           name: "Blue",
           content: "../docs/themes/blue/blue.md",
