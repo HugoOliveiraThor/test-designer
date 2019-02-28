@@ -494,7 +494,7 @@
   position: relative;
   margin: 0;
   padding-left: 0;
-  background-color: #fff;
+  background-color: white;
 }
 .el-menu::before,
 .el-menu::after {
@@ -516,7 +516,7 @@
   line-height: 60px;
   margin: 0;
   border-bottom: 2px solid transparent;
-  color: #909399;
+  color: #bdc1c9;
 }
 .el-menu--horizontal > .el-menu-item a,
 .el-menu--horizontal > .el-menu-item a:hover {
@@ -535,17 +535,17 @@
 }
 .el-menu--horizontal > .el-submenu:focus .el-submenu__title,
 .el-menu--horizontal > .el-submenu:hover .el-submenu__title {
-  color: #303133;
+  color: #454e5f;
 }
 .el-menu--horizontal > .el-submenu.is-active .el-submenu__title {
-  border-bottom: 2px solid #00938f;
-  color: #303133;
+  border-bottom: 2px solid #ff7639;
+  color: #454e5f;
 }
 .el-menu--horizontal > .el-submenu .el-submenu__title {
   height: 60px;
   line-height: 60px;
   border-bottom: 2px solid transparent;
-  color: #909399;
+  color: #bdc1c9;
 }
 .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
   background-color: #fff;
@@ -558,25 +558,25 @@
 }
 .el-menu--horizontal .el-menu .el-menu-item,
 .el-menu--horizontal .el-menu .el-submenu__title {
-  background-color: #fff;
+  background-color: white;
   float: none;
   height: 36px;
   line-height: 36px;
   padding: 0 10px;
-  color: #909399;
+  color: #bdc1c9;
 }
 .el-menu--horizontal .el-menu .el-menu-item.is-active,
 .el-menu--horizontal .el-menu .el-submenu.is-active > .el-submenu__title {
-  color: #303133;
+  color: #454e5f;
 }
 .el-menu--horizontal .el-menu-item:not(.is-disabled):hover,
 .el-menu--horizontal .el-menu-item:not(.is-disabled):focus {
   outline: none;
-  color: #303133;
+  color: #454e5f;
 }
 .el-menu--horizontal > .el-menu-item.is-active {
-  border-bottom: 2px solid #00938f;
-  color: #303133;
+  border-bottom: 2px solid #ff7639;
+  color: #454e5f;
 }
 .el-menu--collapse {
   width: 64px;
@@ -645,7 +645,7 @@
   height: 56px;
   line-height: 56px;
   font-size: 14px;
-  color: #303133;
+  color: #454e5f;
   padding: 0 20px;
   list-style: none;
   cursor: pointer;
@@ -660,12 +660,12 @@
   vertical-align: middle;
 }
 .el-menu-item i {
-  color: #909399;
+  color: #bdc1c9;
 }
 .el-menu-item:hover,
 .el-menu-item:focus {
   outline: none;
-  background-color: #e6f4f4;
+  background-color: #fff1eb;
 }
 .el-menu-item.is-disabled {
   opacity: 0.25;
@@ -680,7 +680,7 @@
   vertical-align: middle;
 }
 .el-menu-item.is-active {
-  color: #00938f;
+  color: #ff7639;
 }
 .el-menu-item.is-active i {
   color: inherit;
@@ -695,7 +695,7 @@
   height: 56px;
   line-height: 56px;
   font-size: 14px;
-  color: #303133;
+  color: #454e5f;
   padding: 0 20px;
   list-style: none;
   cursor: pointer;
@@ -710,12 +710,12 @@
   vertical-align: middle;
 }
 .el-submenu__title i {
-  color: #909399;
+  color: #bdc1c9;
 }
 .el-submenu__title:hover,
 .el-submenu__title:focus {
   outline: none;
-  background-color: #e6f4f4;
+  background-color: #fff1eb;
 }
 .el-submenu__title.is-disabled {
   opacity: 0.25;
@@ -723,7 +723,7 @@
   background: none !important;
 }
 .el-submenu__title:hover {
-  background-color: #e6f4f4;
+  background-color: #fff1eb;
 }
 .el-submenu .el-menu {
   border: none;
@@ -746,7 +746,7 @@
   font-size: 12px;
 }
 .el-submenu.is-active .el-submenu__title {
-  border-bottom-color: #00938f;
+  border-bottom-color: #ff7639;
 }
 .el-submenu.is-opened > .el-submenu__title .el-submenu__icon-arrow {
   -webkit-transform: rotateZ(180deg);
@@ -774,7 +774,7 @@
   padding: 7px 0 7px 20px;
   line-height: normal;
   font-size: 12px;
-  color: #909399;
+  color: #bdc1c9;
 }
 
 .horizontal-collapse-transition .el-submenu__title .el-submenu__icon-arrow {

@@ -489,7 +489,7 @@
 .el-popper[x-placement^="top"] .popper__arrow::after {
   bottom: 1px;
   margin-left: -6px;
-  border-top-color: #fff;
+  border-top-color: white;
   border-bottom-width: 0;
 }
 
@@ -508,7 +508,7 @@
   top: 1px;
   margin-left: -6px;
   border-top-width: 0;
-  border-bottom-color: #fff;
+  border-bottom-color: white;
 }
 
 .el-popper[x-placement^="right"] {
@@ -525,7 +525,7 @@
 .el-popper[x-placement^="right"] .popper__arrow::after {
   bottom: -6px;
   left: 1px;
-  border-right-color: #fff;
+  border-right-color: white;
   border-left-width: 0;
 }
 
@@ -545,18 +545,18 @@
   bottom: -6px;
   margin-left: -6px;
   border-right-width: 0;
-  border-left-color: #fff;
+  border-left-color: white;
 }
 
 .el-popover {
   position: absolute;
-  background: #fff;
+  background: white;
   min-width: 150px;
   border-radius: 4px;
   border: 1px solid #ebeef5;
   padding: 12px;
   z-index: 2000;
-  color: #606266;
+  color: #7c8293;
   line-height: 1.4;
   text-align: justify;
   font-size: 14px;
@@ -567,7 +567,7 @@
   padding: 18px 20px;
 }
 .el-popover__title {
-  color: #303133;
+  color: #454e5f;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 12px;

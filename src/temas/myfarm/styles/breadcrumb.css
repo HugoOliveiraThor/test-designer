@@ -241,7 +241,7 @@
 .el-breadcrumb__separator {
   margin: 0 9px;
   font-weight: bold;
-  color: #c0c4cc;
+  color: #9da1ae;
 }
 .el-breadcrumb__separator[class*="icon"] {
   margin: 0 6px;
@@ -251,7 +251,7 @@
   float: left;
 }
 .el-breadcrumb__inner {
-  color: #606266;
+  color: #7c8293;
 }
 .el-breadcrumb__inner.is-link,
 .el-breadcrumb__inner a {
@@ -259,11 +259,11 @@
   text-decoration: none;
   -webkit-transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-  color: #303133;
+  color: #454e5f;
 }
 .el-breadcrumb__inner.is-link:hover,
 .el-breadcrumb__inner a:hover {
-  color: #00938f;
+  color: #ff7639;
   cursor: pointer;
 }
 .el-breadcrumb__item:last-child .el-breadcrumb__inner,
@@ -271,7 +271,7 @@
 .el-breadcrumb__item:last-child .el-breadcrumb__inner a,
 .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover {
   font-weight: normal;
-  color: #606266;
+  color: #7c8293;
   cursor: text;
 }
 .el-breadcrumb__item:last-child .el-breadcrumb__separator {

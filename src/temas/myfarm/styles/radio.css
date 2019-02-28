@@ -337,7 +337,7 @@
 /* Break-point
 --------------------------*/
 .el-radio {
-  color: #606266;
+  color: #7c8293;
   font-weight: 400;
   line-height: 1;
   position: relative;
@@ -360,7 +360,7 @@
   height: 90px;
 }
 .el-radio.is-bordered.is-checked {
-  border-color: #00938f;
+  border-color: #ff7639;
 }
 .el-radio.is-bordered.is-disabled {
   cursor: not-allowed;
@@ -434,32 +434,32 @@
   border-color: #e4e7ed;
 }
 .el-radio__input.is-disabled.is-checked .el-radio__inner::after {
-  background-color: #c0c4cc;
+  background-color: #9da1ae;
 }
 .el-radio__input.is-disabled + span.el-radio__label {
-  color: #c0c4cc;
+  color: #9da1ae;
   cursor: not-allowed;
 }
 .el-radio__input.is-checked .el-radio__inner {
-  border-color: #00938f;
-  background: #00938f;
+  border-color: #ff7639;
+  background: #ff7639;
 }
 .el-radio__input.is-checked .el-radio__inner::after {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
 }
 .el-radio__input.is-checked + .el-radio__label {
-  color: #00938f;
+  color: #ff7639;
 }
 .el-radio__input.is-focus .el-radio__inner {
-  border-color: #00938f;
+  border-color: #ff7639;
 }
 .el-radio__inner {
   border: 1px solid #bdc1c9;
   border-radius: 100%;
   width: 14px;
   height: 14px;
-  background-color: #fff;
+  background-color: white;
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -467,13 +467,13 @@
   box-sizing: border-box;
 }
 .el-radio__inner:hover {
-  border-color: #00938f;
+  border-color: #ff7639;
 }
 .el-radio__inner::after {
   width: 4px;
   height: 4px;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: white;
   content: "";
   position: absolute;
   left: 50%;
@@ -500,8 +500,8 @@
   /*获得焦点时 样式提醒*/
 }
 .el-radio:focus:not(.is-focus):not(:active):not(.is-disabled) .el-radio__inner {
-  -webkit-box-shadow: 0 0 2px 2px #00938f;
-  box-shadow: 0 0 2px 2px #00938f;
+  -webkit-box-shadow: 0 0 2px 2px #ff7639;
+  box-shadow: 0 0 2px 2px #ff7639;
 }
 .el-radio__label {
   font-size: 14px;

@@ -70,13 +70,20 @@ const webpackConfig = merge(baseWebpackConfig, {
       {
         from: path.resolve(__dirname, "../src/temas/"),
         to: "temas",
-        ignore: ["*.js", "*.scss", "*.vue", "*.json", "*yml"],
+        ignore: ["*.js", "*.vue", "*yml"],
       },
     ]),
     new CopyWebpackPlugin([
       {
         from: path.resolve(__dirname, "../lib/"),
         to: "lib",
+      },
+    ]),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, "../src/temas/"),
+        to: "temas",
+        ignore: ["*.js", "*.scss", "*.vue", "*.json", "*yml"],
       },
     ]),
   ],

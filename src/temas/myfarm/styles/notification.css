@@ -237,7 +237,7 @@
   box-sizing: border-box;
   border: 1px solid #ebeef5;
   position: fixed;
-  background-color: #fff;
+  background-color: white;
   -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: opacity 0.3s, left 0.3s, right 0.3s, top 0.4s, bottom 0.3s,
@@ -260,14 +260,14 @@
 .el-notification__title {
   font-weight: bold;
   font-size: 16px;
-  color: #303133;
+  color: #454e5f;
   margin: 0;
 }
 .el-notification__content {
   font-size: 14px;
   line-height: 21px;
   margin: 6px 0 0 0;
-  color: #606266;
+  color: #7c8293;
   text-align: justify;
 }
 .el-notification__content p {
@@ -283,11 +283,11 @@
   top: 18px;
   right: 15px;
   cursor: pointer;
-  color: #909399;
+  color: #bdc1c9;
   font-size: 16px;
 }
 .el-notification__closeBtn:hover {
-  color: #606266;
+  color: #7c8293;
 }
 .el-notification .el-icon-success {
   color: #04a26c;
@@ -296,10 +296,10 @@
   color: #f73952;
 }
 .el-notification .el-icon-info {
-  color: #909399;
+  color: #4b89ff;
 }
 .el-notification .el-icon-warning {
-  color: #e6a23c;
+  color: #fdb771;
 }
 
 .el-notification-fade-enter.right {

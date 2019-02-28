@@ -232,7 +232,7 @@
 }
 .el-progress__text {
   font-size: 14px;
-  color: #606266;
+  color: #7c8293;
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
@@ -306,7 +306,7 @@
   left: 0;
   top: 0;
   height: 100%;
-  background-color: #00938f;
+  background-color: #ff7639;
   text-align: right;
   border-radius: 100px;
   line-height: 1;
@@ -323,7 +323,7 @@
 .el-progress-bar__innerText {
   display: inline-block;
   vertical-align: middle;
-  color: #fff;
+  color: white;
   font-size: 12px;
   margin: 0 5px;
 }
