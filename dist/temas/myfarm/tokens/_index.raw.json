@@ -20,6 +20,14 @@
     }
   },
   "props": {
+    "color_hover": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(0, 173, 167)",
+      "order": 2,
+      "originalValue": "#00ADA7",
+      "name": "color_hover"
+    },
     "color_grey_40": {
       "type": "color",
       "category": "scale_gray",
@@ -43,6 +51,14 @@
       "order": 0,
       "originalValue": "#FF7639",
       "name": "color_primary"
+    },
+    "color_status_alerta_2": {
+      "type": "color",
+      "category": "status",
+      "value": "rgb(253, 183, 113)",
+      "order": 203,
+      "originalValue": "#fdb771",
+      "name": "color_status_alerta_2"
     },
     "color_grey_0": {
       "type": "color",
@@ -80,9 +96,33 @@
       "type": "color",
       "category": "status",
       "value": "rgb(189, 193, 201)",
-      "order": 205,
+      "order": 206,
       "originalValue": "#BDC1C9",
       "name": "color_status_indiferente"
+    },
+    "color_ativo": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(0, 122, 118)",
+      "order": 3,
+      "originalValue": "#007A76",
+      "name": "color_ativo"
+    },
+    "color_hover_secondary": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(255, 255, 255)",
+      "order": 4,
+      "originalValue": "#FFFFFF",
+      "name": "color_hover_secondary"
+    },
+    "color_charts_charts_1": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(85, 152, 221)",
+      "order": 307,
+      "originalValue": "#5598DD",
+      "name": "color_charts_charts_1"
     },
     "color_support_erro": {
       "type": "color",
@@ -92,13 +132,37 @@
       "originalValue": "#F73952",
       "name": "color_support_erro"
     },
+    "color_charts_charts_2": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(234, 116, 49)",
+      "order": 308,
+      "originalValue": "#EA7431",
+      "name": "color_charts_charts_2"
+    },
     "color_status_alerta": {
       "type": "color",
       "category": "status",
-      "value": "rgb(253, 183, 113)",
+      "value": "rgb(252, 164, 68)",
       "order": 202,
-      "originalValue": "#fdb771",
+      "originalValue": "#FCA444",
       "name": "color_status_alerta"
+    },
+    "color_charts_charts_3": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(0, 170, 120)",
+      "order": 309,
+      "originalValue": "#00AA78",
+      "name": "color_charts_charts_3"
+    },
+    "color_charts_charts_4": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(239, 71, 122)",
+      "order": 310,
+      "originalValue": "#EF477A",
+      "name": "color_charts_charts_4"
     },
     "color_secondary": {
       "type": "color",
@@ -108,11 +172,19 @@
       "originalValue": "#00938f",
       "name": "color_secondary"
     },
+    "color_charts_charts_5": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(149, 90, 210)",
+      "order": 311,
+      "originalValue": "#955AD2",
+      "name": "color_charts_charts_5"
+    },
     "color_status_concluido": {
       "type": "color",
       "category": "status",
       "value": "rgb(68, 200, 155)",
-      "order": 203,
+      "order": 204,
       "originalValue": "#44C89B",
       "name": "color_status_concluido"
     },
@@ -124,6 +196,14 @@
       "originalValue": "#4B89FF",
       "name": "color_support_info"
     },
+    "color_charts_charts_6": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(0, 164, 181)",
+      "order": 312,
+      "originalValue": "#00A4B5",
+      "name": "color_charts_charts_6"
+    },
     "color_grey_dark": {
       "type": "color",
       "category": "scale_gray",
@@ -132,11 +212,19 @@
       "originalValue": "#454E5F",
       "name": "color_grey_dark"
     },
+    "color_charts_charts_7": {
+      "type": "color",
+      "category": "charts",
+      "value": "rgb(69, 78, 95)",
+      "order": 313,
+      "originalValue": "#454E5F",
+      "name": "color_charts_charts_7"
+    },
     "color_status_em_progresso": {
       "type": "color",
       "category": "status",
       "value": "rgb(112, 157, 252)",
-      "order": 204,
+      "order": 205,
       "originalValue": "#709DFC",
       "name": "color_status_em_progresso"
     },

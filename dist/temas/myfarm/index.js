@@ -103,7 +103,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/ToggleButton.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/tokens/_index.json (<- Module is not an ECMAScript module) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -271,7 +271,7 @@ component.options.__file = "Toggle.vue"
   \***********************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/switcher/Switcher.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -369,7 +369,7 @@ component.options.__file = "Switcher.vue"
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/defineProperty.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -911,7 +911,7 @@ if (typeof window !== "undefined" && window.Vue) {
   \*****************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/steps/Steps.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1050,7 +1050,7 @@ __webpack_require__.r(__webpack_exports__);
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/select/Select.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/checkbox/Checkbox.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1138,7 +1138,7 @@ component.options.__file = "Select.vue"
   \***********************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1409,7 +1409,7 @@ webpackContext.id = "dOj6";
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/button/Button.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1621,7 +1621,7 @@ module.exports = _defineProperty;
   !*** ./src/temas/myfarm/components/toggle/ToggleButton.vue + 4 modules ***!
   \*************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1719,11 +1719,11 @@ component.options.__file = "ToggleButton.vue"
 /*!*********************************************!*\
   !*** ./src/temas/myfarm/tokens/_index.json ***!
   \*********************************************/
-/*! exports provided: color_grey_40, color_grey_10, color_primary, color_grey_0, color_white, color_status_atraso, color_support_alerta, color_status_indiferente, color_support_erro, color_status_alerta, color_secondary, color_status_concluido, color_support_info, color_grey_dark, color_status_em_progresso, color_grey_80, color_grey_60, color_support_sucesso, size_body, size_overline, size_button_mini, size_big_number, size_h1, size_h2, size_h3, size_text, size_button, size_medium_number, size_small_number, font_heading, font_text, weight_bold, weight_semi_bold, weight_regular, weight_light, opacity_disabled, height_footer, tappable_square, media_query_m, media_query_l, shadow_s, radius_default, default */
+/*! exports provided: color_hover, color_grey_40, color_grey_10, color_primary, color_status_alerta_2, color_grey_0, color_white, color_status_atraso, color_support_alerta, color_status_indiferente, color_ativo, color_hover_secondary, color_charts_charts_1, color_support_erro, color_charts_charts_2, color_status_alerta, color_charts_charts_3, color_charts_charts_4, color_secondary, color_charts_charts_5, color_status_concluido, color_support_info, color_charts_charts_6, color_grey_dark, color_charts_charts_7, color_status_em_progresso, color_grey_80, color_grey_60, color_support_sucesso, size_body, size_overline, size_button_mini, size_big_number, size_h1, size_h2, size_h3, size_text, size_button, size_medium_number, size_small_number, font_heading, font_text, weight_bold, weight_semi_bold, weight_regular, weight_light, opacity_disabled, height_footer, tappable_square, media_query_m, media_query_l, shadow_s, radius_default, default */
 /*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 /***/ (function(module) {
 
-module.exports = {"color_grey_40":"rgb(189, 193, 201)","color_grey_10":"rgb(238, 239, 241)","color_primary":"rgb(255, 118, 57)","color_grey_0":"rgb(255, 255, 255)","color_white":"rgb(255, 255, 255)","color_status_atraso":"rgb(249, 92, 117)","color_support_alerta":"rgb(252, 164, 68)","color_status_indiferente":"rgb(189, 193, 201)","color_support_erro":"rgb(247, 57, 82)","color_status_alerta":"rgb(253, 183, 113)","color_secondary":"rgb(0, 147, 143)","color_status_concluido":"rgb(68, 200, 155)","color_support_info":"rgb(75, 137, 255)","color_grey_dark":"rgb(69, 78, 95)","color_status_em_progresso":"rgb(112, 157, 252)","color_grey_80":"rgb(124, 130, 147)","color_grey_60":"rgb(157, 161, 174)","color_support_sucesso":"rgb(4, 162, 108)","size_body":"14px","size_overline":"11px","size_button_mini":"12px","size_big_number":"60px","size_h1":"34px","size_h2":"20px","size_h3":"19px","size_text":"12px","size_button":"14px","size_medium_number":"40px","size_small_number":"20px","font_heading":"Barlow, sans-serif","font_text":"Barlow, sans-serif","weight_bold":"700","weight_semi_bold":"600","weight_regular":"400","weight_light":"300","opacity_disabled":"0.5","height_footer":"64px","tappable_square":"44px","media_query_m":"(min-width: 768px)","media_query_l":"(min-width: 1024px)","shadow_s":"0 0 0 1px rgba(92,106,196,.1)","radius_default":"4px"};
+module.exports = {"color_hover":"rgb(0, 173, 167)","color_grey_40":"rgb(189, 193, 201)","color_grey_10":"rgb(238, 239, 241)","color_primary":"rgb(255, 118, 57)","color_status_alerta_2":"rgb(253, 183, 113)","color_grey_0":"rgb(255, 255, 255)","color_white":"rgb(255, 255, 255)","color_status_atraso":"rgb(249, 92, 117)","color_support_alerta":"rgb(252, 164, 68)","color_status_indiferente":"rgb(189, 193, 201)","color_ativo":"rgb(0, 122, 118)","color_hover_secondary":"rgb(255, 255, 255)","color_charts_charts_1":"rgb(85, 152, 221)","color_support_erro":"rgb(247, 57, 82)","color_charts_charts_2":"rgb(234, 116, 49)","color_status_alerta":"rgb(252, 164, 68)","color_charts_charts_3":"rgb(0, 170, 120)","color_charts_charts_4":"rgb(239, 71, 122)","color_secondary":"rgb(0, 147, 143)","color_charts_charts_5":"rgb(149, 90, 210)","color_status_concluido":"rgb(68, 200, 155)","color_support_info":"rgb(75, 137, 255)","color_charts_charts_6":"rgb(0, 164, 181)","color_grey_dark":"rgb(69, 78, 95)","color_charts_charts_7":"rgb(69, 78, 95)","color_status_em_progresso":"rgb(112, 157, 252)","color_grey_80":"rgb(124, 130, 147)","color_grey_60":"rgb(157, 161, 174)","color_support_sucesso":"rgb(4, 162, 108)","size_body":"14px","size_overline":"11px","size_button_mini":"12px","size_big_number":"60px","size_h1":"34px","size_h2":"20px","size_h3":"19px","size_text":"12px","size_button":"14px","size_medium_number":"40px","size_small_number":"20px","font_heading":"Barlow, sans-serif","font_text":"Barlow, sans-serif","weight_bold":"700","weight_semi_bold":"600","weight_regular":"400","weight_light":"300","opacity_disabled":"0.5","height_footer":"64px","tappable_square":"44px","media_query_m":"(min-width: 768px)","media_query_l":"(min-width: 1024px)","shadow_s":"0 0 0 1px rgba(92,106,196,.1)","radius_default":"4px"};
 
 /***/ }),
 
@@ -1732,7 +1732,7 @@ module.exports = {"color_grey_40":"rgb(189, 193, 201)","color_grey_10":"rgb(238,
   !*** ./src/temas/myfarm/components/card/Card.vue + 4 modules ***!
   \***************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/checkbox/Checkbox.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1791,7 +1791,7 @@ component.options.__file = "Card.vue"
   \*****************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/radio/Radio.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1923,7 +1923,7 @@ component.options.__file = "Radio.vue"
   \******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/select/Select.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
