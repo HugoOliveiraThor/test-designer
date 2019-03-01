@@ -140,6 +140,23 @@ props:
     category: charts
     order: 313
 
+  color_text_primary:
+    value: "#454E5F"
+    category: text
+    order: 314
+  color_text_regular:
+    value: "#7C8293"
+    category: text
+    order: 315
+  color_text_secondary:
+    value: "#bdc1c9"
+    category: text
+    order: 316
+  color_text_placeholder:
+    value: "#9DA1AE"
+    category: text
+    order: 317
+
 global:
   type: color
   category: color

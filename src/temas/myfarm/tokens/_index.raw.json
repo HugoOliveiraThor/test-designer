@@ -52,6 +52,14 @@
       "originalValue": "#FF7639",
       "name": "color_primary"
     },
+    "color_text_regular": {
+      "type": "color",
+      "category": "text",
+      "value": "rgb(124, 130, 147)",
+      "order": 315,
+      "originalValue": "#7C8293",
+      "name": "color_text_regular"
+    },
     "color_status_alerta_2": {
       "type": "color",
       "category": "status",
@@ -59,6 +67,14 @@
       "order": 203,
       "originalValue": "#fdb771",
       "name": "color_status_alerta_2"
+    },
+    "color_text_primary": {
+      "type": "color",
+      "category": "text",
+      "value": "rgb(69, 78, 95)",
+      "order": 314,
+      "originalValue": "#454E5F",
+      "name": "color_text_primary"
     },
     "color_grey_0": {
       "type": "color",
@@ -235,6 +251,22 @@
       "order": 305,
       "originalValue": "#7C8293",
       "name": "color_grey_80"
+    },
+    "color_text_placeholder": {
+      "type": "color",
+      "category": "text",
+      "value": "rgb(157, 161, 174)",
+      "order": 317,
+      "originalValue": "#9DA1AE",
+      "name": "color_text_placeholder"
+    },
+    "color_text_secondary": {
+      "type": "color",
+      "category": "text",
+      "value": "rgb(189, 193, 201)",
+      "order": 316,
+      "originalValue": "#bdc1c9",
+      "name": "color_text_secondary"
     },
     "color_grey_60": {
       "type": "color",
