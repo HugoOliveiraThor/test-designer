@@ -1,4 +1,7 @@
 $_index-map: (
+  "color-hover": (
+    rgb(0, 173, 167),
+  ),
   "color-grey-40": (
     rgb(189, 193, 201),
   ),
@@ -7,6 +10,9 @@ $_index-map: (
   ),
   "color-primary": (
     rgb(255, 118, 57),
+  ),
+  "color-status-alerta-2": (
+    rgb(253, 183, 113),
   ),
   "color-grey-0": (
     rgb(255, 255, 255),
@@ -23,14 +29,35 @@ $_index-map: (
   "color-status-indiferente": (
     rgb(189, 193, 201),
   ),
+  "color-ativo": (
+    rgb(0, 122, 118),
+  ),
+  "color-hover-secondary": (
+    rgb(255, 255, 255),
+  ),
+  "color-charts-charts-1": (
+    rgb(85, 152, 221),
+  ),
   "color-support-erro": (
     rgb(247, 57, 82),
   ),
+  "color-charts-charts-2": (
+    rgb(234, 116, 49),
+  ),
   "color-status-alerta": (
-    rgb(253, 183, 113),
+    rgb(252, 164, 68),
+  ),
+  "color-charts-charts-3": (
+    rgb(0, 170, 120),
+  ),
+  "color-charts-charts-4": (
+    rgb(239, 71, 122),
   ),
   "color-secondary": (
     rgb(0, 147, 143),
+  ),
+  "color-charts-charts-5": (
+    rgb(149, 90, 210),
   ),
   "color-status-concluido": (
     rgb(68, 200, 155),
@@ -38,7 +65,13 @@ $_index-map: (
   "color-support-info": (
     rgb(75, 137, 255),
   ),
+  "color-charts-charts-6": (
+    rgb(0, 164, 181),
+  ),
   "color-grey-dark": (
+    rgb(69, 78, 95),
+  ),
+  "color-charts-charts-7": (
     rgb(69, 78, 95),
   ),
   "color-status-em-progresso": (

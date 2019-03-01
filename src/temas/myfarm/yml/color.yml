@@ -33,6 +33,18 @@ props:
     value: "rgb(255, 255, 255)"
     category: brand
     order: 001
+  color_hover:
+    value: "#00ADA7"
+    category: brand
+    order: 002
+  color_ativo:
+    value: "#007A76"
+    category: brand
+    order: 003
+  color_hover_secondary:
+    value: "#FFFFFF"
+    category: brand
+    order: 004
 
   color_support_erro:
     value: "#F73952"
@@ -55,21 +67,25 @@ props:
     category: status
     order: 201
   color_status_alerta:
-    value: "#fdb771"
+    value: "#FCA444"
     category: status
     order: 202
+  color_status_alerta_2:
+    value: "#fdb771"
+    category: status
+    order: 203
   color_status_concluido:
     value: "#44C89B"
     category: status
-    order: 203
+    order: 204
   color_status_em_progresso:
     value: "#709DFC"
     category: status
-    order: 204
+    order: 205
   color_status_indiferente:
     value: "#BDC1C9"
     category: status
-    order: 205
+    order: 206
 
   color_grey_0:
     value: "#FFFFFF"
@@ -95,6 +111,34 @@ props:
     value: "#454E5F"
     category: scale_gray
     order: 306
+  color_charts_charts_1:
+    value: "#5598DD"
+    category: charts
+    order: 307
+  color_charts_charts_2:
+    value: "#EA7431"
+    category: charts
+    order: 308
+  color_charts_charts_3:
+    value: "#00AA78"
+    category: charts
+    order: 309
+  color_charts_charts_4:
+    value: "#EF477A"
+    category: charts
+    order: 310
+  color_charts_charts_5:
+    value: "#955AD2"
+    category: charts
+    order: 311
+  color_charts_charts_6:
+    value: "#00A4B5"
+    category: charts
+    order: 312
+  color_charts_charts_7:
+    value: "#454E5F"
+    category: charts
+    order: 313
 
 global:
   type: color
