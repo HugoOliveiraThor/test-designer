@@ -28,23 +28,27 @@ props:
   color_secondary:
     value: "#00938f"
     category: brand
-    order: 000
+    order: 001
   color_white:
     value: "rgb(255, 255, 255)"
     category: brand
-    order: 001
+    order: 002
   color_hover:
     value: "#00ADA7"
     category: brand
-    order: 002
+    order: 003
   color_ativo:
     value: "#007A76"
     category: brand
-    order: 003
-  color_hover_secondary:
+    order: 004
+  color_hover_extra:
     value: "#FFFFFF"
     category: brand
-    order: 004
+    order: 005
+  color_ativo_extra:
+    value: "#F1FFFF"
+    category: brand
+    order: 006
 
   color_support_erro:
     value: "#F73952"
@@ -111,6 +115,7 @@ props:
     value: "#454E5F"
     category: scale_gray
     order: 306
+
   color_charts_charts_1:
     value: "#5598DD"
     category: charts

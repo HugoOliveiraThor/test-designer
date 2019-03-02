@@ -24,7 +24,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(0, 173, 167)",
-      "order": 2,
+      "order": 3,
       "originalValue": "#00ADA7",
       "name": "color_hover"
     },
@@ -88,7 +88,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(255, 255, 255)",
-      "order": 1,
+      "order": 2,
       "originalValue": "rgb(255, 255, 255)",
       "name": "color_white"
     },
@@ -120,7 +120,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(0, 122, 118)",
-      "order": 3,
+      "order": 4,
       "originalValue": "#007A76",
       "name": "color_ativo"
     },
@@ -128,7 +128,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(255, 255, 255)",
-      "order": 4,
+      "order": 5,
       "originalValue": "#FFFFFF",
       "name": "color_hover_secondary"
     },
@@ -184,7 +184,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(0, 147, 143)",
-      "order": 0,
+      "order": 1,
       "originalValue": "#00938f",
       "name": "color_secondary"
     },
