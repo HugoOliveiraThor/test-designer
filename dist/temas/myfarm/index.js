@@ -109,12 +109,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=template&id=437dd9f7&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-group',{staticClass:"toggle",class:_vm.customClass,style:({ 'background-color': _vm.bgColor }),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}},[_c('toggle-button',{attrs:{"selected":_vm.firstLabel === _vm.selected || _vm.selected === true || _vm.selected === 1,"textColor":"#FF7639","selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.firstLabel}}),_vm._v(" "),_c('toggle-button',{attrs:{"selected":_vm.secondLabel === _vm.selected || _vm.selected === false || _vm.selected === 0,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.secondLabel}}),_vm._v(" "),_c('toggle-button',{directives:[{name:"show",rawName:"v-show",value:(_vm.thirdLabel !== null && _vm.thirdLabel !== ''),expression:"thirdLabel !== null && thirdLabel !== ''"}],attrs:{"selected":_vm.thirdLabel === _vm.selected || _vm.selected === false || _vm.selected === 2,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.thirdLabel}})],1)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=template&id=323812e6&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-group',{staticClass:"toggle",class:_vm.customClass,style:({ 'background-color': _vm.bgColor }),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}},[_c('toggle-button',{attrs:{"selected":_vm.firstLabel === _vm.selected || _vm.selected === true || _vm.selected === 1,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.firstLabel}}),_vm._v(" "),_c('toggle-button',{attrs:{"selected":_vm.secondLabel === _vm.selected || _vm.selected === false || _vm.selected === 0,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.secondLabel}}),_vm._v(" "),_c('toggle-button',{directives:[{name:"show",rawName:"v-show",value:(_vm.thirdLabel !== null && _vm.thirdLabel !== ''),expression:"thirdLabel !== null && thirdLabel !== ''"}],attrs:{"selected":_vm.thirdLabel === _vm.selected || _vm.selected === false || _vm.selected === 2,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.thirdLabel}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=template&id=437dd9f7&scoped=true&
+// CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=template&id=323812e6&scoped=true&
 
 // EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue + 4 modules
 var ToggleButton = __webpack_require__("ogzH");
@@ -124,7 +124,7 @@ var _index = __webpack_require__("ti+b");
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./src/temas/myfarm/components/toggle/toggle.js?vue&type=script&lang=js&
 /**
- * @author 'Hugo Oliveira' <seunome.oliveira@siagri.com.br>
+ * @author 'Hugo Oliveira' <hugo.oliveira@siagri.com.br>
  */
 
 /**
@@ -226,8 +226,8 @@ var _index = __webpack_require__("ti+b");
 });
 // CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/toggle.js?vue&type=script&lang=js&
  /* harmony default export */ var toggle_togglevue_type_script_lang_js_ = (togglevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/toggle.scss?vue&type=style&index=0&id=437dd9f7&lang=scss&scoped=true&
-var togglevue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true_ = __webpack_require__("Mfg1");
+// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/toggle.scss?vue&type=style&index=0&id=323812e6&lang=scss&scoped=true&
+var togglevue_type_style_index_0_id_323812e6_lang_scss_scoped_true_ = __webpack_require__("Lok6");
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__("KHd+");
@@ -251,7 +251,7 @@ var component = Object(componentNormalizer["default"])(
   staticRenderFns,
   false,
   null,
-  "437dd9f7",
+  "323812e6",
   null
   
 )
@@ -359,6 +359,18 @@ if (typeof Switchervue_type_custom_index_0_blockType_docs_default.a === 'functio
 
 component.options.__file = "Switcher.vue"
 /* harmony default export */ var Switcher = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "1GL4":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/toggle/toggle.scss?vue&type=style&index=0&id=323812e6&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -689,18 +701,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "Eixm":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./src/temas/myfarm/components/toggle/toggle.scss?vue&type=style&index=0&id=437dd9f7&lang=scss&scoped=true& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "JJvw":
 /*!****************************************************************************************!*\
   !*** ./src/temas/myfarm/components/radio/radio.scss?vue&type=style&index=0&lang=scss& ***!
@@ -849,9 +849,9 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ "Mfg1":
+/***/ "Lok6":
 /*!******************************************************************************************************************!*\
-  !*** ./src/temas/myfarm/components/toggle/toggle.scss?vue&type=style&index=0&id=437dd9f7&lang=scss&scoped=true& ***!
+  !*** ./src/temas/myfarm/components/toggle/toggle.scss?vue&type=style&index=0&id=323812e6&lang=scss&scoped=true& ***!
   \******************************************************************************************************************/
 /*! no static exports found */
 /*! ModuleConcatenation bailout: Module exports are unknown */
@@ -859,10 +859,10 @@ function normalizeComponent (
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./toggle.scss?vue&type=style&index=0&id=437dd9f7&lang=scss&scoped=true& */ "Eixm");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_437dd9f7_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_323812e6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./toggle.scss?vue&type=style&index=0&id=323812e6&lang=scss&scoped=true& */ "1GL4");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_323812e6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_323812e6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_323812e6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_323812e6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_toggle_scss_vue_type_style_index_0_id_323812e6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -876,8 +876,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-// import "element-ui/lib/theme-chalk/index.css"
-// import ElementUI from "element-ui"
 // Define contexts to require
 var contexts = [__webpack_require__("dOj6")]; // Define components
 
@@ -1719,11 +1717,11 @@ component.options.__file = "ToggleButton.vue"
 /*!*********************************************!*\
   !*** ./src/temas/myfarm/tokens/_index.json ***!
   \*********************************************/
-/*! exports provided: color_hover, color_grey_40, color_grey_10, color_primary, color_text_regular, color_status_alerta_2, color_text_primary, color_grey_0, color_white, color_status_atraso, color_support_alerta, color_status_indiferente, color_ativo, color_hover_secondary, color_charts_charts_1, color_support_erro, color_charts_charts_2, color_status_alerta, color_charts_charts_3, color_charts_charts_4, color_secondary, color_charts_charts_5, color_status_concluido, color_support_info, color_charts_charts_6, color_grey_dark, color_charts_charts_7, color_status_em_progresso, color_grey_80, color_text_placeholder, color_text_secondary, color_grey_60, color_support_sucesso, size_body, size_overline, size_button_mini, size_big_number, size_h1, size_h2, size_h3, size_text, size_button, size_medium_number, size_small_number, font_heading, font_text, weight_bold, weight_semi_bold, weight_regular, weight_light, opacity_disabled, height_footer, tappable_square, media_query_m, media_query_l, shadow_s, radius_default, default */
+/*! exports provided: color_hover, color_grey_40, color_grey_10, color_ativo_extra, color_primary, color_text_regular, color_status_alerta_2, color_text_primary, color_grey_0, color_white, color_status_atraso, color_hover_extra, color_support_alerta, color_status_indiferente, color_ativo, color_charts_charts_1, color_support_erro, color_charts_charts_2, color_status_alerta, color_charts_charts_3, color_charts_charts_4, color_secondary, color_charts_charts_5, color_status_concluido, color_support_info, color_charts_charts_6, color_grey_dark, color_charts_charts_7, color_status_em_progresso, color_grey_80, color_text_placeholder, color_text_secondary, color_grey_60, color_support_sucesso, size_body, size_overline, size_button_mini, size_big_number, size_h1, size_h2, size_h3, size_text, size_button, size_medium_number, size_small_number, font_heading, font_text, weight_bold, weight_semi_bold, weight_regular, weight_light, opacity_disabled, height_footer, tappable_square, media_query_m, media_query_l, shadow_s, radius_default, default */
 /*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 /***/ (function(module) {
 
-module.exports = {"color_hover":"rgb(0, 173, 167)","color_grey_40":"rgb(189, 193, 201)","color_grey_10":"rgb(238, 239, 241)","color_primary":"rgb(255, 118, 57)","color_text_regular":"rgb(124, 130, 147)","color_status_alerta_2":"rgb(253, 183, 113)","color_text_primary":"rgb(69, 78, 95)","color_grey_0":"rgb(255, 255, 255)","color_white":"rgb(255, 255, 255)","color_status_atraso":"rgb(249, 92, 117)","color_support_alerta":"rgb(252, 164, 68)","color_status_indiferente":"rgb(189, 193, 201)","color_ativo":"rgb(0, 122, 118)","color_hover_secondary":"rgb(255, 255, 255)","color_charts_charts_1":"rgb(85, 152, 221)","color_support_erro":"rgb(247, 57, 82)","color_charts_charts_2":"rgb(234, 116, 49)","color_status_alerta":"rgb(252, 164, 68)","color_charts_charts_3":"rgb(0, 170, 120)","color_charts_charts_4":"rgb(239, 71, 122)","color_secondary":"rgb(0, 147, 143)","color_charts_charts_5":"rgb(149, 90, 210)","color_status_concluido":"rgb(68, 200, 155)","color_support_info":"rgb(75, 137, 255)","color_charts_charts_6":"rgb(0, 164, 181)","color_grey_dark":"rgb(69, 78, 95)","color_charts_charts_7":"rgb(69, 78, 95)","color_status_em_progresso":"rgb(112, 157, 252)","color_grey_80":"rgb(124, 130, 147)","color_text_placeholder":"rgb(157, 161, 174)","color_text_secondary":"rgb(189, 193, 201)","color_grey_60":"rgb(157, 161, 174)","color_support_sucesso":"rgb(4, 162, 108)","size_body":"14px","size_overline":"11px","size_button_mini":"12px","size_big_number":"60px","size_h1":"34px","size_h2":"20px","size_h3":"19px","size_text":"12px","size_button":"14px","size_medium_number":"40px","size_small_number":"20px","font_heading":"Barlow, sans-serif","font_text":"Barlow, sans-serif","weight_bold":"700","weight_semi_bold":"600","weight_regular":"400","weight_light":"300","opacity_disabled":"0.5","height_footer":"64px","tappable_square":"44px","media_query_m":"(min-width: 768px)","media_query_l":"(min-width: 1024px)","shadow_s":"0 0 0 1px rgba(92,106,196,.1)","radius_default":"4px"};
+module.exports = {"color_hover":"rgb(0, 173, 167)","color_grey_40":"rgb(189, 193, 201)","color_grey_10":"rgb(238, 239, 241)","color_ativo_extra":"rgb(241, 255, 255)","color_primary":"rgb(255, 118, 57)","color_text_regular":"rgb(124, 130, 147)","color_status_alerta_2":"rgb(253, 183, 113)","color_text_primary":"rgb(69, 78, 95)","color_grey_0":"rgb(255, 255, 255)","color_white":"rgb(255, 255, 255)","color_status_atraso":"rgb(249, 92, 117)","color_hover_extra":"rgb(255, 255, 255)","color_support_alerta":"rgb(252, 164, 68)","color_status_indiferente":"rgb(189, 193, 201)","color_ativo":"rgb(0, 122, 118)","color_charts_charts_1":"rgb(85, 152, 221)","color_support_erro":"rgb(247, 57, 82)","color_charts_charts_2":"rgb(234, 116, 49)","color_status_alerta":"rgb(252, 164, 68)","color_charts_charts_3":"rgb(0, 170, 120)","color_charts_charts_4":"rgb(239, 71, 122)","color_secondary":"rgb(0, 147, 143)","color_charts_charts_5":"rgb(149, 90, 210)","color_status_concluido":"rgb(68, 200, 155)","color_support_info":"rgb(75, 137, 255)","color_charts_charts_6":"rgb(0, 164, 181)","color_grey_dark":"rgb(69, 78, 95)","color_charts_charts_7":"rgb(69, 78, 95)","color_status_em_progresso":"rgb(112, 157, 252)","color_grey_80":"rgb(124, 130, 147)","color_text_placeholder":"rgb(157, 161, 174)","color_text_secondary":"rgb(189, 193, 201)","color_grey_60":"rgb(157, 161, 174)","color_support_sucesso":"rgb(4, 162, 108)","size_body":"14px","size_overline":"11px","size_button_mini":"12px","size_big_number":"60px","size_h1":"34px","size_h2":"20px","size_h3":"19px","size_text":"12px","size_button":"14px","size_medium_number":"40px","size_small_number":"20px","font_heading":"Barlow, sans-serif","font_text":"Barlow, sans-serif","weight_bold":"700","weight_semi_bold":"600","weight_regular":"400","weight_light":"300","opacity_disabled":"0.5","height_footer":"64px","tappable_square":"44px","media_query_m":"(min-width: 768px)","media_query_l":"(min-width: 1024px)","shadow_s":"0 0 0 1px rgba(92,106,196,.1)","radius_default":"4px"};
 
 /***/ }),
 
@@ -1732,7 +1730,7 @@ module.exports = {"color_hover":"rgb(0, 173, 167)","color_grey_40":"rgb(189, 193
   !*** ./src/temas/myfarm/components/card/Card.vue + 4 modules ***!
   \***************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/checkbox/Checkbox.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/radio/Radio.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -24,7 +24,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(0, 173, 167)",
-      "order": 2,
+      "order": 3,
       "originalValue": "#00ADA7",
       "name": "color_hover"
     },
@@ -43,6 +43,14 @@
       "order": 302,
       "originalValue": "#EEEFF1",
       "name": "color_grey_10"
+    },
+    "color_ativo_extra": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(241, 255, 255)",
+      "order": 6,
+      "originalValue": "#F1FFFF",
+      "name": "color_ativo_extra"
     },
     "color_primary": {
       "type": "color",
@@ -88,7 +96,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(255, 255, 255)",
-      "order": 1,
+      "order": 2,
       "originalValue": "rgb(255, 255, 255)",
       "name": "color_white"
     },
@@ -99,6 +107,14 @@
       "order": 201,
       "originalValue": "#F95C75",
       "name": "color_status_atraso"
+    },
+    "color_hover_extra": {
+      "type": "color",
+      "category": "brand",
+      "value": "rgb(255, 255, 255)",
+      "order": 5,
+      "originalValue": "#FFFFFF",
+      "name": "color_hover_extra"
     },
     "color_support_alerta": {
       "type": "color",
@@ -120,17 +136,9 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(0, 122, 118)",
-      "order": 3,
+      "order": 4,
       "originalValue": "#007A76",
       "name": "color_ativo"
-    },
-    "color_hover_secondary": {
-      "type": "color",
-      "category": "brand",
-      "value": "rgb(255, 255, 255)",
-      "order": 4,
-      "originalValue": "#FFFFFF",
-      "name": "color_hover_secondary"
     },
     "color_charts_charts_1": {
       "type": "color",
@@ -184,7 +192,7 @@
       "type": "color",
       "category": "brand",
       "value": "rgb(0, 147, 143)",
-      "order": 0,
+      "order": 1,
       "originalValue": "#00938f",
       "name": "color_secondary"
     },

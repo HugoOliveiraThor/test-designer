@@ -238,113 +238,87 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid rgba(255, 118, 57, 0.2);
-  white-space: nowrap;
-}
-.el-tag .el-icon-close {
-  border-radius: 50%;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-  font-size: 12px;
-  height: 16px;
-  width: 16px;
-  line-height: 16px;
-  vertical-align: middle;
-  top: -1px;
-  right: -5px;
-  color: #ff7639;
-}
-.el-tag .el-icon-close::before {
-  display: block;
-}
-.el-tag .el-icon-close:hover {
-  background-color: #ff7639;
-  color: white;
-}
-.el-tag--info {
-  background-color: rgba(75, 137, 255, 0.1);
-  border-color: rgba(75, 137, 255, 0.2);
-  color: #4b89ff;
-}
-.el-tag--info.is-hit {
-  border-color: #4b89ff;
-}
-.el-tag--info .el-tag__close {
-  color: #4b89ff;
-}
-.el-tag--info .el-tag__close:hover {
-  background-color: #4b89ff;
-  color: white;
-}
-.el-tag--success {
-  background-color: rgba(4, 162, 108, 0.1);
-  border-color: rgba(4, 162, 108, 0.2);
-  color: #04a26c;
-}
-.el-tag--success.is-hit {
-  border-color: #04a26c;
-}
-.el-tag--success .el-tag__close {
-  color: #04a26c;
-}
-.el-tag--success .el-tag__close:hover {
-  background-color: #04a26c;
-  color: white;
-}
-.el-tag--warning {
-  background-color: rgba(253, 183, 113, 0.1);
-  border-color: rgba(253, 183, 113, 0.2);
-  color: #fdb771;
-}
-.el-tag--warning.is-hit {
-  border-color: #fdb771;
-}
-.el-tag--warning .el-tag__close {
-  color: #fdb771;
-}
-.el-tag--warning .el-tag__close:hover {
-  background-color: #fdb771;
-  color: white;
-}
-.el-tag--danger {
-  background-color: rgba(247, 57, 82, 0.1);
-  border-color: rgba(247, 57, 82, 0.2);
-  color: #f73952;
-}
-.el-tag--danger.is-hit {
-  border-color: #f73952;
-}
-.el-tag--danger .el-tag__close {
-  color: #f73952;
-}
-.el-tag--danger .el-tag__close:hover {
-  background-color: #f73952;
-  color: white;
-}
-.el-tag--medium {
-  height: 28px;
-  line-height: 26px;
-}
-.el-tag--medium .el-icon-close {
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
-}
-.el-tag--small {
-  height: 24px;
-  padding: 0 8px;
-  line-height: 22px;
-}
-.el-tag--small .el-icon-close {
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
-}
-.el-tag--mini {
-  height: 20px;
-  padding: 0 5px;
-  line-height: 19px;
-}
-.el-tag--mini .el-icon-close {
-  margin-left: -3px;
-  -webkit-transform: scale(0.7);
-  transform: scale(0.7);
-}
+  white-space: nowrap; }
+  .el-tag .el-icon-close {
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    top: -1px;
+    right: -5px;
+    color: #ff7639; }
+    .el-tag .el-icon-close::before {
+      display: block; }
+    .el-tag .el-icon-close:hover {
+      background-color: #ff7639;
+      color: white; }
+  .el-tag--info {
+    background-color: rgba(75, 137, 255, 0.1);
+    border-color: rgba(75, 137, 255, 0.2);
+    color: #4b89ff; }
+    .el-tag--info.is-hit {
+      border-color: #4b89ff; }
+    .el-tag--info .el-tag__close {
+      color: #4b89ff; }
+    .el-tag--info .el-tag__close:hover {
+      background-color: #4b89ff;
+      color: white; }
+  .el-tag--success {
+    background-color: rgba(4, 162, 108, 0.1);
+    border-color: rgba(4, 162, 108, 0.2);
+    color: #04a26c; }
+    .el-tag--success.is-hit {
+      border-color: #04a26c; }
+    .el-tag--success .el-tag__close {
+      color: #04a26c; }
+    .el-tag--success .el-tag__close:hover {
+      background-color: #04a26c;
+      color: white; }
+  .el-tag--warning {
+    background-color: rgba(252, 164, 68, 0.1);
+    border-color: rgba(252, 164, 68, 0.2);
+    color: #fca444; }
+    .el-tag--warning.is-hit {
+      border-color: #fca444; }
+    .el-tag--warning .el-tag__close {
+      color: #fca444; }
+    .el-tag--warning .el-tag__close:hover {
+      background-color: #fca444;
+      color: white; }
+  .el-tag--danger {
+    background-color: rgba(247, 57, 82, 0.1);
+    border-color: rgba(247, 57, 82, 0.2);
+    color: #f73952; }
+    .el-tag--danger.is-hit {
+      border-color: #f73952; }
+    .el-tag--danger .el-tag__close {
+      color: #f73952; }
+    .el-tag--danger .el-tag__close:hover {
+      background-color: #f73952;
+      color: white; }
+  .el-tag--medium {
+    height: 28px;
+    line-height: 26px; }
+    .el-tag--medium .el-icon-close {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8); }
+  .el-tag--small {
+    height: 24px;
+    padding: 0 8px;
+    line-height: 22px; }
+    .el-tag--small .el-icon-close {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8); }
+  .el-tag--mini {
+    height: 20px;
+    padding: 0 5px;
+    line-height: 19px; }
+    .el-tag--mini .el-icon-close {
+      margin-left: -3px;
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7); }

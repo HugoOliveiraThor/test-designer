@@ -415,13 +415,13 @@ $--button-mini-border-radius: #{$--border-radius-base - 1} !default;
 $--button-mini-padding-vertical: 7px !default;
 $--button-mini-padding-horizontal: 15px !default;
 
-$--button-default-color: $--color-primary !default;
+$--button-default-color: $color-secondary !default;
 $--button-default-fill: $--color-white !default;
-$--button-default-border: $--color-primary !default;
+$--button-default-border: $color-secondary !default;
 
 $--button-disabled-color: $--color-text-placeholder !default;
 $--button-disabled-fill: $--color-white !default;
-$--button-disabled-border: $--border-color-lighter !default;
+$--button-disabled-border: $--color-text-placeholder !default;
 
 $--button-primary-border: $color-secondary !default;
 $--button-primary-color: $--color-white !default;

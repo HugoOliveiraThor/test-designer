@@ -19,7 +19,7 @@
     "unit": "jest --config ./test/unit/jest.conf.js --coverage",
     "build": "npm-run-all theme:default node:build",
     "build:app": "npm run build",
-    "build:system": "npm-run-all theme:myfarm node:build:system",
+    "build:system": "npm-run-all --sequential generate:tokens:myfarm generateTheme node:build:system",
     "build:docs": "npm-run-all theme:default styleguide:build",
     "lint": "eslint '**/*.{js,vue}' --cache",
     "node:build": "node ./build/build.js",
