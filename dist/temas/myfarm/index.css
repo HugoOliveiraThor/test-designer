@@ -28,6 +28,12 @@
   STACK-SPACE: For vertically stacked content.
   INLINE-SPACE: For things displayed inline.
 */
+.el-button:hover {
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  border: solid 1px #00ada7;
+  color: #00938f;
+}
 
 
 

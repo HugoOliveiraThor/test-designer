@@ -5,7 +5,6 @@
 /**
  * Botões são geralmente usados ​​para ações de interface.
  *
- * O valor default é Primary.
  *
  *
  * Para implementação do botão no component em Vue veja a documentação em : https://element.eleme.io/#/en-US/component/button.
