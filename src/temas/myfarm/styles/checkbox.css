@@ -565,7 +565,7 @@
   background: white;
   border: 1px solid #bdc1c9;
   border-left: 0;
-  color: #ff7639;
+  color: #00938f;
   -webkit-appearance: none;
   text-align: center;
   -webkit-box-sizing: border-box;
@@ -616,12 +616,12 @@
   cursor: not-allowed;
   background-image: none;
   background-color: white;
-  border-color: #ebeef5;
+  border-color: #9da1ae;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .el-checkbox-button.is-disabled:first-child .el-checkbox-button__inner {
-  border-left-color: #ebeef5;
+  border-left-color: #9da1ae;
 }
 .el-checkbox-button:first-child .el-checkbox-button__inner {
   border-left: 1px solid #bdc1c9;

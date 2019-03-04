@@ -266,11 +266,11 @@
   color: #4b89ff;
 }
 .el-alert--warning {
-  background-color: #fff8f1;
-  color: #fdb771;
+  background-color: #fff6ec;
+  color: #fca444;
 }
 .el-alert--warning .el-alert__description {
-  color: #fdb771;
+  color: #fca444;
 }
 .el-alert--error {
   background-color: #feebee;

@@ -275,11 +275,11 @@
   color: #04a26c;
 }
 .el-message--warning {
-  background-color: #fff8f1;
-  border-color: #fff1e3;
+  background-color: #fff6ec;
+  border-color: #feedda;
 }
 .el-message--warning .el-message__content {
-  color: #fdb771;
+  color: #fca444;
 }
 .el-message--error {
   background-color: #feebee;
@@ -325,7 +325,7 @@
   color: #4b89ff;
 }
 .el-message .el-icon-warning {
-  color: #fdb771;
+  color: #fca444;
 }
 
 .el-message-fade-enter,

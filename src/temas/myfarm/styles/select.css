@@ -1678,18 +1678,18 @@
   color: white;
 }
 .el-tag--warning {
-  background-color: rgba(253, 183, 113, 0.1);
-  border-color: rgba(253, 183, 113, 0.2);
-  color: #fdb771;
+  background-color: rgba(252, 164, 68, 0.1);
+  border-color: rgba(252, 164, 68, 0.2);
+  color: #fca444;
 }
 .el-tag--warning.is-hit {
-  border-color: #fdb771;
+  border-color: #fca444;
 }
 .el-tag--warning .el-tag__close {
-  color: #fdb771;
+  color: #fca444;
 }
 .el-tag--warning .el-tag__close:hover {
-  background-color: #fdb771;
+  background-color: #fca444;
   color: white;
 }
 .el-tag--danger {
