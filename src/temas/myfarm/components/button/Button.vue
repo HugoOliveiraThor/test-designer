@@ -3,8 +3,8 @@
     <el-row>
       <el-button type="primary active">Primary</el-button>
       <el-button type="primary" icon="el-icon-plus">Primary with icon</el-button>
-      <el-button type="info" disabled>Disabled</el-button>
-      <el-button type="info" icon="el-icon-plus" disabled>Primary with icon</el-button>
+      <el-button type="primary" disabled>Disabled</el-button>
+      <el-button type="primary" icon="el-icon-plus" disabled>Primary with icon</el-button>
     </el-row>
     <br />
     <el-row>
