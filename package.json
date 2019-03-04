@@ -1,6 +1,6 @@
 {
   "name": "conexa-sdk-ui",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
   "main": "./dist/temas/myfarm/index.js",
@@ -34,10 +34,7 @@
     "generate:tokens:myfarm":"npm-run-all --parallel theme:myfarm theme:myfarm:node",
     "theme:myfarm": "theo ./src/temas/myfarm/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/temas/myfarm/tokens ",
     "theme:myfarm:node": "theo ./src/temas/myfarm/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest node_modules/element-theme-chalk/src/tokens",
-    "theme:myfarm:onchange": "onchange \"./src/temas/myfarm/yml/*.yml\" -- npm run theo",
-    "theme:blueflow": "theo ./src/temas/blue-flow/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/temas/blue-flow/tokens",
-    "theme:blueflow:onchange": "onchange \"./src/themes/blueflow/tokens/*.yml\" -- npm run theo",
-    "test": "npm-run-all theme:default unit"
+    "theme:myfarm:onchange": "onchange \"./src/temas/myfarm/yml/*.yml\" -- npm run theo"
   },
   "husky": {
     "hooks": {
