@@ -7,7 +7,7 @@
   >
     <toggle-button
       :selected="firstLabel === selected || selected === true || selected === 1"
-      textColor="#FF7639"
+      :textColor="textColor"
       :selectedBgColor="selectedBgColor"
       :selectedTextColor="selectedTextColor"
       :label="firstLabel"

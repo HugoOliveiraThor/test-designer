@@ -1,5 +1,5 @@
 /**
- * @author 'Hugo Oliveira' <seunome.oliveira@siagri.com.br>
+ * @author 'Hugo Oliveira' <hugo.oliveira@siagri.com.br>
  */
 
 /**
