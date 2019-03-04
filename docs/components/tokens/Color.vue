@@ -22,10 +22,7 @@ import { getTemplateSelected } from "../../utils/helpers"
 // import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
 import myfarmTokens from "@/temas/myfarm/tokens/_index.raw.json"
 /**
- * The color palette comes with 5 different weights for each hue. These hues
- * should be used purposefully to communicate how things function in the
- * interface. Keep in mind that `vermilion` is only used in special cases
- * like destructive actions and error messages. To edit the colors, see
+ * Aqui voce encontra a paleta de cores com todas as cores disponíveis dentro do tema selecionado
  * [/src/tokens/color.yml](https://github.com/viljamis/vue-design-system/blob/master/src/tokens/color.yml).
  */
 export default {
@@ -42,9 +39,6 @@ export default {
   computed: {
     tokenProps() {
       switch (getTemplateSelected()) {
-        case "Blue":
-          return this.orderData(defaultTokens.props)
-          break
         case "MyFarm":
           return this.orderData(myfarmTokens.props)
           break

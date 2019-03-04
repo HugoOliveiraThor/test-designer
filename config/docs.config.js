@@ -1,6 +1,5 @@
 const path = require("path")
 const baseConfig = require("../build/webpack.base.conf.js")
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const merge = require("webpack-merge")
 const packageConfig = require("../package.json")
 const chalk = require("chalk")
@@ -205,7 +204,7 @@ module.exports = {
   styleguideDir: "../dist/docs",
   printServerInstructions() {},
   printBuildInstructions(config) {
-    console.log(chalk.cyan("\n  Design System Docs build finished succesfully!\n"))
+    console.log(chalk.cyan("\n  Design System Docs terminou build com sucesso!\n"))
     console.log(
       chalk.yellow(
         "  Tip: You can now deploy the docs as a static website.\n" +
@@ -214,13 +213,4 @@ module.exports = {
       )
     )
   },
-  /**
-   * Configure docs server to redirect asset queries
-   */
-  // configureServer(app) {
-  //   // `app` is the instance of the express server running the docs
-  //   app.get("/assets/:file", (req, res) => {
-  //     res.redirect(req.params.file)
-  //   })
-  // },
 }

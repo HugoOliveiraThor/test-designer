@@ -20,10 +20,7 @@ import myfarmTokens from "@/temas/myfarm/tokens/_index.raw.json"
 import orderBy from "lodash/orderBy"
 
 /**
- * A framework for creating a predictable and harmonious spacing system. These
- * tokens are used for padding, margins, and position together with
- * [spacing utilities](https://github.com/viljamis/conexa-sdk-ui/wiki/spacing).
- * To edit spacing, see
+ * As configurações default the Padding , margin e positions
  * [/src/tokens/spacing.yml](https://github.com/viljamis/conexa-sdk-ui/blob/master/src/tokens/spacing.yml).
  */
 export default {
@@ -34,10 +31,17 @@ export default {
       return order
     },
   },
-  data() {
-    return {
-      tokens: this.orderData(myfarmTokens.props),
-    }
+  computed: {
+    tokens() {
+      switch (getTemplateSelected()) {
+        case "MyFarm":
+          return this.orderData(myfarmTokens.props)
+          break
+        default:
+          return this.orderData(myfarmTokens.props)
+          break
+      }
+    },
   },
 }
 </script>
