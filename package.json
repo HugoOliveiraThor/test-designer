@@ -1,6 +1,6 @@
 {
   "name": "conexa-sdk-ui",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
   "main": "./dist/temas/myfarm/index.js",
@@ -19,7 +19,7 @@
     "unit": "jest --config ./test/unit/jest.conf.js --coverage",
     "build": "npm-run-all theme:default node:build",
     "build:app": "npm run build",
-    "build:system": "npm-run-all --sequential generate:tokens:myfarm generateTheme node:build:system",
+    "build:system": "npm-run-all --sequential generate:tokens:myfarm generateTheme node:build:system update:version",
     "build:docs": "npm-run-all theme:default styleguide:build",
     "lint": "eslint '**/*.{js,vue}' --cache",
     "node:build": "node ./build/build.js",
@@ -31,10 +31,11 @@
     "generateTheme": "et --config ./src/temas/myfarm/variables/element-variables.scss --out ./src/temas/myfarm/styles/",
     "watchTeme:myfarm": "et --watch --config ./src/temas/myfarm/variables/element-variables.scss --out ./src/temas/myfarm/styles/",
     "theme:onchange": "npm-run-all --parallel theme:myfarm:onchange theme:default:onchange theme:blueflow:onchange",
-    "generate:tokens:myfarm":"npm-run-all --parallel theme:myfarm theme:myfarm:node",
+    "generate:tokens:myfarm": "npm-run-all --parallel theme:myfarm theme:myfarm:node",
     "theme:myfarm": "theo ./src/temas/myfarm/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/temas/myfarm/tokens ",
     "theme:myfarm:node": "theo ./src/temas/myfarm/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest node_modules/element-theme-chalk/src/tokens",
-    "theme:myfarm:onchange": "onchange \"./src/temas/myfarm/yml/*.yml\" -- npm run theo"
+    "theme:myfarm:onchange": "onchange \"./src/temas/myfarm/yml/*.yml\" -- npm run theo",
+    "update:version": "npm --no-git-tag-version version patch"
   },
   "husky": {
     "hooks": {
@@ -295,9 +296,7 @@
       "transfer",
       "tree",
       "upload"
-
-
-  ]
+    ]
   },
   "browserslist": [
     "> 1%",
