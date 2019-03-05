@@ -4,7 +4,7 @@
 
 /**
  *
- * Ex: Input Numbers são geralmente usados ​​para selecionar opções sejam unitários ou em grupos.
+ * Ex: Input Numbers são geralmente usados ​​selecionar opções sejam unitários ou em grupos.
  *
  *
  */
@@ -14,51 +14,84 @@ export default {
   element: "<cnx-input-number/>",
   status: "prototype",
   release: "0.0.1",
-  data() {
-    return {}
-  },
   props: {
     /**
      * @model
      *
      */
-    value: String,
-    readonly: {
-      type: Boolean,
-      default: () => false,
-    },
-    size: {
-      type: String,
-      default: "normal",
-    },
-    thousands: {
-      type: String,
-      default: "",
-    },
-    precision: {
-      type: Number,
-      default: 2,
-    },
-    suffix: {
-      type: String,
-      default: "",
-    },
-    prefix: {
-      type: String,
-      default: "",
-    },
     value: {
       type: [Number, String],
       default: 0,
     },
+    /**
+     * Define modo de leitura
+     * Por padrão é false
+     *
+     */
+    readonly: {
+      type: Boolean,
+      default: () => false,
+    },
+    /**
+     * Define modo de leitura
+     * Por padrão é false
+     *
+     */
+    size: {
+      type: String,
+      default: "normal",
+    },
+    /**
+     * Define modo de leitura
+     * Por padrão é false
+     *
+     */
+    thousands: {
+      type: String,
+      default: "",
+    },
+    /**
+     * Define precisão das casas
+     *
+     *
+     */
+    precision: {
+      type: Number,
+      default: 2,
+    },
+    /**
+     * Define suffixo no input
+     *
+     *
+     */
+    suffix: {
+      type: String,
+      default: "",
+    },
+    /**
+     * Define prefixo no input
+     */
+    prefix: {
+      type: String,
+      default: "",
+    },
+    /**
+     * Define valor inicial do input
+     */
     initialValue: {
       type: [Number, String],
       default: 0,
     },
+    /**
+     * Define valor mínimo no input
+     */
     min: {
       type: Number,
       default: 999999999,
     },
+    /**
+     * Define valor máximo no input
+     */
     max: {
       type: Number,
       default: 999999999,

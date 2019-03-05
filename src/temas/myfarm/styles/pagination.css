@@ -1311,9 +1311,6 @@
 .el-textarea__inner::-webkit-input-placeholder {
   color: #9da1ae;
 }
-.el-textarea__inner:-ms-input-placeholder {
-  color: #9da1ae;
-}
 .el-textarea__inner::-ms-input-placeholder {
   color: #9da1ae;
 }
@@ -1334,9 +1331,6 @@
   cursor: not-allowed;
 }
 .el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder {
-  color: #9da1ae;
-}
-.el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
   color: #9da1ae;
 }
 .el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder {
@@ -1407,9 +1401,6 @@
 .el-input__inner::-webkit-input-placeholder {
   color: #9da1ae;
 }
-.el-input__inner:-ms-input-placeholder {
-  color: #9da1ae;
-}
 .el-input__inner::-ms-input-placeholder {
   color: #9da1ae;
 }
@@ -1476,9 +1467,6 @@
   cursor: not-allowed;
 }
 .el-input.is-disabled .el-input__inner::-webkit-input-placeholder {
-  color: #9da1ae;
-}
-.el-input.is-disabled .el-input__inner:-ms-input-placeholder {
   color: #9da1ae;
 }
 .el-input.is-disabled .el-input__inner::-ms-input-placeholder {

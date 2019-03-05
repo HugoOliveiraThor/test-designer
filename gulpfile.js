@@ -36,3 +36,12 @@ gulp.task("newComponent", async function() {
     .src(["./src/boilerplate-component/*"])
     .pipe(gulp.dest("./src/temas/" + nameTheme + "/components/" + nameComponent + "/"))
 })
+
+gulp.task("newTemplate", async function() {
+  // This task pass name of the component
+  let nameComponent = defaults(args.nameComponent)
+  let nameTheme = defaults(args.nameTheme)
+  gulp
+    .src(["./src/boilerplate-component/*"])
+    .pipe(gulp.dest("./src/temas/" + nameTheme + "/templates/" + nameComponent + "/"))
+})

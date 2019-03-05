@@ -103,11 +103,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/ToggleButton.vue (<- Module is referenced from these modules with unsupported syntax: ./src/temas/myfarm/components sync \.vue$ (referenced with context element)) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/tokens/_index.json (<- Module is not an ECMAScript module) */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/Toggle.vue?vue&type=template&id=323812e6&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-group',{staticClass:"toggle",class:_vm.customClass,style:({ 'background-color': _vm.bgColor }),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}},[_c('toggle-button',{attrs:{"selected":_vm.firstLabel === _vm.selected || _vm.selected === true || _vm.selected === 1,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.firstLabel}}),_vm._v(" "),_c('toggle-button',{attrs:{"selected":_vm.secondLabel === _vm.selected || _vm.selected === false || _vm.selected === 0,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.secondLabel}}),_vm._v(" "),_c('toggle-button',{directives:[{name:"show",rawName:"v-show",value:(_vm.thirdLabel !== null && _vm.thirdLabel !== ''),expression:"thirdLabel !== null && thirdLabel !== ''"}],attrs:{"selected":_vm.thirdLabel === _vm.selected || _vm.selected === false || _vm.selected === 2,"textColor":_vm.textColor,"selectedBgColor":_vm.selectedBgColor,"selectedTextColor":_vm.selectedTextColor,"label":_vm.thirdLabel}})],1)}
@@ -260,7 +261,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Togglevue_type_custom_index_0_blockType_docs_default.a === 'function') Togglevue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Toggle.vue"
 /* harmony default export */ var Toggle = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -271,10 +271,11 @@ component.options.__file = "Toggle.vue"
   \***********************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/switcher/Switcher.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/switcher/Switcher.vue?vue&type=template&id=252a5020&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-row',[_c('el-switch',{attrs:{"active-text":"Comportamento normal"},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v},expression:"value1"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-row',[_c('el-switch',{attrs:{"active-text":"Desativado","disabled":""},model:{value:(_vm.value6),callback:function ($$v) {_vm.value6=$$v},expression:"value6"}})],1)],1)}
@@ -357,7 +358,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Switchervue_type_custom_index_0_blockType_docs_default.a === 'function') Switchervue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Switcher.vue"
 /* harmony default export */ var Switcher = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -381,13 +381,14 @@ component.options.__file = "Switcher.vue"
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/defineProperty.js (<- Module is not an ECMAScript module) */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/input-number/InputNumber.vue?vue&type=template&id=0e669387&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"siagri-input-number",class:_vm.size},[_c('input',{directives:[{name:"money",rawName:"v-money",value:({ precision: _vm.precision, suffix: _vm.suffix, prefix: _vm.prefix, thousands: _vm.thousands }),expression:"{ precision, suffix, prefix, thousands }"}],ref:"input",attrs:{"size":_vm.size,"min":_vm.min,"max":_vm.max,"readonly":_vm.$props.readonly},domProps:{"value":_vm.valor},on:{"change":_vm.change,"blur":function($event){_vm.$emit('blur')},"keydown":function($event){_vm.$emit('keydown')},"keyup":function($event){_vm.$emit('keyup')}}}),_vm._v(" "),(_vm.$slots.suffix)?_c('div',{staticClass:"suffix"},[_vm._t("suffix")],2):_vm._e()])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"siagri-input-number",class:_vm.size},[_c('input',{directives:[{name:"money",rawName:"v-money",value:({ precision: _vm.precision, suffix: _vm.suffix, prefix: _vm.prefix, thousands: _vm.thousands }),expression:"{ precision, suffix, prefix, thousands }"}],ref:"input",attrs:{"size":_vm.size,"min":_vm.min,"max":_vm.max,"readonly":_vm.$props.readonly},domProps:{"value":_vm.valor},on:{"change":_vm.change,"blur":function($event){return _vm.$emit('blur')},"keydown":function($event){return _vm.$emit('keydown')},"keyup":function($event){return _vm.$emit('keyup')}}}),_vm._v(" "),(_vm.$slots.suffix)?_c('div',{staticClass:"suffix"},[_vm._t("suffix")],2):_vm._e()])}
 var staticRenderFns = []
 
 
@@ -580,7 +581,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof InputNumbervue_type_custom_index_0_blockType_docs_default.a === 'function') InputNumbervue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "InputNumber.vue"
 /* harmony default export */ var InputNumber = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -909,10 +909,11 @@ if (typeof window !== "undefined" && window.Vue) {
   \*****************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/steps/Steps.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/steps/Steps.vue?vue&type=template&id=67bff765&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-steps',{attrs:{"active":_vm.active,"finish-status":"success"}},[_c('el-step',{attrs:{"title":"Primeiro"}}),_vm._v(" "),_c('el-step',{attrs:{"title":"Segundo"}}),_vm._v(" "),_c('el-step',{attrs:{"title":"Terceiro"}})],1),_vm._v(" "),_c('el-button',{staticStyle:{"margin-top":"12px"},on:{"click":_vm.next}},[_vm._v("Próximo etapa")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('hr'),_vm._v(" "),_c('div',{staticStyle:{"height":"300px"}},[_c('el-steps',{attrs:{"direction":"vertical","active":1}},[_c('el-step',{attrs:{"title":"Primeiro"}}),_vm._v(" "),_c('el-step',{attrs:{"title":"Segundo"}}),_vm._v(" "),_c('el-step',{attrs:{"title":"Terceiro"}})],1)],1)],1)}
@@ -991,20 +992,7 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Stepsvue_type_custom_index_0_blockType_docs_default.a === 'function') Stepsvue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Steps.vue"
 /* harmony default export */ var Steps = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "NhIO":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--9-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/lib/loader.js??ref--9-3!./node_modules/sass-resources-loader/lib/loader.js??ref--9-4!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=style&index=0&lang=scss& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -1048,10 +1036,11 @@ __webpack_require__.r(__webpack_exports__);
   \*******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/select/Select.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/select/Select.vue?vue&type=template&id=7a3ea299&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section')}
@@ -1125,7 +1114,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Selectvue_type_custom_index_0_blockType_docs_default.a === 'function') Selectvue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Select.vue"
 /* harmony default export */ var Select = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -1136,10 +1124,11 @@ component.options.__file = "Select.vue"
   \***********************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/checkbox/Checkbox.vue?vue&type=template&id=3ffbd28e&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticStyle:{"font-family":"'Barlow'"}},[_c('el-checkbox',{on:{"change":_vm.change},model:{value:(_vm.checked),callback:function ($$v) {_vm.checked=$$v},expression:"checked"}},[_vm._v("Normal")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-checkbox-group',{model:{value:(_vm.checkList),callback:function ($$v) {_vm.checkList=$$v},expression:"checkList"}},[_c('el-checkbox',{attrs:{"label":"Desativado","disabled":""}}),_vm._v(" "),_c('el-checkbox',{attrs:{"label":"Selecionado e Desativado","disabled":""}})],1)],1)}
@@ -1245,25 +1234,7 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Checkboxvue_type_custom_index_0_blockType_docs_default.a === 'function') Checkboxvue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Checkbox.vue"
 /* harmony default export */ var Checkbox = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "VnZC":
-/*!***********************************************************************************************!*\
-  !*** ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=style&index=0&lang=scss& ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module exports are unknown */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--9-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--9-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--9-3!../../../../../node_modules/sass-resources-loader/lib/loader.js??ref--9-4!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ToggleButton.vue?vue&type=style&index=0&lang=scss& */ "NhIO");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_9_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_lib_loader_js_ref_9_3_node_modules_sass_resources_loader_lib_loader_js_ref_9_4_node_modules_vue_loader_lib_index_js_vue_loader_options_ToggleButton_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -1288,23 +1259,6 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ "Z9sz":
-/*!************************************************************************************************************!*\
-  !*** ./src/temas/myfarm/components/card/Card.vue?vue&type=style&index=0&id=0edf6939&scoped=true&lang=css& ***!
-  \************************************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module exports are unknown */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_0edf6939_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--6-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Card.vue?vue&type=style&index=0&id=0edf6939&scoped=true&lang=css& */ "bvjC");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_0edf6939_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_0edf6939_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_0edf6939_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_0edf6939_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_0edf6939_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -1344,18 +1298,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "bvjC":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/card/Card.vue?vue&type=style&index=0&id=0edf6939&scoped=true&lang=css& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "dOj6":
 /*!*************************************************!*\
   !*** ./src/temas/myfarm/components sync \.vue$ ***!
@@ -1384,13 +1326,12 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
+	if(!__webpack_require__.o(map, req)) {
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return id;
+	return map[req];
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
@@ -1411,6 +1352,7 @@ webpackContext.id = "dOj6";
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/button/Button.vue?vue&type=template&id=42d5083c&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-row',[_c('el-button',{attrs:{"type":"primary active"}},[_vm._v("Primary")]),_vm._v(" "),_c('el-button',{attrs:{"type":"primary","icon":"el-icon-plus"}},[_vm._v("Primary with icon")]),_vm._v(" "),_c('el-button',{attrs:{"type":"primary","disabled":""}},[_vm._v("Disabled")]),_vm._v(" "),_c('el-button',{attrs:{"type":"primary","icon":"el-icon-plus","disabled":""}},[_vm._v("Primary with icon")])],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-row',[_c('el-button',[_vm._v("Secundário")]),_vm._v(" "),_c('el-button',{attrs:{"icon":"el-icon-plus"}},[_vm._v("Default with icon")]),_vm._v(" "),_c('el-button',{attrs:{"disabled":""}},[_vm._v("Disabled")]),_vm._v(" "),_c('el-button',{attrs:{"icon":"el-icon-plus","disabled":""}},[_vm._v("Default disabled")])],1)],1)}
@@ -1557,7 +1499,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Buttonvue_type_custom_index_0_blockType_docs_default.a === 'function') Buttonvue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Button.vue"
 /* harmony default export */ var Button = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -1618,10 +1559,11 @@ module.exports = _defineProperty;
   !*** ./src/temas/myfarm/components/toggle/ToggleButton.vue + 4 modules ***!
   \*************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=template&id=0af4e289&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-radio-button',{staticClass:"toggle-button",style:({
@@ -1669,14 +1611,10 @@ var staticRenderFns = []
 });
 // CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=script&lang=js&
  /* harmony default export */ var toggle_ToggleButtonvue_type_script_lang_js_ = (ToggleButtonvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue?vue&type=style&index=0&lang=scss&
-var ToggleButtonvue_type_style_index_0_lang_scss_ = __webpack_require__("VnZC");
-
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__("KHd+");
 
 // CONCATENATED MODULE: ./src/temas/myfarm/components/toggle/ToggleButton.vue
-
 
 
 
@@ -1695,7 +1633,6 @@ var component = Object(componentNormalizer["default"])(
   
 )
 
-component.options.__file = "ToggleButton.vue"
 /* harmony default export */ var ToggleButton = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -1729,10 +1666,11 @@ module.exports = {"color_hover":"rgb(0, 173, 167)","color_grey_40":"rgb(189, 193
   !*** ./src/temas/myfarm/components/card/Card.vue + 4 modules ***!
   \***************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/checkbox/Checkbox.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/card/Card.vue?vue&type=template&id=0edf6939&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
@@ -1751,14 +1689,10 @@ var staticRenderFns = []
 });
 // CONCATENATED MODULE: ./src/temas/myfarm/components/card/Card.vue?vue&type=script&lang=js&
  /* harmony default export */ var card_Cardvue_type_script_lang_js_ = (Cardvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/temas/myfarm/components/card/Card.vue?vue&type=style&index=0&id=0edf6939&scoped=true&lang=css&
-var Cardvue_type_style_index_0_id_0edf6939_scoped_true_lang_css_ = __webpack_require__("Z9sz");
-
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__("KHd+");
 
 // CONCATENATED MODULE: ./src/temas/myfarm/components/card/Card.vue
-
 
 
 
@@ -1777,7 +1711,6 @@ var component = Object(componentNormalizer["default"])(
   
 )
 
-component.options.__file = "Card.vue"
 /* harmony default export */ var Card = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -1788,10 +1721,11 @@ component.options.__file = "Card.vue"
   \*****************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/radio/Radio.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/radio/Radio.vue?vue&type=template&id=ebfcf752&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-row',[_c('el-radio',{attrs:{"label":"1"},model:{value:(_vm.radio),callback:function ($$v) {_vm.radio=$$v},expression:"radio"}},[_vm._v("Normal Primary")])],1),_vm._v(" "),_c('el-row',[_c('el-radio',{attrs:{"disabled":"","label":"disabled"},model:{value:(_vm.radio1),callback:function ($$v) {_vm.radio1=$$v},expression:"radio1"}},[_vm._v("Disabled")])],1)],1)}
@@ -1897,7 +1831,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Radiovue_type_custom_index_0_blockType_docs_default.a === 'function') Radiovue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Radio.vue"
 /* harmony default export */ var Radio = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
@@ -1920,13 +1853,14 @@ component.options.__file = "Radio.vue"
   \******************************************************************/
 /*! exports provided: default */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/temas/myfarm/components/inputs/Input.vue?vue&type=custom&index=0&blockType=docs (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/card/Card.vue */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js because of ./src/temas/myfarm/components/button/Button.vue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/temas/myfarm/components/inputs/Input.vue?vue&type=template&id=2a08a7e8&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-form',{ref:"ruleForm",staticClass:"demo-ruleForm",attrs:{"model":_vm.ruleForm,"label-position":"top","rules":_vm.rules,"label-width":"120px"}},[_c('el-form-item',{attrs:{"label":"Normal"}},[_c('el-input',{attrs:{"autocomplete":"off","placeholder":""},model:{value:(_vm.ruleForm.value1),callback:function ($$v) {_vm.$set(_vm.ruleForm, "value1", $$v)},expression:"ruleForm.value1"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"label":"Disabled"}},[_c('el-input',{attrs:{"placeholder":"","disabled":true},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v},expression:"value2"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"label":"Focus primario"}},[_c('el-input',{attrs:{"placeholder":"Focus primário","disabled":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v},expression:"value3"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',[_c('el-input',{attrs:{"placeholder":"Alerta","disabled":true},model:{value:(_vm.value4),callback:function ($$v) {_vm.value4=$$v},expression:"value4"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"prop":"erro"}},[_c('el-input',{attrs:{"placeholder":"Erro"},model:{value:(_vm.ruleForm.erro),callback:function ($$v) {_vm.$set(_vm.ruleForm, "erro", $$v)},expression:"ruleForm.erro"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',[_c('el-input',{attrs:{"placeholder":"Sucesso","type":"success"},model:{value:(_vm.value6),callback:function ($$v) {_vm.value6=$$v},expression:"value6"}})],1),_vm._v(" "),_c('el-form-item',[_c('el-button',{attrs:{"type":"primary"},on:{"click":function($event){_vm.submitForm('ruleForm')}}},[_vm._v("Testar form")]),_vm._v(" "),_c('el-button',{on:{"click":function($event){_vm.resetForm('ruleForm')}}},[_vm._v("Limpar os campos")])],1)],1)],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('el-form',{ref:"ruleForm",staticClass:"demo-ruleForm",attrs:{"model":_vm.ruleForm,"label-position":"top","rules":_vm.rules,"label-width":"120px"}},[_c('el-form-item',{attrs:{"label":"Normal"}},[_c('el-input',{attrs:{"autocomplete":"off","placeholder":""},model:{value:(_vm.ruleForm.value1),callback:function ($$v) {_vm.$set(_vm.ruleForm, "value1", $$v)},expression:"ruleForm.value1"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"label":"Disabled"}},[_c('el-input',{attrs:{"placeholder":"","disabled":true},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v},expression:"value2"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"label":"Focus primario"}},[_c('el-input',{attrs:{"placeholder":"Focus primário","disabled":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v},expression:"value3"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',[_c('el-input',{attrs:{"placeholder":"Alerta","disabled":true},model:{value:(_vm.value4),callback:function ($$v) {_vm.value4=$$v},expression:"value4"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',{attrs:{"prop":"erro"}},[_c('el-input',{attrs:{"placeholder":"Erro"},model:{value:(_vm.ruleForm.erro),callback:function ($$v) {_vm.$set(_vm.ruleForm, "erro", $$v)},expression:"ruleForm.erro"}})],1),_vm._v(" "),_c('br'),_vm._v(" "),_c('el-form-item',[_c('el-input',{attrs:{"placeholder":"Sucesso","type":"success"},model:{value:(_vm.value6),callback:function ($$v) {_vm.value6=$$v},expression:"value6"}})],1),_vm._v(" "),_c('el-form-item',[_c('el-button',{attrs:{"type":"primary"},on:{"click":function($event){return _vm.submitForm('ruleForm')}}},[_vm._v("Testar form")]),_vm._v(" "),_c('el-button',{on:{"click":function($event){return _vm.resetForm('ruleForm')}}},[_vm._v("Limpar os campos")])],1)],1)],1)}
 var staticRenderFns = []
 
 
@@ -2154,7 +2088,6 @@ var component = Object(componentNormalizer["default"])(
 
 if (typeof Inputvue_type_custom_index_0_blockType_docs_default.a === 'function') Inputvue_type_custom_index_0_blockType_docs_default()(component)
 
-component.options.__file = "Input.vue"
 /* harmony default export */ var Input = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),

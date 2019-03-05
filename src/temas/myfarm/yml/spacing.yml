@@ -4,20 +4,12 @@
 #
 
 props:
-  space_xxl:
-    value: "128px"
-  space_xl:
-    value: "64px"
-  space_l:
-    value: "48px"
-  space_m:
-    value: "24px"
-  space_s:
-    value: "16px"
-  space_xs:
-    value: "8px"
-  space_xxs:
-    value: "4px"
+  space_topo:
+    value: "45px"
+  space_between_components:
+    value: "40px"
+  space_padding_interno:
+    value: "20px"
 global:
   type: number
   category: space

@@ -13,7 +13,6 @@
 </template>
 
 <script>
-// import defaultTokens from "@/assets/themes/default/tokens/_index.raw.json"
 import { getTemplateSelected } from "../../utils/helpers"
 import myfarmTokens from "@/temas/myfarm/tokens/_index.raw.json"
 

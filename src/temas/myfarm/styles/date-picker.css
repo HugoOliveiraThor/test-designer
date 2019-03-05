@@ -1395,9 +1395,6 @@
 .el-date-editor .el-range-input::-webkit-input-placeholder {
   color: #9da1ae;
 }
-.el-date-editor .el-range-input:-ms-input-placeholder {
-  color: #9da1ae;
-}
 .el-date-editor .el-range-input::-ms-input-placeholder {
   color: #9da1ae;
 }
@@ -1515,9 +1512,6 @@
   cursor: not-allowed;
 }
 .el-range-editor.is-disabled input::-webkit-input-placeholder {
-  color: #9da1ae;
-}
-.el-range-editor.is-disabled input:-ms-input-placeholder {
   color: #9da1ae;
 }
 .el-range-editor.is-disabled input::-ms-input-placeholder {
@@ -2822,9 +2816,6 @@
 .el-textarea__inner::-webkit-input-placeholder {
   color: #9da1ae;
 }
-.el-textarea__inner:-ms-input-placeholder {
-  color: #9da1ae;
-}
 .el-textarea__inner::-ms-input-placeholder {
   color: #9da1ae;
 }
@@ -2845,9 +2836,6 @@
   cursor: not-allowed;
 }
 .el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder {
-  color: #9da1ae;
-}
-.el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
   color: #9da1ae;
 }
 .el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder {
@@ -2918,9 +2906,6 @@
 .el-input__inner::-webkit-input-placeholder {
   color: #9da1ae;
 }
-.el-input__inner:-ms-input-placeholder {
-  color: #9da1ae;
-}
 .el-input__inner::-ms-input-placeholder {
   color: #9da1ae;
 }
@@ -2987,9 +2972,6 @@
   cursor: not-allowed;
 }
 .el-input.is-disabled .el-input__inner::-webkit-input-placeholder {
-  color: #9da1ae;
-}
-.el-input.is-disabled .el-input__inner:-ms-input-placeholder {
   color: #9da1ae;
 }
 .el-input.is-disabled .el-input__inner::-ms-input-placeholder {

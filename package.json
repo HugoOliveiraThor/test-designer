@@ -1,6 +1,6 @@
 {
   "name": "conexa-sdk-ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Conexa Design System is an tool for building more fast.",
   "author": "Renatto Machado <renatto.machado@siagri.com.br>",
   "main": "./dist/temas/myfarm/index.js",

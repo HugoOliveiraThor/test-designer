@@ -63,9 +63,6 @@ export default {
   computed: {
     tokens() {
       switch (getTemplateSelected()) {
-        case "Blue":
-          return this.orderData(defaultTokens.props)
-          break
         case "MyFarm":
           return this.orderData(myfarmTokens.props)
           break

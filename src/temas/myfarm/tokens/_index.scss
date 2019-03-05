@@ -52,11 +52,41 @@ $weight-light: 300;
 $opacity-disabled: 0.5;
 $height-footer: 64px;
 $tappable-square: 44px;
-$media-query-m: (
-  min-width: 768px,
+$media-query-xs: (
+  max-width: 767px,
 );
-$media-query-l: (
-  min-width: 1024px,
+$media-query-sm: (
+    min-width: 768px,
+  )
+  and
+  (
+    max-width: 992px,
+  );
+$media-query-md: (
+    min-width: 768px,
+  )
+  and
+  (
+    max-width: 992px,
+  );
+$media-query-lg: (
+    min-width: 1200px,
+  )
+  and
+  (
+    max-width: 1919px,
+  );
+$media-query-xl: (
+  min-width: 1920px,
 );
-$shadow-s: 0 0 0 1px rgba(92, 106, 196, 0.1);
+$box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
 $radius-default: 4px;
+$space-topo: 45px;
+$space-between-components: 40px;
+$space-padding-interno: 20px;
+$line-height-xxs: 0;
+$line-height-xs: 14px;
+$line-height-s: 14px;
+$line-height-m: 16px;
+$line-height-l: 17px;
+$line-height-xl: 24px;

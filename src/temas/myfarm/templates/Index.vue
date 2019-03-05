@@ -79,7 +79,7 @@ export default {
   float: left;
   height: 100%;
   width: 100%;
-  @media #{$media-query-l} {
+  @media #{$media_query_lg} {
     // This is how you’d use design tokens with media queries
   }
   .heading {

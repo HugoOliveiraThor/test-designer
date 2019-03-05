@@ -648,9 +648,6 @@
 .el-date-editor .el-range-input::-webkit-input-placeholder {
   color: #9da1ae;
 }
-.el-date-editor .el-range-input:-ms-input-placeholder {
-  color: #9da1ae;
-}
 .el-date-editor .el-range-input::-ms-input-placeholder {
   color: #9da1ae;
 }
@@ -768,9 +765,6 @@
   cursor: not-allowed;
 }
 .el-range-editor.is-disabled input::-webkit-input-placeholder {
-  color: #9da1ae;
-}
-.el-range-editor.is-disabled input:-ms-input-placeholder {
   color: #9da1ae;
 }
 .el-range-editor.is-disabled input::-ms-input-placeholder {

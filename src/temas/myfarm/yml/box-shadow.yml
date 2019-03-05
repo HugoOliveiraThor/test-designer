@@ -4,8 +4,8 @@
 #
 
 props:
-  shadow_s:
-    value: "0 0 0 1px rgba(92,106,196,.1)"
+  box-shadow:
+    value: "0 2px 5px 0 rgba(0, 0, 0, 0.15)"
 global:
   type: ...
   category: box-shadow

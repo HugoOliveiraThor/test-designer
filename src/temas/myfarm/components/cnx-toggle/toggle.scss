@@ -1,0 +1,44 @@
+@import "../../tokens/_index.scss";
+
+.el-radio-group {
+  background-color: $color-primary;
+  border-radius: $radius-default;
+  padding: 0 5px;
+  box-shadow: $box-shadow;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  /deep/ .el-radio-button {
+    flex: 1;
+    border-radius: $radius-default;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:first-of-type {
+      margin-right: 10px;
+    }
+    span,
+    span:hover {
+      padding: 5px 10px;
+      border-radius: 30px !important;
+      text-transform: uppercase;
+      background-color: transparent;
+      color: #fff;
+      border: 0 !important;
+      box-shadow: none !important;
+      user-select: none;
+      font-weight: bold;
+      color: inherit !important;
+      font-size: 12px;
+    }
+
+    &.is-active {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+      span {
+        background-color: #fff !important;
+      }
+    }
+  }
+}

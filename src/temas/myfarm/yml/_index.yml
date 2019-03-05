@@ -13,8 +13,8 @@ imports:
   - ./box-shadow.yml
   # - ./letter-spacing.yml
   - ./border-radius.yml
-  # - ./spacing.yml
-  # - ./line-height.yml
+  - ./spacing.yml
+  - ./line-height.yml
 global:
   type: global
   category: all
