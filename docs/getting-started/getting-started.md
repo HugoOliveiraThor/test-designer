@@ -19,13 +19,9 @@ As classes do ElementUI serão sobrescritas pelo nosso framework
 
 ## Onde estão as coisas?
 
-É importante depois de baixar o projeto rodar o comando `npm run theme` para iniciar os tokens dos temas. Vou ajeitar para fazer automático na hora de dar o `npm install`
-
 É importante conhecer onde estão e para que servem as diversas pastas que existe dentro do projeto.
 
-Os componentes estão localizados em "src/components" -> vou mudar para components
-
-Nos assets estão os tokens com os scss dos diversos temas.
+Os componentes estão localizados em "src/temas/_nome do tema_/components"
 
 ### Agora vamos entender como são criados os tokens dentro do assets :
 
@@ -188,10 +184,12 @@ components: "../src/components/**/[A-Z]*.vue",
 
 ```javascript
 "scripts": {
+    "dev": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
     "start": "npm-run-all --parallel styleguide theme:myfarm:onchange theme:myfarm dev",
+    "unit": "jest --config ./test/unit/jest.conf.js --coverage",
     "build": "npm-run-all theme:default node:build",
     "build:app": "npm run build",
-    "build:system": "npm-run-all theme:myfarm node:build:system",
+    "build:system": "npm-run-all --sequential generate:tokens:myfarm generateTheme node:build:system update:version",
     "build:docs": "npm-run-all theme:default styleguide:build",
     "lint": "eslint '**/*.{js,vue}' --cache",
     "node:build": "node ./build/build.js",
@@ -200,14 +198,14 @@ components: "../src/components/**/[A-Z]*.vue",
     "styleguide:onchange": "onchange \"./config/*.js\" -- npm-run-all styleguide",
     "styleguide:build": "vue-styleguidist build \"./config/docs.config.js\" -- npm run theo",
     "theme": "npm-run-all --parallel theme:myfarm theme:default theme:blueflow",
+    "generateTheme": "et --config ./src/temas/myfarm/variables/element-variables.scss --out ./src/temas/myfarm/styles/",
+    "watchTeme:myfarm": "et --watch --config ./src/temas/myfarm/variables/element-variables.scss --out ./src/temas/myfarm/styles/",
     "theme:onchange": "npm-run-all --parallel theme:myfarm:onchange theme:default:onchange theme:blueflow:onchange",
-    "theme:default": "theo ./src/themes/default/tokens/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/themes/default/tokens",
-    "theme:default:onchange": "onchange \"./src/themes/default/tokens/*.yml\" -- npm run theo",
-    "theme:myfarm": "theo ./src/themes/myfarm/tokens/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/themes/myfarm/tokens",
-    "theme:myfarm:onchange": "onchange \"./src/themes/myfarm/tokens/*.yml\" -- npm run theo",
-    "theme:blueflow": "theo ./src/themes/blueflow/tokens/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/themes/blueflow/tokens",
-    "theme:blueflow:onchange": "onchange \"./src/themes/blueflow/tokens/*.yml\" -- npm run theo",
-    "test": "npm-run-all theme:default unit"
+    "generate:tokens:myfarm": "npm-run-all --parallel theme:myfarm theme:myfarm:node",
+    "theme:myfarm": "theo ./src/temas/myfarm/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/temas/myfarm/tokens ",
+    "theme:myfarm:node": "theo ./src/temas/myfarm/yml/_index.yml --transform web --format map.scss,scss,raw.json,json --dest node_modules/element-theme-chalk/src/tokens",
+    "theme:myfarm:onchange": "onchange \"./src/temas/myfarm/yml/*.yml\" -- npm run theo",
+    "update:version": "npm --no-git-tag-version version patch"
   },
 ```
 
@@ -228,10 +226,3 @@ Nessa aba teremos acessos ao temas disponíveis dentro do nosso framework
     - etc......
 
 Ao selecionar o item Design Tokens , voce verá todas as informações dos tokens disponíveis no tema selecionado. Paletas de cores , fontSize e no final All tokens que é a junção de todos os elementos disponíveis na UI.
-
-#### Componentes:
-
-A parte mais importante do nosso framework, voce encontrará toda as informações sobre o componente a ser utilizado.
-Voce verá um exemplo de como será o comportamento do componente, suas props, valores default etc...
-
-[![MyFarm Theme](/img/example-component.png)](#/Themes/Blue)

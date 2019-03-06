@@ -34,6 +34,7 @@ module.exports = {
   // assetsDir: path.join(__dirname, "../src/assets"),
   /**
    * Enabling the below option will break things in Vue Design System!
+   * Essa opção se habilitado destroi o projeto ;(
    */
   skipComponentsWithoutExample: false,
   /**
@@ -87,20 +88,14 @@ module.exports = {
                 "../docs/components/tokens/FontSize.vue",
                 "../docs/components/tokens/Spacing.vue",
                 "../docs/components/tokens/All.vue",
+                "../docs/components/tokens/Typography.vue",
+                "../docs/components/tokens/Padroes.vue",
               ],
             },
             {
               name: "Componentes",
               content: "../docs/themes/myfarm/components.md",
-              components: "../src/temas/myfarm/components/**/[A-Z]*.vue",
-              usageMode: "expand",
-              exampleMode: "expand",
-              sectionDepth: 2,
-            },
-            {
-              name: "Commons",
-              content: "../docs/themes/myfarm/components.md",
-              components: "../src/temas/myfarm/commons/**/[a-z]*.vue",
+              components: "../src/temas/myfarm/components/**/*.vue",
               usageMode: "expand",
               exampleMode: "expand",
               sectionDepth: 2,
