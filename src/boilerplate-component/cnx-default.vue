@@ -7,6 +7,6 @@
 
 <docs>
   ```jsx
-  <cnx-select />
+  <cnx-default />
   ```
 </docs>

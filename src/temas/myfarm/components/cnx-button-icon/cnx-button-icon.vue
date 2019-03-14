@@ -23,6 +23,8 @@
 import tokens from "../../tokens/_index.json"
 export default {
   name: "cnx-button-icon",
+  status: "ready",
+  release: "0.0.1",
   props: {
     /**
      * Um label que pode ser apresentando junto ao botão com icone
@@ -56,7 +58,7 @@ export default {
      */
     colorIcon: {
       type: String,
-      default: tokens.color_primary,
+      default: tokens.color_secondary,
       required: false,
     },
     /**

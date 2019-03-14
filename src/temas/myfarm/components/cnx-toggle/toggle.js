@@ -13,7 +13,7 @@ import tokens from "../../tokens/_index.json"
 export default {
   name: "cnx-toggle",
   element: "cnx-toggle",
-  status: "prototype",
+  status: "ready",
   release: "0.0.1",
   components: {
     cnxToogleButton,

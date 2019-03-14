@@ -90,6 +90,7 @@ module.exports = {
                 "../docs/components/tokens/All.vue",
                 "../docs/components/tokens/Typography.vue",
                 "../docs/components/tokens/Padroes.vue",
+                "../docs/components/status/Components.vue",
               ],
             },
             {
@@ -107,27 +108,27 @@ module.exports = {
       usageMode: "hide",
       sectionDepth: 3,
     },
-    {
-      name: "Princípios do Design",
-      content: "../docs/design-principles/principles.md",
-      sectionDepth: 1,
-      exampleMode: "hide",
-      usageMode: "hide",
-    },
-    {
-      name: "Downloads",
-      content: "../docs/downloads.md",
-      exampleMode: "hide",
-      usageMode: "hide",
-      sectionDepth: 1,
-    },
-    {
-      name: "FAQ",
-      content: "../docs/faq.md",
-      exampleMode: "hide",
-      usageMode: "hide",
-      sectionDepth: 1,
-    },
+    // {
+    //   name: "Princípios do Design",
+    //   content: "../docs/design-principles/principles.md",
+    //   sectionDepth: 1,
+    //   exampleMode: "hide",
+    //   usageMode: "hide",
+    // },
+    // {
+    //   name: "Downloads",
+    //   content: "../docs/downloads.md",
+    //   exampleMode: "hide",
+    //   usageMode: "hide",
+    //   sectionDepth: 1,
+    // },
+    // {
+    //   name: "FAQ",
+    //   content: "../docs/faq.md",
+    //   exampleMode: "hide",
+    //   usageMode: "hide",
+    //   sectionDepth: 1,
+    // },
     {
       /**
        * Private components have to be loaded into the documentation as well,

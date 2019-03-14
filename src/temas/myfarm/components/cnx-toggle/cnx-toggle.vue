@@ -5,21 +5,21 @@
     v-model="selected"
     :style="{ 'background-color': bgColor }"
   >
-    <toggle-button
+    <cnx-toggle-button
       :selected="firstLabel === selected || selected === true || selected === 1"
       :textColor="textColor"
       :selectedBgColor="selectedBgColor"
       :selectedTextColor="selectedTextColor"
       :label="firstLabel"
     />
-    <toggle-button
+    <cnx-toggle-button
       :selected="secondLabel === selected || selected === false || selected === 0"
       :textColor="textColor"
       :selectedBgColor="selectedBgColor"
       :selectedTextColor="selectedTextColor"
       :label="secondLabel"
     />
-    <toggle-button
+    <cnx-toggle-button
       :selected="thirdLabel === selected || selected === false || selected === 2"
       :textColor="textColor"
       :selectedBgColor="selectedBgColor"

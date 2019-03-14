@@ -4,12 +4,6 @@
 #
 
 props:
-  size_big_number:
-    value: "60px"
-  size_medium_number:
-    value: "40px"
-  size_small_number:
-    value: "20px"
   size_h1:
     value: "34px"
   size_h2:
@@ -26,6 +20,24 @@ props:
     value: "14px"
   size_button_mini:
     value: "12px"
+  size_input_label:
+    value: "13"
+  size_icon_xl:
+    value: "40"
+  size_icon_l:
+    value: "32px"
+  size_icon_m:
+    value: "24px"
+  size_icon_sm:
+    value: "20px"
+  size_icon_xs:
+    value: "14px"
+  size_button_big:
+    value: "60px"
+  size_button_medium:
+    value: "40px"
+  size_button_small:
+    value: "30px"
 global:
   type: number
   category: font-size

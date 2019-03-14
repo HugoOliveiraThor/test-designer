@@ -26,7 +26,6 @@
       <thead>
         <tr>
           <th v-if="show === 'all'">Nome do componente</th>
-          <th v-if="show === 'all'">Elemento no Element UI</th>
           <th v-if="show === 'patterns'">Pattern Name</th>
           <th v-if="show === 'templates'">Template Name</th>
           <th>Nº da release</th>
@@ -37,10 +36,6 @@
         <tr v-for="(component, index) in components" :key="index" class="component">
           <td v-if="component.name">
             <code class="name">{{ component.name }}</code>
-          </td>
-          <td v-else>N/A</td>
-          <td v-if="component.element">
-            <code class="name">{{ component.element }}</code>
           </td>
           <td v-else>N/A</td>
           <td v-if="component.release">{{ component.release }}</td>
@@ -108,13 +103,6 @@ export default {
   },
   data() {
     switch (getTemplateSelected()) {
-      case "Blue":
-        return {
-          components: this.orderData(this.getComponents(blueComponent)),
-          tokens: designTokens.props,
-          checked: true,
-        }
-        break
       case "MyFarm":
         return {
           components: this.orderData(this.getComponents(myFarmComponent)),

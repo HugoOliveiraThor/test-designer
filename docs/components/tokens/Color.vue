@@ -38,12 +38,13 @@ export default {
   },
   computed: {
     tokenProps() {
+      console.log(myfarmTokens.props)
       switch (getTemplateSelected()) {
         case "MyFarm":
           return this.orderData(myfarmTokens.props)
           break
         default:
-          return this.orderData(defaultTokens.props)
+          return this.orderData(myfarmTokens.props)
           break
       }
     },
@@ -135,7 +136,7 @@ h3 {
   }
   &:hover {
     span {
-      color: $color-grey;
+      color: $color-grey-dark;
       em {
         color: $color-grey-dark;
       }

@@ -6,9 +6,10 @@
  * Botões são geralmente usados ​​para ações de interface.
  *
  *
+ * Use os botões personalizados para ações em formulários, diálogos e outras coisas.
  *
- * Para implementação do botão no component em Vue veja a documentação em : https://element.eleme.io/#/en-US/component/button.
  *
+ * Lembrando que esse componente tem suporte a escolha de tamanhos, estados e muito mais.
  */
 
 export default {

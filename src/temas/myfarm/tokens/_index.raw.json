@@ -299,6 +299,48 @@
       "originalValue": "14px",
       "name": "size_body"
     },
+    "size_input_label": {
+      "type": "number",
+      "category": "font-size",
+      "value": "13",
+      "originalValue": "13",
+      "name": "size_input_label"
+    },
+    "size_icon_sm": {
+      "type": "number",
+      "category": "font-size",
+      "value": "20px",
+      "originalValue": "20px",
+      "name": "size_icon_sm"
+    },
+    "size_icon_xs": {
+      "type": "number",
+      "category": "font-size",
+      "value": "14px",
+      "originalValue": "14px",
+      "name": "size_icon_xs"
+    },
+    "size_icon_l": {
+      "type": "number",
+      "category": "font-size",
+      "value": "32px",
+      "originalValue": "32px",
+      "name": "size_icon_l"
+    },
+    "size_button_medium": {
+      "type": "number",
+      "category": "font-size",
+      "value": "40px",
+      "originalValue": "40px",
+      "name": "size_button_medium"
+    },
+    "size_icon_m": {
+      "type": "number",
+      "category": "font-size",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "size_icon_m"
+    },
     "size_overline": {
       "type": "number",
       "category": "font-size",
@@ -312,13 +354,6 @@
       "value": "12px",
       "originalValue": "12px",
       "name": "size_button_mini"
-    },
-    "size_big_number": {
-      "type": "number",
-      "category": "font-size",
-      "value": "60px",
-      "originalValue": "60px",
-      "name": "size_big_number"
     },
     "size_h1": {
       "type": "number",
@@ -355,19 +390,26 @@
       "originalValue": "14px",
       "name": "size_button"
     },
-    "size_medium_number": {
+    "size_button_big": {
       "type": "number",
       "category": "font-size",
-      "value": "40px",
-      "originalValue": "40px",
-      "name": "size_medium_number"
+      "value": "60px",
+      "originalValue": "60px",
+      "name": "size_button_big"
     },
-    "size_small_number": {
+    "size_button_small": {
       "type": "number",
       "category": "font-size",
-      "value": "20px",
-      "originalValue": "20px",
-      "name": "size_small_number"
+      "value": "30px",
+      "originalValue": "30px",
+      "name": "size_button_small"
+    },
+    "size_icon_xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "40",
+      "originalValue": "40",
+      "name": "size_icon_xl"
     },
     "font_heading": {
       "type": "...",

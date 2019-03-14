@@ -1109,8 +1109,6 @@
     box-sizing: border-box;
     cursor: pointer;
     outline: none; }
-    .el-cascader-menu__item span {
-      padding-right: 10px; }
     .el-cascader-menu__item--extensible:after {
       font-family: 'element-icons';
       content: "\e604";

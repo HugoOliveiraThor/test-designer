@@ -299,6 +299,48 @@
       "originalValue": "14px",
       "name": "size_body"
     },
+    "size_input_label": {
+      "type": "number",
+      "category": "font-size",
+      "value": "13",
+      "originalValue": "13",
+      "name": "size_input_label"
+    },
+    "size_icon_sm": {
+      "type": "number",
+      "category": "font-size",
+      "value": "20px",
+      "originalValue": "20px",
+      "name": "size_icon_sm"
+    },
+    "size_icon_xs": {
+      "type": "number",
+      "category": "font-size",
+      "value": "14px",
+      "originalValue": "14px",
+      "name": "size_icon_xs"
+    },
+    "size_icon_l": {
+      "type": "number",
+      "category": "font-size",
+      "value": "32px",
+      "originalValue": "32px",
+      "name": "size_icon_l"
+    },
+    "size_button_medium": {
+      "type": "number",
+      "category": "font-size",
+      "value": "40px",
+      "originalValue": "40px",
+      "name": "size_button_medium"
+    },
+    "size_icon_m": {
+      "type": "number",
+      "category": "font-size",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "size_icon_m"
+    },
     "size_overline": {
       "type": "number",
       "category": "font-size",
@@ -312,13 +354,6 @@
       "value": "12px",
       "originalValue": "12px",
       "name": "size_button_mini"
-    },
-    "size_big_number": {
-      "type": "number",
-      "category": "font-size",
-      "value": "60px",
-      "originalValue": "60px",
-      "name": "size_big_number"
     },
     "size_h1": {
       "type": "number",
@@ -355,19 +390,26 @@
       "originalValue": "14px",
       "name": "size_button"
     },
-    "size_medium_number": {
+    "size_button_big": {
       "type": "number",
       "category": "font-size",
-      "value": "40px",
-      "originalValue": "40px",
-      "name": "size_medium_number"
+      "value": "60px",
+      "originalValue": "60px",
+      "name": "size_button_big"
     },
-    "size_small_number": {
+    "size_button_small": {
       "type": "number",
       "category": "font-size",
-      "value": "20px",
-      "originalValue": "20px",
-      "name": "size_small_number"
+      "value": "30px",
+      "originalValue": "30px",
+      "name": "size_button_small"
+    },
+    "size_icon_xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "40",
+      "originalValue": "40",
+      "name": "size_icon_xl"
     },
     "font_heading": {
       "type": "...",
@@ -432,26 +474,47 @@
       "originalValue": "44px",
       "name": "tappable_square"
     },
-    "media_query_m": {
+    "media_query_xs": {
       "type": "...",
       "category": "media-query",
-      "value": "(min-width: 768px)",
-      "originalValue": "(min-width: 768px)",
-      "name": "media_query_m"
+      "value": "(max-width: 767px)",
+      "originalValue": "(max-width: 767px)",
+      "name": "media_query_xs"
     },
-    "media_query_l": {
+    "media_query_sm": {
       "type": "...",
       "category": "media-query",
-      "value": "(min-width: 1024px)",
-      "originalValue": "(min-width: 1024px)",
-      "name": "media_query_l"
+      "value": "(min-width: 768px) and (max-width: 992px)",
+      "originalValue": "(min-width: 768px) and (max-width: 992px)",
+      "name": "media_query_sm"
     },
-    "shadow_s": {
+    "media_query_md": {
+      "type": "...",
+      "category": "media-query",
+      "value": "(min-width: 768px) and (max-width: 992px)",
+      "originalValue": "(min-width: 768px) and (max-width: 992px)",
+      "name": "media_query_md"
+    },
+    "media_query_lg": {
+      "type": "...",
+      "category": "media-query",
+      "value": "(min-width: 1200px) and (max-width: 1919px)",
+      "originalValue": "(min-width: 1200px) and (max-width: 1919px)",
+      "name": "media_query_lg"
+    },
+    "media_query_xl": {
+      "type": "...",
+      "category": "media-query",
+      "value": "(min-width: 1920px)",
+      "originalValue": "(min-width: 1920px)",
+      "name": "media_query_xl"
+    },
+    "box-shadow": {
       "type": "...",
       "category": "box-shadow",
-      "value": "0 0 0 1px rgba(92,106,196,.1)",
-      "originalValue": "0 0 0 1px rgba(92,106,196,.1)",
-      "name": "shadow_s"
+      "value": "0 2px 5px 0 rgba(0, 0, 0, 0.15)",
+      "originalValue": "0 2px 5px 0 rgba(0, 0, 0, 0.15)",
+      "name": "box-shadow"
     },
     "radius_default": {
       "type": "number",
@@ -459,6 +522,69 @@
       "value": "4px",
       "originalValue": "4px",
       "name": "radius_default"
+    },
+    "space_topo": {
+      "type": "number",
+      "category": "space",
+      "value": "45px",
+      "originalValue": "45px",
+      "name": "space_topo"
+    },
+    "space_between_components": {
+      "type": "number",
+      "category": "space",
+      "value": "40px",
+      "originalValue": "40px",
+      "name": "space_between_components"
+    },
+    "space_padding_interno": {
+      "type": "number",
+      "category": "space",
+      "value": "20px",
+      "originalValue": "20px",
+      "name": "space_padding_interno"
+    },
+    "line_height_xxs": {
+      "type": "number",
+      "category": "line-height",
+      "value": "0",
+      "originalValue": "0",
+      "name": "line_height_xxs"
+    },
+    "line_height_xs": {
+      "type": "number",
+      "category": "line-height",
+      "value": "14px",
+      "originalValue": "14px",
+      "name": "line_height_xs"
+    },
+    "line_height_s": {
+      "type": "number",
+      "category": "line-height",
+      "value": "14px",
+      "originalValue": "14px",
+      "name": "line_height_s"
+    },
+    "line_height_m": {
+      "type": "number",
+      "category": "line-height",
+      "value": "16px",
+      "originalValue": "16px",
+      "name": "line_height_m"
+    },
+    "line_height_l": {
+      "type": "number",
+      "category": "line-height",
+      "value": "17px",
+      "originalValue": "17px",
+      "name": "line_height_l"
+    },
+    "line_height_xl": {
+      "type": "number",
+      "category": "line-height",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "line_height_xl"
     }
   }
 }

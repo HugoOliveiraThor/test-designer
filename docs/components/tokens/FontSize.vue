@@ -5,9 +5,10 @@
       :key="index"
       class="font"
       v-if="prop.category === 'font-size'"
-      :style="{ fontSize: prop.value }"
+      :style="{ fontSize: prop.value, fontFamily: 'Barlow', paddingBottom: '20px' }"
     >
-      ${{ prop.name.replace(/_/g, "-") }} : <span>Um pequeno jabuti.</span>
+      ${{ prop.name.replace(/_/g, "-") }} :
+      <span>Com grandes poderes, vem grandes responsabilidades</span>
     </div>
   </div>
 </template>

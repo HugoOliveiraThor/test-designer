@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section style="font-family:Barlow">
     <span>Informações gerais</span>
     <p>
       O alinhamento vertical de todos os itens deve respeitar o limite de página estipulado no
@@ -60,6 +60,13 @@ span {
   padding-top: 10px;
   font-size: 24px;
   font-weight: 600;
+}
+img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  image-rendering: optimizeQuality;
 }
 </style>
 

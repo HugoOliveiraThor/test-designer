@@ -2,7 +2,7 @@
   <div>
     <!--BLOCK -->
     <section v-for="(i, idx) in dados" :key="`itens${idx}`">
-      <span :style="{ fontSize: i.size }">{{ i.nome }}</span>
+      <span style="font-size:25px">{{ i.nome }}</span>
       <section v-for="(j, idx) in i.list" :key="`jade${idx}`">
         <BlockDescription
           :nome="j.nome"
@@ -15,14 +15,6 @@
       </section>
       <hr />
     </section>
-    <!-- <BlockDescription 
-      nome="H1" 
-      fontSize="34px" 
-      font="12px" 
-      size="34px" 
-      line="0"
-      :colorText=valor
-      text="Com grandes poderes, vem grandes responsabilidades."/> -->
   </div>
 </template>
 
@@ -32,7 +24,7 @@ import _tokens from "@/temas/myfarm/tokens/_index.json"
 
 const BlockDescription = Vue.component("block-description", {
   props: ["tipo", "nome", "font", "size", "line", "text", "colorText", "fontSize"],
-  template: `<div style="padding-bottom:25px;">
+  template: `<div style="padding-bottom:25px;font-family:Barlow">
     <el-row>
       <el-col :span="24" style="padding-bottom:10px;padding-top:10px;">
         <span style="font-weight:600">{{this.tipo}}</span>
@@ -52,7 +44,7 @@ const BlockDescription = Vue.component("block-description", {
         <span>{{this.line}}</span>
       </el-col>
       <el-col :span="12">
-        <span :style="{color:colorText,fontSize:size}">Com grandes poderes, vem grandes responsabilidades.</span>
+        <span :style="{color:colorText,fontSize:size, fontWeight:font }">Com grandes poderes, vem grandes responsabilidades.</span>
       </el-col>
     </el-row>
     </div>
@@ -65,13 +57,135 @@ export default {
     return {
       dados: [
         {
+          nome: "Numbers - Big",
+          size: "34px",
+          list: [
+            {
+              tipo: "0%",
+              font: _tokens.weight_regular,
+              size: "60px",
+              line: "0",
+              colorText: _tokens.color_grey_0,
+            },
+            {
+              tipo: "60%",
+              font: _tokens.weight_regular,
+              size: "60px",
+              line: "0",
+              colorText: _tokens.color_grey_60,
+            },
+            {
+              tipo: "dark",
+              font: _tokens.weight_regular,
+              size: "60px",
+              line: "0",
+              colorText: _tokens.color_grey_dark,
+            },
+            {
+              tipo: "primary",
+              font: _tokens.weight_regular,
+              size: "60px",
+              line: "0",
+              colorText: _tokens.color_primary,
+            },
+            {
+              tipo: "secondary",
+              font: _tokens.weight_regular,
+              size: "60px",
+              line: "0",
+              colorText: _tokens.color_secondary,
+            },
+          ],
+        },
+        {
+          nome: "Numbers - Medium",
+          size: "34px",
+          list: [
+            {
+              tipo: "0%",
+              font: _tokens.weight_regular,
+              size: "40px",
+              line: "0",
+              colorText: _tokens.color_grey_0,
+            },
+            {
+              tipo: "60%",
+              font: _tokens.weight_regular,
+              size: "40px",
+              line: "0",
+              colorText: _tokens.color_grey_60,
+            },
+            {
+              tipo: "dark",
+              font: _tokens.weight_regular,
+              size: "40px",
+              line: "0",
+              colorText: _tokens.color_grey_dark,
+            },
+            {
+              tipo: "primary",
+              font: _tokens.weight_regular,
+              size: "40px",
+              line: "0",
+              colorText: _tokens.color_primary,
+            },
+            {
+              tipo: "secondary",
+              font: _tokens.weight_regular,
+              size: "40px",
+              line: "0",
+              colorText: _tokens.color_secondary,
+            },
+          ],
+        },
+        {
+          nome: "Numbers - Small",
+          size: "34px",
+          list: [
+            {
+              tipo: "0%",
+              font: _tokens.weight_regular,
+              size: "30px",
+              line: "0",
+              colorText: _tokens.color_grey_0,
+            },
+            {
+              tipo: "60%",
+              font: _tokens.weight_regular,
+              size: "30px",
+              line: "0",
+              colorText: _tokens.color_grey_60,
+            },
+            {
+              tipo: "dark",
+              font: _tokens.weight_regular,
+              size: "30px",
+              line: "0",
+              colorText: _tokens.color_grey_dark,
+            },
+            {
+              tipo: "primary",
+              font: _tokens.weight_regular,
+              size: "30px",
+              line: "0",
+              colorText: _tokens.color_primary,
+            },
+            {
+              tipo: "secondary",
+              font: _tokens.weight_regular,
+              size: "30px",
+              line: "0",
+              colorText: _tokens.color_secondary,
+            },
+          ],
+        },
+        {
           nome: "H1",
           size: "34px",
           list: [
             {
               tipo: "brand",
               font: _tokens.weight_light,
-              font: "12px",
               size: "34px",
               line: "0",
               colorText: _tokens.color_primary,
@@ -79,7 +193,6 @@ export default {
             {
               tipo: "dark",
               font: _tokens.weight_light,
-              font: "12px",
               size: "34px",
               line: "0",
               colorText: _tokens.color_grey_80,
@@ -93,7 +206,6 @@ export default {
             {
               tipo: "H2",
               font: _tokens.weight_regular,
-              font: "12px",
               size: "34px",
               line: "0",
               colorText: _tokens.color_secondary,
@@ -106,35 +218,35 @@ export default {
           list: [
             {
               tipo: "0%",
-              font: _tokens.weight_regular,
+              font: _tokens.weight_semi_bold,
               size: "19px",
               line: "0",
               colorText: _tokens.color_grey_0,
             },
             {
               tipo: "60%",
-              font: _tokens.weight_regular,
+              font: _tokens.weight_semi_bold,
               size: "19px",
               line: "0",
               colorText: _tokens.color_grey_60,
             },
             {
               tipo: "dark",
-              font: _tokens.weight_regular,
+              font: _tokens.weight_semi_bold,
               size: "19px",
               line: "0",
               colorText: _tokens.color_grey_40,
             },
             {
               tipo: "primary",
-              font: _tokens.weight_regular,
+              font: _tokens.weight_semi_bold,
               size: "19px",
               line: "0",
               colorText: _tokens.color_primary,
             },
             {
               tipo: "secondary",
-              font: _tokens.weight_regular,
+              font: _tokens.weight_semi_bold,
               size: "19px",
               line: "0",
               colorText: _tokens.color_secondary,
@@ -149,35 +261,35 @@ export default {
               tipo: "0%",
               font: _tokens.weight_regular,
               size: "14px",
-              line: "24px",
-              colorText: _tokens.color_secondary,
+              line: _tokens.line_height_xl,
+              colorText: _tokens.color_grey_0,
             },
             {
               tipo: "60%",
               font: _tokens.weight_regular,
               size: "14px",
-              line: "24px",
-              colorText: _tokens.color_secondary,
+              line: _tokens.line_height_xl,
+              colorText: _tokens.color_grey_60,
             },
             {
               tipo: "dark",
               font: _tokens.weight_regular,
               size: "14px",
-              line: "24px",
-              colorText: _tokens.color_secondary,
+              line: _tokens.line_height_xl,
+              colorText: _tokens.color_grey_dark,
             },
             {
               tipo: "primary",
               font: _tokens.weight_regular,
               size: "14px",
-              line: "24px",
+              line: _tokens.line_height_xl,
               colorText: _tokens.color_primary,
             },
             {
               tipo: "secondary",
               font: _tokens.weight_regular,
               size: "14px",
-              line: "24px",
+              line: _tokens.line_height_xl,
               colorText: _tokens.color_secondary,
             },
           ],
@@ -321,7 +433,7 @@ export default {
           ],
         },
         {
-          nome: "Link",
+          nome: "Link - Default",
           size: "14px",
           list: [
             {
@@ -362,7 +474,7 @@ export default {
           ],
         },
         {
-          nome: "Small",
+          nome: "Link - Small",
           size: "12px",
           list: [
             {
@@ -403,7 +515,7 @@ export default {
           ],
         },
         {
-          nome: "System",
+          nome: "System - Buttons default",
           size: "14px",
           list: [
             {
@@ -444,7 +556,7 @@ export default {
           ],
         },
         {
-          nome: "Buttons - mini button",
+          nome: "System - mini button",
           size: "12px",
           list: [
             {
@@ -485,7 +597,7 @@ export default {
           ],
         },
         {
-          nome: "Inputs - labels",
+          nome: "System - Inputs - labels",
           size: "13px",
           list: [
             {
@@ -514,7 +626,7 @@ export default {
               font: _tokens.weight_regular,
               size: "13px",
               line: "0",
-              colorText: _tokens.color_status_alert,
+              colorText: _tokens.color_support_alerta,
             },
             {
               tipo: "brand",
@@ -528,19 +640,19 @@ export default {
               font: _tokens.weight_regular,
               size: "13px",
               line: "0",
-              colorText: _tokens.color_status_error,
+              colorText: _tokens.color_support_erro,
             },
             {
               tipo: "success",
               font: _tokens.weight_regular,
               size: "13px",
               line: "0",
-              colorText: _tokens.color_status_success,
+              colorText: _tokens.color_support_sucesso,
             },
           ],
         },
         {
-          nome: "Inputs - placeholder",
+          nome: "System - Inputs - placeholder",
           size: "14px",
           list: [
             {
